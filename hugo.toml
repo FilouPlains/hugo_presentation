@@ -1,3 +1,9 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '[HUGO] Presentations'
+baseURL = './'
+relativeURLs = true
+canonifyURLs = false
+
+[params]
+# Default reveal theme.
+default_theme = "white"
