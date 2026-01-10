@@ -4,6 +4,16 @@ baseURL = './'
 relativeURLs = true
 canonifyURLs = false
 
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark.parser.attribute]
+title = true
+block = true
+
 [params]
 # Default reveal theme.
 default_theme = "white"
