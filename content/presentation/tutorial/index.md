@@ -1,9 +1,8 @@
 +++
 title = "Technical Deep Dive"
-date = 2024-05-20
+date = 2026-01-11
 theme = "dracula"
 description = "A deep dive into our new architecture."
-layout= "presentation"
 +++
 
 # Slide 1
