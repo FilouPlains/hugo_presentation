@@ -12,18 +12,18 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown data-separator="^---" data-separator-vertical="^----">
+				<section data-markdown data-separator="^<hr>" data-separator-vertical="^<p>===</p>">
 					<textarea data-template>
-						{{ .RawContent }}
+						{{ .Content }}
 					</textarea>
 				</section>
 			</div>
 		</div>
 
 		<script src='{{ "reveal_js/reveal.js" | relURL }}'></script>
-		<script src='{{ "revealjs/plugin/markdown/markdown.js" | relURL }}'></script>
-		<script src='{{ "revealjs/plugin/highlight/highlight.js" | relURL }}'></script>
-		<script src='{{ "revealjs/plugin/notes/notes.js" | relURL }}'></script>
+		<script src='{{ "reveal_js/plugin/markdown/markdown.js" | relURL }}'></script>
+		<script src='{{ "reveal_js/plugin/highlight/highlight.js" | relURL }}'></script>
+		<script src='{{ "reveal_js/plugin/notes/notes.js" | relURL }}'></script>
 
 		<script>
 			Reveal.initialize({

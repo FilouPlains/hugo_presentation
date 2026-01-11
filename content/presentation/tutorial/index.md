@@ -1,7 +1,7 @@
 +++
 title = "Technical Deep Dive"
 date = 2026-01-11
-theme = "dracula"
+theme = "serif"
 description = "A deep dive into our new architecture."
 +++
 
@@ -15,7 +15,7 @@ Welcome to the deck.
 
 Horizontal split.
 
----
+===
 
 # Slide 2.1
 
