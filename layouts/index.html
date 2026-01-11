@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ .Title }}</title>
+	</head>
+
+	<body>
+		<h1>Presentation Hub</h1>
+
+		<ul>
+			{{ range (where .Site.RegularPages "Section" "presentation") }}
+			<li>
+				<a href="{{ .RelPermalink }}">
+					<strong>{{ .Title }}</strong>
+				</a>
+				— {{ .Date.Format "Jan 2006" }}
+				<p>{{ .Description }}</p>
+			</li>
+			{{ end }}
+		</ul>
+	</body>
+</html>
