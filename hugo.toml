@@ -6,6 +6,7 @@ canonifyURLs = false
 
 [markup.highlight]
 codeFences = false
+noClasses = true
 
 [markup.goldmark.renderer]
 unsafe = true
