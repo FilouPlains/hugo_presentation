@@ -1,8 +1,9 @@
 +++
 title = "Technical Deep Dive"
 date = 2026-01-11
-theme = "serif"
 description = "A deep dive into our new architecture."
+theme="serif"
+math_engine="KaTeX"
 +++
 
 # Slide 1
@@ -38,8 +39,7 @@ $$
 
 ## Code block
 
-```python
-import numpy
-
-
-```
+{{< code language="python" line_number=true >}}
+import numpy as np
+print("Hello World")
+{{< /code >}}

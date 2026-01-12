@@ -1,0 +1,71 @@
+{{- /*Renders a syntax-highlighted code block.
+
+Parameters
+----------
+language : `str`, optional
+    The programming language for syntax highlighting ("python", "javascript"…).
+    Maps to the `class="language-..."` attribute. By default, nil.
+
+trim : `bool`, optional
+    If true, tells Reveal.js to trim surrounding whitespace from the displayed
+    code. Maps to the `data-trim` attribute. By default, `false`.
+
+no_escape : `bool`, optional
+    If true, prevents Reveal.js from escaping HTML characters inside the code
+    block. Maps to the `data-noescape` attribute. By default, `false`.
+
+line_number : `bool | str`, optional
+    Controls the display of line numbers:
+    - If `false`: No line numbers.
+    - If `true`: Default line numbers enabled.
+    - If `string`: Enables specific line highlighting (for example "1-3|5|8").
+
+    Maps to the `data-line-numbers` attribute. By default, `false`.
+
+start_from : `integer`, optional
+    The line number to start counting from. Maps to the `data-ln-start-from`
+    attribute. By default, nil.
+
+Examples
+--------
+```md
+    {{< code language="python" line_number="1|2-4" >}}
+    import numpy
+
+    def hello():
+        print("Reveal.js + Hugo")
+    {{< /code >}}
+```
+*/ -}}
+
+{{- $language := .Get "language" -}}
+{{- $trim := .Get "trim" | default false -}}
+{{- $no_escape := .Get "no_escape" | default false -}}
+{{- $line_number := .Get "line_number" | default false -}}
+{{- $start_from := .Get "start_from" -}}
+
+{{- /*
+    3 case:
+        - Line number is not given.
+        - Line number is given as a simple tag.
+        - Line number is given with values.
+*/ -}}
+{{- if $line_number -}}
+    {{- if eq (printf "%T" $line_number) "string" -}}
+        {{- $line_number = (printf "data-line-numbers='%s'" $line_number) -}}
+    {{- else -}}
+        {{- $line_number = "data-line-numbers" -}}
+    {{- end -}}
+{{- end -}}
+
+<pre>
+    <code
+        {{- if $language }} class="language-{{ $language }}"{{ end -}}
+        {{- if $trim }} data-trim{{ end -}}
+        {{- if $no_escape }} data-noescape{{ end -}}
+        {{- if $line_number -}} {{ $line_number | safeHTMLAttr }}{{ end -}}
+        {{- with $start_from }} data-ln-start-from="{{ . }}"{{ end -}}
+    >
+        {{- .Inner | strings.TrimSpace | safeHTML -}}
+    </code>
+</pre>
