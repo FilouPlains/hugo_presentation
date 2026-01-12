@@ -4,7 +4,6 @@ baseURL = './'
 relativeURLs = true
 canonifyURLs = false
 
-
 [markup.highlight]
 codeFences = false
 
@@ -19,5 +18,5 @@ block = true
 passthrough = { enable = true, delimiters = { block = [['$$', '$$']], inline = [['$', '$']] } }
 
 [params]
-# Default reveal theme.
-default_theme = "white"
+theme = "white"
+math_engine = "MathJax3"
