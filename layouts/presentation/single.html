@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>{{ .Title }}</title>
-		<link rel="stylesheet" href='{{ "reveal_js/reset.css" | relURL }}'>
-		<link rel="stylesheet" href='{{ "reveal_js/reveal.css" | relURL }}'>
-		<link rel="stylesheet" href='{{ printf "reveal_js/theme/%s.css" ( .Params.theme | default "black") | relURL }}' id="theme">
-	</head>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ .Title }}</title>
+        <link rel="stylesheet" href='{{ "reveal_js/reset.css" | relURL }}'>
+        <link rel="stylesheet" href='{{ "reveal_js/reveal.css" | relURL }}'>
+        <link rel="stylesheet" href='{{ printf "reveal_js/theme/%s.css" ( .Params.theme | default "black") | relURL }}' id="theme">
+    </head>
 
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-markdown data-separator="^<hr>" data-separator-vertical="^<p>===</p>">
-					<textarea data-template>
-						{{ .Content }}
-					</textarea>
-				</section>
-			</div>
-		</div>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown data-separator="^<hr>" data-separator-vertical="^<p>===</p>">
+                    <textarea data-template>
+                        {{ .Content }}
+                    </textarea>
+                </section>
+            </div>
+        </div>
 
-		<script src='{{ "reveal_js/reveal.js" | relURL }}'></script>
-		<script src='{{ "reveal_js/plugin/markdown/markdown.js" | relURL }}'></script>
-		<script src='{{ "reveal_js/plugin/highlight/highlight.js" | relURL }}'></script>
-		<script src='{{ "reveal_js/plugin/notes/notes.js" | relURL }}'></script>
+        <script src='{{ "reveal_js/reveal.js" | relURL }}'></script>
+        <script src='{{ "reveal_js/plugin/markdown/markdown.js" | relURL }}'></script>
+        <script src='{{ "reveal_js/plugin/highlight/highlight.js" | relURL }}'></script>
+        <script src='{{ "reveal_js/plugin/notes/notes.js" | relURL }}'></script>
+        <script src='{{ "reveal_js/plugin/math/math.js" | relURL }}'></script>
 
-		<script>
-			Reveal.initialize({
-				hash: true,
-				history: true,
-				transition: '{{ .Params.transition | default "slide" }}',
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-				});
-		</script>
-	</body>
+        <script>
+            Reveal.initialize({
+                hash: true,
+                history: true,
+                transition: '{{ .Params.transition | default "slide" }}',
+                plugins: [
+                    RevealMarkdown,
+                    RevealHighlight,
+                    RevealNotes,
+                    RevealMath.MathJax3,
+                ]
+                });
+        </script>
+    </body>
 </html>

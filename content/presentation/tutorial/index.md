@@ -20,3 +20,26 @@ Horizontal split.
 # Slide 2.1
 
 Vertical split.
+
+---
+
+## The Lorenz Equations $\mu$
+
+$$
+\begin{aligned}
+    \dot{x} & = \sigma(y-x) \\
+    \dot{y} & = \rho x - y - xz \\
+    \dot{z} & = -\beta z + xy \\
+    \dfrac{1}{2} & = 0.5
+\end{aligned}
+$$
+
+---
+
+## Code block
+
+```python
+import numpy
+
+
+```

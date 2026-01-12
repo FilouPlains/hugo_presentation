@@ -4,15 +4,19 @@ baseURL = './'
 relativeURLs = true
 canonifyURLs = false
 
-[markup.goldmark.renderer]
-unsafe = true
 
 [markup.highlight]
 codeFences = false
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [markup.goldmark.parser.attribute]
 title = true
 block = true
+
+[markup.goldmark.extensions]
+passthrough = { enable = true, delimiters = { block = [['$$', '$$']], inline = [['$', '$']] } }
 
 [params]
 # Default reveal theme.
