@@ -12,7 +12,6 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <section data-markdown data-separator="^<hr>" data-separator-vertical="^<p>===</p>">
                 <section data-markdown data-separator="<hr>$" data-separator-vertical="<p>===</p>$">
                     <textarea data-template>
                         {{ .Content }}
@@ -36,7 +35,7 @@
                     RevealMarkdown,
                     RevealHighlight,
                     RevealNotes,
-                    RevealMath.MathJax3,
+                    {{ printf "RevealMath.%s" ( .Params.math_engine | default .Site.Params.math_engine ) | safeJS }}
                 ]
                 });
         </script>
