@@ -40,7 +40,20 @@ $$
 
 ## Code block
 
-{{< code language="python" line_number=true >}}
+{{< code language="python" line_number=true start_from=7 >}}
 import numpy as np
+
 print("Hello World")
 {{< /code >}}
+
+---
+
+# The most stoopid dog ever?
+
+===
+
+<img src="./img/golden_retriever.jpeg" width="50%" alt="Golden retriever">
+
+===
+
+## Poupouille!
