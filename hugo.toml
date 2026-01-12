@@ -4,19 +4,27 @@ baseURL = './'
 relativeURLs = true
 canonifyURLs = false
 
-[markup.highlight]
-codeFences = false
-noClasses = true
+[outputFormats]
+    [outputFormats.html]
+    isPlainText = true
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+    [markup.highlight]
+    codeFences = false
+    noClasses = true
 
-[markup.goldmark.parser.attribute]
-title = true
-block = true
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe = true
 
-[markup.goldmark.extensions]
-passthrough = { enable = true, delimiters = { block = [['$$', '$$']], inline = [['$', '$']] } }
+        [markup.goldmark.parser]
+            [markup.goldmark.parser.attribute]
+            title = true
+            block = true
+
+        [markup.goldmark.extensions]
+        passthrough = { enable = true, delimiters = { block = [['$$', '$$']], inline = [['$', '$']] } }
+        typographer = true
 
 [params]
 theme = "white"
