@@ -4,6 +4,7 @@ date = 2026-01-11
 description = "A deep dive into our new architecture."
 theme="serif"
 math_engine="KaTeX"
+code_theme="xt256"
 +++
 
 # Slide 1

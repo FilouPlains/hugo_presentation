@@ -4,10 +4,10 @@
     <head>
         <meta charset="utf-8">
         <title>{{ .Title }}</title>
-        <link rel="stylesheet" href='/reveal_js/plugin/highlight/monokai.css'>
+        <link rel="stylesheet" href='{{ printf "reveal_js/plugin/highlight/theme/%s.css" ( .Params.code_theme | default .Site.Params.code_theme ) | relURL }}'>
         <link rel="stylesheet" href='{{ "reveal_js/reset.css" | relURL }}'>
         <link rel="stylesheet" href='{{ "reveal_js/reveal.css" | relURL }}'>
-        <link rel="stylesheet" href='{{ printf "reveal_js/theme/%s.css" ( .Params.theme | default .Site.Params.theme ) | relURL }}' id="theme">
+        <link rel="stylesheet" href='{{ printf "reveal_js/theme/%s.css" ( .Params.theme | default .Site.Params.theme ) | relURL }}'>
     </head>
 
     <body>

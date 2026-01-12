@@ -20,4 +20,5 @@ passthrough = { enable = true, delimiters = { block = [['$$', '$$']], inline = [
 
 [params]
 theme = "white"
+code_theme = "base16/nord"
 math_engine = "MathJax3"
