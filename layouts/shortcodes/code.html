@@ -80,6 +80,7 @@ Examples
     {{- $attribute = $attribute | append (printf "data-ln-start-from='%d'" $start_from) -}}
 {{ end -}}
 
+{{- "\n" -}}
 <pre>
     <code {{ delimit $attribute " " | safeHTMLAttr }}>
         {{- .Inner | strings.TrimSpace | safeHTML -}}
