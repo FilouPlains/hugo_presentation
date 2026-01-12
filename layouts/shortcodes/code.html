@@ -58,14 +58,30 @@ Examples
     {{- end -}}
 {{- end -}}
 
+{{- /*
+    Here, we concatenate every attributes to have a “one-liner”.
+*/ -}}
+
+{{- $attribute := slice -}}
+
+{{- if $language }}
+    {{- $attribute = $attribute | append (printf "class='language-%s'" $language) -}}
+{{ end -}}
+{{- if $trim }}
+    {{- $attribute = $attribute | append "data-trim" -}}
+{{ end -}}
+{{- if $no_escape }}
+    {{- $attribute = $attribute | append "data-noescape" -}}
+{{ end -}}
+{{- if $line_number -}}
+    {{- $attribute = $attribute | append $line_number -}}
+{{ end -}}
+{{- if $start_from }}
+    {{- $attribute = $attribute | append (printf "data-ln-start-from='%d'" $start_from) -}}
+{{ end -}}
+
 <pre>
-    <code
-        {{- if $language }} class="language-{{ $language }}"{{ end -}}
-        {{- if $trim }} data-trim{{ end -}}
-        {{- if $no_escape }} data-noescape{{ end -}}
-        {{- if $line_number -}} {{ $line_number | safeHTMLAttr }}{{ end -}}
-        {{- with $start_from }} data-ln-start-from="{{ . }}"{{ end -}}
-    >
+    <code {{ delimit $attribute " " | safeHTMLAttr }}>
         {{- .Inner | strings.TrimSpace | safeHTML -}}
     </code>
 </pre>
