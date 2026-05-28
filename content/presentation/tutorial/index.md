@@ -9,6 +9,8 @@ code_theme="xt256"
 
 # Slide 1
 
+<!-- .slide: data-background="#ff0000" -->
+
 Welcome to the deck.
 
 ---
@@ -57,3 +59,16 @@ print("Hello World")
 ===
 
 ## Poupouille!
+
+---
+
+# QR Code
+
+
+{{< qr text="https://gohugo.io" scale=10 />}}
+
+---
+
+# Molstar
+
+{{< molstar >}}
