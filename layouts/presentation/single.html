@@ -8,6 +8,37 @@
         <link rel="stylesheet" href='{{ "reveal_js/reset.css" | relURL }}'>
         <link rel="stylesheet" href='{{ "reveal_js/reveal.css" | relURL }}'>
         <link rel="stylesheet" href='{{ printf "reveal_js/theme/%s.css" ( .Params.theme | default .Site.Params.theme ) | relURL }}'>
+
+        {{ if .Page.HasShortcode "molstar" }}
+        <link href="https://molstar.org/viewer/molstar.css" rel="stylesheet">
+        <script type="text/javascript" src="https://molstar.org/viewer/molstar.js"></script>
+
+        <style>
+            .molstar-container {
+                width: 20cm;
+                height: 10cm;
+            }
+
+            .msp-plugin {
+                position: relative !important;
+                width: 100% !important;
+                height: 100% !important;
+            }
+            
+            .msp-plugin,
+            .msp-plugin .msp-viewport {
+                background-color: #0000;
+            }
+            
+            .msp-plugin .msp-layout-standard {
+                border: none;
+            }
+            
+            canvas {
+                background: none !important;
+            }
+        </style>
+        {{ end }}
     </head>
 
     <body>
@@ -38,7 +69,7 @@
                     RevealNotes,
                     {{ printf "RevealMath.%s" ( .Params.math_engine | default .Site.Params.math_engine ) | safeJS }}
                 ]
-                });
+            });
         </script>
     </body>
 </html>

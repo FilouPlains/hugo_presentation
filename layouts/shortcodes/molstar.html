@@ -1,0 +1,24 @@
+{{ $id := printf "molstar-%d" .Ordinal }}
+
+<div id="{{ $id }}" class="molstar-container"></div>
+
+<script type="text/javascript">
+	window.test = function() {
+		molstar.Viewer.create(
+		"{{ $id }}",
+		{
+			layoutIsExpanded: false,
+			layoutShowControls: false,
+			layoutShowRemoteState: false,
+			layoutShowSequence: false,
+			layoutShowLog: false,
+		}
+		);
+	};
+	
+	document.addEventListener("revealjs:ready", function(event) {
+		if (document.getElementById("{{ $id }}")) {
+			setTimeout(test, 100);
+		}
+		});
+</script>
