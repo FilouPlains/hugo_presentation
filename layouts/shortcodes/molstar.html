@@ -2,23 +2,21 @@
 
 <div id="{{ $id }}" class="molstar-container"></div>
 
-<script type="text/javascript">
-	window.test = function() {
-		molstar.Viewer.create(
-		"{{ $id }}",
-		{
-			layoutIsExpanded: false,
-			layoutShowControls: false,
-			layoutShowRemoteState: false,
-			layoutShowSequence: false,
-			layoutShowLog: false,
-		}
-		);
-	};
-	
-	document.addEventListener("revealjs:ready", function(event) {
-		if (document.getElementById("{{ $id }}")) {
-			setTimeout(test, 100);
-		}
-		});
-</script>
+{{ $js_content := printf `
+    molstar.Viewer.create(
+        "%s",
+        {
+            layoutIsExpanded: false,
+            layoutShowControls: false,
+            layoutShowRemoteState: false,
+            layoutShowSequence: false,
+            layoutShowLog: false,
+        }
+    ).then(viewer => {
+        viewer.plugin.canvas3d.setProps({transparentBackground: true});
+    });
+
+` $id
+}}
+
+{{ .Page.Store.Add "molstar_script_list" (slice $js_content) }}

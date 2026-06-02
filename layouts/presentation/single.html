@@ -15,7 +15,7 @@
 
         <style>
             .molstar-container {
-                width: 20cm;
+                width: 100%;
                 height: 10cm;
             }
 
@@ -69,6 +69,14 @@
                     RevealNotes,
                     {{ printf "RevealMath.%s" ( .Params.math_engine | default .Site.Params.math_engine ) | safeJS }}
                 ]
+            });
+
+            Reveal.on("ready", event => {
+                {{ with .Page.Store.Get "molstar_script_list" }}
+                    {{ range . }}
+                        {{ . | safeJS }}
+                    {{ end }}
+                {{ end }}
             });
         </script>
     </body>
