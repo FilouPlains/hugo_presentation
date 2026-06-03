@@ -1,6 +1,6 @@
 languageCode = 'en-us'
 title = '[HUGO] Presentations'
-baseURL = "https://example.org/"
+baseURL = "/"
 relativeURLs = true
 canonifyURLs = false
 

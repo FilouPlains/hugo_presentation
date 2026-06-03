@@ -12,7 +12,7 @@
 		<ul>
 			{{ range (where .Site.RegularPages "Section" "presentation") }}
 			<li>
-				<a href="{{ .RelPermalink | absURL }}">
+				<a href="{{ .RelPermalink | relURL }}">
 					<strong>{{ .Title }}</strong>
 				</a>
 				— {{ .Date.Format "01 January 2006" }}
