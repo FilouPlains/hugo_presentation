@@ -4,8 +4,8 @@
 {{- $transparent := .Get "transparent" | default "true" -}}
 {{- $loadPdb := .Get "loadPdb" | default "" -}}
 {{- $loadAlphafold := .Get "loadAlphafold" | default "" -}}
-{{- $loadStructureFromUrl := .Get "loadStructureFromUrl" | default "" -}}
-{{- $loadVolumeFromUrl := .Get "loadVolumeFromUrl" | default "" -}}
+{{- $structureUrl := .Get "structureUrl" | default "" -}}
+{{- $volumeUrl := .Get "volumeUrl" | default "" -}}
 
 <div id="{{ $id }}" class="molstar-container"></div>
 
@@ -13,37 +13,102 @@
 
 {{- /* Load PDB code, if given. */ -}}
 {{- if ne $loadPdb "" -}}
-    {{- range (split $loadPdb ", ") -}}
+    {{- range (findRE `\S+` $loadPdb) -}}
         {{- $content = printf "%sviewer.loadPdb(\"%s\");\n" $content . -}}
     {{- end -}}
 {{- end -}}
 
 {{- /* Load AlphaFold code, if given. */ -}}
 {{- if ne $loadAlphafold "" -}}
-    {{- range (split $loadAlphafold ", ") -}}
+    {{- range (findRE `\S+` $loadAlphafold) -}}
         {{- $content = printf "%sviewer.loadAlphaFoldDb(\"%s\");\n" $content . -}}
     {{- end -}}
 {{- end -}}
 
-{{ $js_content := printf `
-    molstar.Viewer.create(
-        "%s",
-        {
-            layoutIsExpanded: false,
-            layoutShowControls: false,
-            layoutShowRemoteState: false,
-            layoutShowSequence: false,
-            layoutShowLog: false,
-        }
-    ).then(viewer => {
-        viewer.plugin.canvas3d.setProps({transparentBackground: %s});
-        %s
-    });
+{{- /* Load a structure from an URL, if given. */ -}}
+{{- if ne $structureUrl "" -}}
+    {{- range (split $structureUrl ";") -}}
+        {{- $element := findRE `\S+` . -}}
 
-`
+        {{- if ne (len $element) 2 -}}
+            {{- 
+                errorf "Shortcode error on page %q: 'structureUrl' must contain exactly 2 subarguments (URL and type), but found %d. Given input: %q"
+                    $.Page.File.Path
+                    (len $element)
+                    $structureUrl 
+            -}}
+        {{- end -}}
+
+        {{- $url := index $element 0 -}}
+        {{- $type := index $element 1 -}}
+
+        {{- $content = printf "%sviewer.loadStructureFromUrl(\"%s\", \"%s\");\n" $content $url $type -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Load a volume from an URL, if given. */ -}}
+{{- if ne $volumeUrl "" -}}
+    {{- range (split $volumeUrl ";") -}}
+        {{- $element := findRE `\S+` . -}}
+
+        {{- if ne (len $element) 3 -}}
+            {{- 
+                errorf "Shortcode error on page %q: 'volumeUrl' must contain exactly 3 subarguments (URL, type and isBinary), but found %d. Given input: %q"
+                    $.Page.File.Path
+                    (len $element)
+                    $structureUrl 
+            -}}
+        {{- end -}}
+
+        {{- $url := (index $element 0) -}}
+        {{- $type := index $element 1 -}}
+        {{- $isBinary := index $element 2 -}}
+
+        {{-
+            $content = printf `
+                %s
+                viewer.loadVolumeFromUrl(
+                    {
+                        url: "%s",
+                        format: "%s",
+                        isBinary: "%s"
+                    },
+                    [{
+                        type: "relative",
+                        value: 0,
+                    }],
+                    {
+                        isLazy: false,
+                    },
+                );
+            `
+            $content
+            $url
+            $type
+            $isBinary
+        -}}
+    {{- end -}}
+{{- end -}}
+
+{{-
+    $js_content := printf `
+        molstar.Viewer.create(
+            "%s",
+            {
+                layoutIsExpanded: false,
+                layoutShowControls: false,
+                layoutShowRemoteState: false,
+                layoutShowSequence: false,
+                layoutShowLog: false,
+            }
+        ).then(viewer => {
+            viewer.plugin.canvas3d.setProps({transparentBackground: %s});
+            %s
+        });
+    `
     $id
     $transparent
     $content
-}}
+-}}
 
-{{ .Page.Store.SetInMap "molstar_script_list" $id $js_content }}
+{{- .Page.Store.SetInMap "molstar_script_list" $id $js_content -}}
