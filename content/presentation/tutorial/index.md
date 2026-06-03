@@ -71,10 +71,14 @@ print("Hello World")
 
 # Molstar
 
-{{< molstar >}}
+{{< 
+    molstar
+    loadPdb="7SGL 5EWE"
+    loadAlphafold="Q8W3K0"
+>}}
 
 ===
 
 # PogChamp?
 
-{{< molstar >}}
+{{< molstar transparent="false" >}}

@@ -1,6 +1,29 @@
 {{ $id := printf "molstar-%d" .Ordinal }}
 
+
+{{- $transparent := .Get "transparent" | default "true" -}}
+{{- $loadPdb := .Get "loadPdb" | default "" -}}
+{{- $loadAlphafold := .Get "loadAlphafold" | default "" -}}
+{{- $loadStructureFromUrl := .Get "loadStructureFromUrl" | default "" -}}
+{{- $loadVolumeFromUrl := .Get "loadVolumeFromUrl" | default "" -}}
+
 <div id="{{ $id }}" class="molstar-container"></div>
+
+{{- $content := "" -}}
+
+{{- /* Load PDB code, if given. */ -}}
+{{- if ne $loadPdb "" -}}
+    {{- range (split $loadPdb ", ") -}}
+        {{- $content = printf "%sviewer.loadPdb(\"%s\");\n" $content . -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Load AlphaFold code, if given. */ -}}
+{{- if ne $loadAlphafold "" -}}
+    {{- range (split $loadAlphafold ", ") -}}
+        {{- $content = printf "%sviewer.loadAlphaFoldDb(\"%s\");\n" $content . -}}
+    {{- end -}}
+{{- end -}}
 
 {{ $js_content := printf `
     molstar.Viewer.create(
@@ -13,10 +36,14 @@
             layoutShowLog: false,
         }
     ).then(viewer => {
-        viewer.plugin.canvas3d.setProps({transparentBackground: true});
+        viewer.plugin.canvas3d.setProps({transparentBackground: %s});
+        %s
     });
 
-` $id
+`
+    $id
+    $transparent
+    $content
 }}
 
-{{ .Page.Store.Add "molstar_script_list" (slice $js_content) }}
+{{ .Page.Store.SetInMap "molstar_script_list" $id $js_content }}

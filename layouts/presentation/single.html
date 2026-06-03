@@ -73,8 +73,8 @@
 
             Reveal.on("ready", event => {
                 {{ with .Page.Store.Get "molstar_script_list" }}
-                    {{ range . }}
-                        {{ . | safeJS }}
+                    {{ range $id, $js_content := . }}
+                        {{ $js_content | safeJS }}
                     {{ end }}
                 {{ end }}
             });
