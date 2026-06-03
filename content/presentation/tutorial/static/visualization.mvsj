@@ -1,0 +1,12088 @@
+{
+"kind": "single",
+"root": {
+"kind": "root",
+"children": [
+{
+"kind": "primitives",
+"params": {
+"opacity": 0.5
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.321999549865723,
+0.18700000643730164,
+-0.06400000303983688
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.586999893188477,
+1.2009999752044678,
+6.9679999351501465
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.952999114990234,
+2.3589999675750732,
+-9.944000244140625
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.325000762939453,
+3.4200000762939453,
+-6.789000034332275
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.55500030517578,
+0.30000001192092896,
+-10.855999946594238
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.104000091552734,
+4.618000030517578,
+-9.508000373840332
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.269000053405762,
+1.8359999656677246,
+-5.831999778747559
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.62600040435791,
+-2.003000020980835,
+-12.96500015258789
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.795000076293945,
+-0.4659999907016754,
+-8.928000450134277
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.938000202178955,
+4.0,
+-11.230999946594238
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.074000358581543,
+1.565999984741211,
+-10.27400016784668
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.682999610900879,
+1.3630000352859497,
+-7.066999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.922999858856201,
+-5.375999927520752,
+-7.50600004196167
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.137999534606934,
+-2.1510000228881836,
+-7.645999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.728000164031982,
+-1.8450000286102295,
+-10.402999877929688
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.011000156402588,
+0.3930000066757202,
+-8.303000450134277
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.7820000648498535,
+-1.6779999732971191,
+-5.63100004196167
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.8500000238418579,
+-6.34499979019165,
+-10.843000411987305
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.575000047683716,
+-4.204999923706055,
+-7.571000099182129
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.5889999866485596,
+-0.5529999732971191,
+-11.484999656677246
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.9620000123977661,
+-2.2739999294281006,
+-8.793999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.164000004529953,
+-1.8619999885559082,
+-5.385000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.3840000033378601,
+-5.25,
+-4.964000225067139
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.555999994277954,
+-5.895999908447266,
+-7.875999927520752
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.546000003814697,
+-3.4170000553131104,
+-6.926000118255615
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.204999923706055,
+-1.7699999809265137,
+-0.22499999403953552
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.163000106811523,
+-4.414000034332275,
+-3.703000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.230000019073486,
+-7.434999942779541,
+-4.603000164031982
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.052000045776367,
+-5.085999965667725,
+-9.052000045776367
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.729000091552734,
+-6.0370001792907715,
+-6.511000156402588
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.100000381469727,
+-4.234000205993652,
+-4.000999927520752
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.331000328063965,
+-7.1529998779296875,
+-1.9630000591278076
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.442999839782715,
+-13.045000076293945,
+-6.49399995803833
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.210000038146973,
+-8.91100025177002,
+-4.454999923706055
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.486000061035156,
+-6.1479997634887695,
+-4.743000030517578
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.132999420166016,
+-9.718000411987305,
+0.16599999368190765
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.329000473022461,
+-6.940999984741211,
+-1.2400000095367432
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.852999687194824,
+-5.915999889373779,
+1.86899995803833
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.464000701904297,
+-5.111000061035156,
+0.7450000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+20.084999084472656,
+-6.72599983215332,
+4.918000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.40399932861328,
+-3.6449999809265137,
+2.7780001163482666
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.514999389648438,
+-4.8379998207092285,
+9.04699993133545
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.163000106811523,
+-2.367000102996826,
+6.144000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.883000373840332,
+-9.333000183105469,
+5.6579999923706055
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.019000053405762,
+-4.339000225067139,
+7.123000144958496
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.616999626159668,
+-8.690999984741211,
+9.309000015258789
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.057000160217285,
+-5.116000175476074,
+10.440999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.213000297546387,
+-5.071000099182129,
+6.688000202178955
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.1570000648498535,
+-12.32699966430664,
+7.418000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.199999809265137,
+-8.503000259399414,
+6.793000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.416999816894531,
+-7.164000034332275,
+11.267000198364258
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.293999671936035,
+-7.873000144958496,
+8.62600040435791
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.557000160217285,
+-5.456999778747559,
+6.21999979019165
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.188000202178955,
+-9.777000427246094,
+0.382999986410141
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.678999900817871,
+-7.692999839782715,
+3.552000045776367
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.385000228881836,
+-9.694000244140625,
+5.181000232696533
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.8240000009536743,
+-5.215000152587891,
+10.810999870300293
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.1600000858306885,
+-7.301000118255615,
+5.875
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.2060000896453857,
+-6.304999828338623,
+2.431999921798706
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.8569999933242798,
+-13.404000282287598,
+-0.2529999911785126
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.114000082015991,
+-9.531000137329102,
+1.3370000123977661
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.681000232696533,
+-10.928999900817871,
+6.294000148773193
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.3840000033378601,
+-9.597000122070312,
+3.7850000858306885
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.5700000524520874,
+-6.394999980926514,
+2.5810000896453857
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.0380001068115234,
+-7.74399995803833,
+-0.5889999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.7669999599456787,
+-10.477999687194824,
+0.6389999985694885
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.0,
+-8.20199966430664,
+2.1559998989105225
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.75,
+-6.559999942779541,
+-0.49799999594688416
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.322999954223633,
+-9.27299976348877,
+-2.509000062942505
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.734999656677246,
+-15.114999771118164,
+-1.5449999570846558
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.539999961853027,
+-10.583000183105469,
+-0.32100000977516174
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.614999771118164,
+-7.947999954223633,
+0.017999999225139618
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.859000205993652,
+-7.11899995803833,
+-3.2269999980926514
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.371999740600586,
+-14.331000328063965,
+-7.918000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.680999755859375,
+-10.449000358581543,
+-4.107999801635742
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.364999771118164,
+-10.541000366210938,
+-1.9950000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.886999130249023,
+-6.414000034332275,
+-7.116000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.78700065612793,
+-7.824999809265137,
+-3.690999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.38599967956543,
+-7.2170000076293945,
+-3.9240000247955322
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.889999389648438,
+-4.164999961853027,
+-4.420000076293945
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.99799919128418,
+-4.6579999923706055,
+-1.437000036239624
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.22599983215332,
+-0.675000011920929,
+-2.1670000553131104
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.516000747680664,
+-1.0329999923706055,
+0.984000027179718
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.8439998626709,
+0.46799999475479126,
+1.2230000495910645
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.457000732421875,
+-3.056999921798706,
+3.316999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.648000717163086,
+4.077000141143799,
+7.366000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.645000457763672,
+-0.5440000295639038,
+6.436999797821045
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.761999130249023,
+-0.6639999747276306,
+9.668999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.409000396728516,
+-2.6459999084472656,
+8.034000396728516
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.01200008392334,
+0.03799999877810478,
+5.59499979019165
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.418999671936035,
+6.821000099182129,
+8.720000267028809
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.137999534606934,
+2.3340001106262207,
+7.9670000076293945
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.73799991607666,
+0.6949999928474426,
+11.92199993133545
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.831000328063965,
+0.43299999833106995,
+9.968000411987305
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.265000343322754,
+-0.23499999940395355,
+6.742000102996826
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.296000003814697,
+6.2769999504089355,
+6.145999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.54699993133545,
+3.132999897003174,
+6.458000183105469
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.579999923706055,
+3.3340001106262207,
+9.543999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.752000093460083,
+-4.568999767303467,
+10.710000038146973
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.513999938964844,
+0.7129999995231628,
+8.387999534606934
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.920000076293945,
+2.3329999446868896,
+5.440000057220459
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.180999994277954,
+10.07699966430664,
+6.413000106811523
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.9489998817443848,
+5.234000205993652,
+6.953000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.9149999618530273,
+5.486000061035156,
+12.201000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.5369999408721924,
+3.4719998836517334,
+8.793999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.05700000002980232,
+2.246999979019165,
+5.918000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.3190000057220459,
+5.429999828338623,
+4.616000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.072999954223633,
+6.494999885559082,
+7.517000198364258
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.214000225067139,
+3.8299999237060547,
+7.3470001220703125
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.126999855041504,
+2.0810000896453857,
+0.5929999947547913
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.076000213623047,
+4.5970001220703125,
+4.107999801635742
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.090000152587891,
+7.718999862670898,
+4.961999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.152999877929688,
+4.7179999351501465,
+10.62600040435791
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.08899974822998,
+6.586999893188477,
+7.439000129699707
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.765999794006348,
+4.442999839782715,
+5.158999919891357
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.614999771118164,
+7.239999771118164,
+3.0999999046325684
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.696999549865723,
+13.762999534606934,
+7.181000232696533
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.975000381469727,
+9.008000373840332,
+5.769000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.842000007629395,
+6.368000030517578,
+6.785999774932861
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.094999313354492,
+8.569999694824219,
+2.11899995803833
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.517000198364258,
+6.505000114440918,
+3.8580000400543213
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.831000328063965,
+4.5279998779296875,
+-2.184000015258789
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.322999954223633,
+4.244999885559082,
+2.117000102996826
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+21.097999572753906,
+6.688000202178955,
+-3.7720000743865967
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.242000579833984,
+7.044000148773193,
+-0.8080000281333923
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.892000198364258,
+3.9260001182556152,
+-7.551000118255615
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+20.351999282836914,
+4.190999984741211,
+-4.591000080108643
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.226999282836914,
+10.67199993133545,
+-7.158999919891357
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.44300079345703,
+6.118000030517578,
+-4.868000030517578
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.202999114990234,
+7.5370001792907715,
+-9.565999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.295999526977539,
+4.314000129699707,
+-9.586999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.322999954223633,
+4.445000171661377,
+-5.889999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.503000259399414,
+11.25,
+-7.464000225067139
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.222000122070312,
+7.800000190734863,
+-5.86299991607666
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.635000228881836,
+5.88700008392334,
+-10.866999626159668
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.477999687194824,
+6.756999969482422,
+-8.003000259399414
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.482000350952148,
+4.341000080108643,
+-5.681000232696533
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.961999893188477,
+6.908999919891357,
+-0.6119999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.331999778747559,
+6.827000141143799,
+-3.053999900817871
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.267000198364258,
+8.770999908447266,
+-4.919000148773193
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.196000099182129,
+3.8389999866485596,
+-10.96399974822998
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.164000034332275,
+6.290999889373779,
+-5.88100004196167
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.513000011444092,
+5.370999813079834,
+-2.388000011444092
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.7649999856948853,
+12.133000373840332,
+1.5809999704360962
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.625999927520752,
+8.581000328063965,
+-1.6510000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.23000000417232513,
+8.428000450134277,
+-7.701000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.3839999437332153,
+8.737000465393066,
+-4.504000186920166
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.16699999570846558,
+5.9070000648498535,
+-3.181999921798706
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.9120000004768372,
+7.699999809265137,
+-0.20800000429153442
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.4519999027252197,
+10.215999603271484,
+-2.0220000743865967
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.663000106811523,
+8.022000312805176,
+-3.763000011444092
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.531000137329102,
+6.64900016784668,
+-0.8130000233650208
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.499000072479248,
+9.727999687194824,
+0.4740000069141388
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.383000373840332,
+10.805000305175781,
+-5.123000144958496
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.82800006866455,
+10.050999641418457,
+-2.069000005722046
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.404000282287598,
+7.046000003814697,
+-1.4240000247955322
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.782999992370605,
+7.949999809265137,
+1.9390000104904175
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.656999588012695,
+15.840999603271484,
+0.9070000052452087
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.25,
+11.057999610900879,
+1.1710000038146973
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.824999809265137,
+9.178000450134277,
+-0.8960000276565552
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.236000061035156,
+6.584000110626221,
+5.114999771118164
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.765999794006348,
+7.5320000648498535,
+2.1549999713897705
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-20.42099952697754,
+7.505000114440918,
+4.025000095367432
+],
+"radius": 0.3333333333333333,
+"color": "#472d7b",
+"tooltip": "acceptor"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 0.5
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.53600025177002,
+-1.059999942779541,
+0.9160000085830688
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.692000389099121,
+0.15700000524520874,
+1.2970000505447388
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.418000221252441,
+0.23499999940395355,
+0.5189999938011169
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.41100025177002,
+0.7720000147819519,
+-1.7580000162124634
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.298999786376953,
+0.5130000114440918,
+-0.7990000247955322
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.890000343322754,
+0.5180000066757202,
+-1.093999981880188
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.368000030517578,
+0.765999972820282,
+-2.3369998931884766
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.304999828338623,
+1.305999994277954,
+-5.198999881744385
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.511000156402588,
+1.031999945640564,
+-3.9679999351501465
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.177999973297119,
+1.128000020980835,
+-4.978000164031982
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.1620001792907715,
+0.9570000171661377,
+-3.871000051498413
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.5980000495910645,
+0.515999972820282,
+-1.9869999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.074999809265137,
+0.06300000101327896,
+1.0230000019073486
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.6830000281333923,
+0.18000000715255737,
+-0.9639999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.9470000267028809,
+0.06499999761581421,
+-0.18000000715255737
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.9369999766349792,
+-0.49000000953674316,
+2.0850000381469727
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.058000087738037,
+-0.2199999988079071,
+1.1380000114440918
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.993000030517578,
+-0.4830000102519989,
+2.684000015258789
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.767999649047852,
+-0.2370000034570694,
+2.328000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.073999881744385,
+-1.093000054359436,
+5.535999774932861
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.859000205993652,
+-0.7889999747276306,
+4.304999828338623
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.206999778747559,
+-0.7229999899864197,
+4.201000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.199000358581543,
+-0.9649999737739563,
+5.284999847412109
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.583999633789062,
+0.3199999928474426,
+6.019000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.853333155314127,
+5.114666779836019,
+-6.308666706085205
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.311666806538899,
+-2.1453333298365274,
+-4.638333320617676
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.6533333460489907,
+-3.0600001017252603,
+-3.1103333632151284
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.581000010172526,
+-9.400666554768879,
+-4.6820000012715655
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.365000089009602,
+-9.059666633605957,
+1.1786666711171467
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.491333325703938,
+-2.885666688283284,
+9.251999855041504
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.2226666808128357,
+-5.290333271026611,
+-0.3526666834950447
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.016333341598511,
+-3.522333224614461,
+2.759999910990397
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.4823334217071533,
+-7.586666742960611,
+-4.25166654586792
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.813000043233234,
+-6.312333265940348,
+-7.50166654586792
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.891667048136393,
+-1.2950000365575154,
+1.0910000403722127
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.441333452860514,
+-4.7013332049051915,
+7.524333477020264
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.889666557312012,
+2.9893333117167153,
+3.030333320299784
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.456666588783264,
+3.1876667340596514,
+3.0010000069936114
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.6576666831970215,
+9.356333414713541,
+3.6506666342417393
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.59333324432373,
+8.390333334604898,
+0.04333333671092984
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.469333330790201,
+2.0876667102177935,
+-10.242666562398274
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.731333315372467,
+4.586666504542032,
+-0.16733331481615704
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.777000029881795,
+8.278666655222574,
+3.3116666475931797
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.311333338419596,
+4.1176668008168535,
+1.265333354473114
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.209666570027668,
+7.219333330790201,
+5.410333315531412
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.442999839782715,
+2.1591666638851166,
+-2.717000027497609
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.4549999963492155,
+-5.816333373387654,
+8.145999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.037166754404703,
+-3.0358333190282187,
+-2.0581666727860766
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.367499828338623,
+-2.7936666607856746,
+3.2046666940053306
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.0256666739781695,
+-2.2590000033378597,
+9.388500054677326
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.2106666962305703,
+4.5581666231155396,
+-8.489499886830647
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.756999969482422,
+1.1369999647140503,
+-7.389999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.994000434875488,
+4.118000030517578,
+-12.652000427246094
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.413000106811523,
+2.7820000648498535,
+-12.220999717712402
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.49899959564209,
+1.8209999799728394,
+-11.755999565124512
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.807999610900879,
+4.374000072479248,
+-7.836999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.104999542236328,
+-0.23800000548362732,
+-5.025000095367432
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.654000282287598,
+-3.181999921798706,
+-10.89799976348877
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.49899959564209,
+-2.628999948501587,
+-9.762999534606934
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.651000022888184,
+1.9839999675750732,
+-11.029999732971191
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.943999767303467,
+1.1820000410079956,
+-10.973999977111816
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.540999889373779,
+1.9559999704360962,
+-4.776000022888184
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.916999816894531,
+0.8029999732971191,
+-5.500999927520752
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.15999984741211,
+-5.085000038146973,
+-6.64300012588501
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.615999937057495,
+-2.697000026702881,
+-10.899999618530273
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.42500001192092896,
+1.784000039100647,
+-6.5960001945495605
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.1710000038146973,
+2.0290000438690186,
+-8.244999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.9200000166893005,
+1.1990000009536743,
+-6.218999862670898
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.784999966621399,
+0.8019999861717224,
+-7.425000190734863
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.37700000405311584,
+-7.182000160217285,
+-8.651000022888184
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.1019999980926514,
+-6.364999771118164,
+-7.5960001945495605
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.7669999599456787,
+-1.5820000171661377,
+-10.352999687194824
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.260999917984009,
+-2.2160000801086426,
+-9.062999725341797
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.062999963760376,
+-2.1649999618530273,
+-3.812000036239624
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.421999931335449,
+-7.576000213623047,
+-3.9860000610351562
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.541999816894531,
+-7.38700008392334,
+-8.130999565124512
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.322999954223633,
+-1.937999963760376,
+-7.827000141143799
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.789999961853027,
+-2.805000066757202,
+-6.668000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.859000205993652,
+-4.724999904632568,
+-1.7309999465942383
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.696000099182129,
+-11.567000389099121,
+-2.9539999961853027
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.434999942779541,
+-10.376999855041504,
+-3.8610000610351562
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.6850004196167,
+-9.529999732971191,
+-4.061999797821045
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.411999702453613,
+-6.915999889373779,
+-8.362000465393066
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.003000259399414,
+-6.620999813079834,
+-6.993000030517578
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.539999961853027,
+-2.4509999752044678,
+-2.868000030517578
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.972000122070312,
+-3.8450000286102295,
+-2.446000099182129
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.657999992370605,
+-8.711999893188477,
+-0.23199999332427979
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.244999885559082,
+-11.383000373840332,
+-5.290999889373779
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.163999557495117,
+-10.35200023651123,
+-4.664999961853027
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.777000427246094,
+-6.47599983215332,
+-4.173999786376953
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.659000396728516,
+-5.557000160217285,
+-4.5370001792907715
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.545999526977539,
+-4.534999847412109,
+2.8480000495910645
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.972999572753906,
+-3.635999917984009,
+10.47599983215332
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.998000144958496,
+-7.13700008392334,
+6.006999969482422
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.310999870300293,
+-9.25,
+12.395999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.777999877929688,
+-9.378999710083008,
+10.97599983215332
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.894000053405762,
+-9.211000442504883,
+9.951000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.055999755859375,
+-4.729000091552734,
+9.5600004196167
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.043000221252441,
+-4.230000019073486,
+1.2130000591278076
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.053999900817871,
+-4.166999816894531,
+3.796999931335449
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.100000381469727,
+-5.269000053405762,
+4.2270002365112305
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.919000148773193,
+-11.467000007629395,
+5.335999965667725
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.979999542236328,
+-10.378999710083008,
+5.249000072479248
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.304999828338623,
+-8.727999687194824,
+9.6850004196167
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.044000148773193,
+-8.232000350952148,
+8.270999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.09499979019165,
+-8.29800033569336,
+0.4320000112056732
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.493000030517578,
+-11.194000244140625,
+4.316999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.07000000029802322,
+-6.452000141143799,
+5.328999996185303
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.5080000162124634,
+-11.562000274658203,
+-0.9710000157356262
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.5479999780654907,
+-10.687999725341797,
+-0.3140000104904175
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.827000141143799,
+-9.32699966430664,
+4.757999897003174
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.572000026702881,
+-9.847000122070312,
+4.078000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.464000225067139,
+-5.107999801635742,
+1.7209999561309814
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.5920000076293945,
+-8.006999969482422,
+-2.7230000495910645
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.604000091552734,
+-11.993000030517578,
+0.29499998688697815
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.057000160217285,
+-8.064000129699707,
+3.938999891281128
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.361000061035156,
+-8.168000221252441,
+2.4539999961853027
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.425999641418457,
+-5.577000141143799,
+-2.190999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.906999588012695,
+-10.279999732971191,
+-6.958000183105469
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.48900032043457,
+-10.3149995803833,
+-5.497000217437744
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.704000473022461,
+-10.279999732971191,
+-4.584000110626221
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.651000022888184,
+-13.222000122070312,
+-0.10599999874830246
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.53499984741211,
+-12.07699966430664,
+-0.5770000219345093
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.920000076293945,
+-6.355000019073486,
+-0.5950000286102295
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.92300033569336,
+-7.4629998207092285,
+-0.296999990940094
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.031000137329102,
+-6.699999809265137,
+-5.605999946594238
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.628999710083008,
+-12.58899974822998,
+-6.480000019073486
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.928999900817871,
+-11.965999603271484,
+-5.984000205993652
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.933000564575195,
+-10.967000007629395,
+-2.621999979019165
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.572999954223633,
+-11.401000022888184,
+-2.2070000171661377
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.400999069213867,
+-3.4049999713897705,
+-5.130000114440918
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-22.13599967956543,
+-4.275000095367432,
+-4.159999847412109
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.763999938964844,
+2.059999942779541,
+6.422999858856201
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.399999618530273,
+2.302999973297119,
+12.49899959564209
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.819999694824219,
+1.0110000371932983,
+11.8149995803833
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.904000282287598,
+0.6830000281333923,
+10.644000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.28499984741211,
+-2.7769999504089355,
+7.25
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.42199993133545,
+1.4950000047683716,
+4.1579999923706055
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.708000183105469,
+5.025000095367432,
+9.597000122070312
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.597000122070312,
+4.40500020980835,
+8.534000396728516
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.441999912261963,
+-0.5139999985694885,
+10.755000114440918
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.711999893188477,
+0.3230000138282776,
+10.682000160217285
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.843999862670898,
+-1.6759999990463257,
+5.289999961853027
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.228000164031982,
+-0.3269999921321869,
+5.531000137329102
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.295999526977539,
+5.659999847412109,
+4.945000171661377
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.583000183105469,
+4.36899995803833,
+10.361000061035156
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.26200008392334,
+0.18000000715255737,
+7.98799991607666
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.7570000290870667,
+8.28499984741211,
+7.941999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.4450000524520874,
+7.328999996185303,
+6.980999946594238
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.090999960899353,
+3.694999933242798,
+10.875
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.6979999542236328,
+3.819000005722046,
+9.491000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.997999906539917,
+2.118000030517578,
+4.6479997634887695
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.6050000190734863,
+7.410999774932861,
+3.4000000953674316
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.010000228881836,
+7.947999954223633,
+8.112000465393066
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.925000190734863,
+2.4790000915527344,
+8.588000297546387
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.4629998207092285,
+3.305999994277954,
+7.427999973297119
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.864999771118164,
+4.88100004196167,
+2.312999963760376
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.276000022888184,
+11.809000015258789,
+3.365999937057495
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.701000213623047,
+10.604999542236328,
+4.0960001945495605
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.791999816894531,
+9.64799976348877,
+4.565000057220459
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.461000442504883,
+6.839000225067139,
+9.779000282287598
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.190999984741211,
+6.75,
+8.446999549865723
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.222999572753906,
+2.433000087738037,
+4.500999927520752
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.83899974822998,
+3.7899999618530273,
+4.211999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.440999984741211,
+8.413000106811523,
+1.8020000457763672
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.927000045776367,
+11.652000427246094,
+6.39300012588501
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.90999984741211,
+10.494999885559082,
+6.376999855041504
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.33300018310547,
+6.36299991607666,
+7.392000198364258
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.99799919128418,
+5.802000045776367,
+7.765999794006348
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.564000129699707,
+3.819999933242798,
+-0.023000000044703484
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.927000045776367,
+2.5169999599456787,
+-7.619999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.551000595092773,
+8.720000267028809,
+-5.947000026702881
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.784000396728516,
+10.718000411987305,
+-10.151000022888184
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.616000175476074,
+9.449999809265137,
+-10.265000343322754
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.036999702453613,
+8.340999603271484,
+-9.402999877929688
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.37399959564209,
+3.3010001182556152,
+-8.725000381469727
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.840999603271484,
+4.673999786376953,
+0.4230000078678131
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.6899995803833,
+4.9720001220703125,
+-2.190000057220459
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.946999549865723,
+4.422999858856201,
+-3.5850000381469727
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.8149995803833,
+10.720999717712402,
+-5.166999816894531
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.777000427246094,
+9.593999862670898,
+-4.822999954223633
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.511000156402588,
+7.538000106811523,
+-9.368000030517578
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.191999912261963,
+7.144000053405762,
+-7.934000015258789
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.8520002365112305,
+9.083999633789062,
+-0.050999999046325684
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.269000053405762,
+10.208000183105469,
+-4.5370001792907715
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.128999948501587,
+5.326000213623047,
+-5.89300012588501
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.3070000112056732,
+11.597000122070312,
+-0.7139999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.0779999494552612,
+10.295999526977539,
+-0.5509999990463257
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.2130000591278076,
+10.039999961853027,
+-6.256999969482422
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.7899999618530273,
+9.409000396728516,
+-5.001999855041504
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.997000217437744,
+3.128000020980835,
+-1.8880000114440918
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.450000047683716,
+3.819999933242798,
+-3.369999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.933000087738037,
+4.068999767303467,
+-1.3559999465942383
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.1540000438690186,
+4.810999870300293,
+-2.4489998817443848
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.6519999504089355,
+8.295999526977539,
+1.5870000123977661
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.290999889373779,
+11.843000411987305,
+-2.0390000343322754
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.443999767303467,
+7.986999988555908,
+-5.546000003814697
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.9679999351501465,
+7.7820000648498535,
+-4.129000186920166
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.177000045776367,
+5.836999893188477,
+0.9430000185966492
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.196999549865723,
+11.677000045776367,
+4.380000114440918
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.815999984741211,
+11.361000061035156,
+2.943000078201294
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.038999557495117,
+11.03600025177002,
+2.0889999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.520000457763672,
+11.842000007629395,
+-3.306999921798706
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.079999923706055,
+10.87600040435791,
+-2.2790000438690186
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.949999809265137,
+4.913000106811523,
+-1.7569999694824219
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.430000305175781,
+5.945000171661377,
+-0.7459999918937683
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.28499984741211,
+8.175999641418457,
+4.10099983215332
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.013999938964844,
+13.501999855041504,
+0.6700000166893005
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.92199993133545,
+12.725000381469727,
+1.3860000371932983
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.05699920654297,
+9.857999801635742,
+0.03700000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.131000518798828,
+9.229000091552734,
+-0.9470000267028809
+],
+"radius": 0.3333333333333333,
+"color": "#28ae80",
+"tooltip": "hydrophobe"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 0.5
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.696333328882853,
+0.36416666085521376,
+-1.065666670600573
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.436833461125691,
+0.502500000099341,
+-1.2689999854192138
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.923999985059102,
+-0.20749999706943825,
+1.6168333639701207
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.666499932607014,
+-0.07116666808724402,
+1.4113333507751422
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.91780014038086,
+0.7967999935150145,
+-2.94280002117157
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.9980000019073487,
+-0.015199999511241903,
+0.4090000092983247
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.4482000350952156,
+-0.5331999897956848,
+3.2824000358581547
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.442999839782715,
+2.1591666638851166,
+-2.717000027497609
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.4549999963492155,
+-5.816333373387654,
+8.145999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.037166754404703,
+-3.0358333190282187,
+-2.0581666727860766
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.367499828338623,
+-2.7936666607856746,
+3.2046666940053306
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.0256666739781695,
+-2.2590000033378597,
+9.388500054677326
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.2106666962305703,
+4.5581666231155396,
+-8.489499886830647
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.04680004119873,
+2.872000002861023,
+-4.190599966049194
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.346999835968017,
+-2.7496000051498415,
+5.100200080871582
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.49359998703003,
+3.1828000068664553,
+0.7639999926090241
+],
+"radius": 0.3333333333333333,
+"color": "#21918c",
+"tooltip": "aromatic"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 0.5
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.914499998092651,
+-2.156000018119812,
+-10.450000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.106750011444092,
+-1.691249966621399,
+-2.8042499721050262
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.985750198364258,
+-11.539499998092651,
+4.22599995136261
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.96649980545044,
+-8.152750253677368,
+1.7737500369548798
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.02049994468689,
+1.076500028371811,
+10.123250007629395
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.36775016784668,
+-1.0477499812841415,
+5.158250093460083
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.901000022888184,
+6.924749970436096,
+-7.802750110626221
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.066499710083008,
+2.962249994277954,
+-2.3847499787807465
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.49359998703003,
+3.1828000068664553,
+0.7639999926090241
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.986000061035156,
+5.35099983215332,
+-11.85099983215332
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.76200008392334,
+-1.0069999694824219,
+-11.097000122070312
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.040999889373779,
+-13.01200008392334,
+-4.129000186920166
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.243999481201172,
+-1.093999981880188,
+-1.6230000257492065
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.092000007629395,
+-8.822999954223633,
+13.472000122070312
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.310999870300293,
+-11.45300006866455,
+4.170000076293945
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.13700008392334,
+-10.420999526977539,
+-9.319000244140625
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.506999969482422,
+-7.624000072479248,
+2.9040000438690186
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.541000366210938,
+3.510999917984009,
+13.635000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.819999694824219,
+1.1260000467300415,
+11.437999725341797
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.54699993133545,
+12.593999862670898,
+1.371000051498413
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.487000465393066,
+-1.2089999914169312,
+4.452000141143799
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.055999755859375,
+11.3100004196167,
+-12.553000450134277
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.934999942779541,
+6.696000099182129,
+-6.915999889373779
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.323999881744385,
+12.258000373840332,
+6.64300012588501
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.973999977111816,
+2.568000078201294,
+-3.6510000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.827999114990234,
+5.169000148773193,
+3.7309999465942383
+],
+"radius": 0.3333333333333333,
+"color": "#2c728e",
+"tooltip": "positive"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 0.5
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.321999549865723,
+0.18700000643730164,
+-0.06400000303983688
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.831999778747559,
+-1.1959999799728394,
+1.5540000200271606
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.586999893188477,
+1.2009999752044678,
+6.9679999351501465
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.498000144958496,
+-0.9599999785423279,
+6.6539998054504395
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.952999114990234,
+2.3589999675750732,
+-9.944000244140625
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.325000762939453,
+3.4200000762939453,
+-6.789000034332275
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-20.128000259399414,
+0.2070000022649765,
+-10.347999572753906
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.55500030517578,
+0.30000001192092896,
+-10.855999946594238
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.104000091552734,
+4.618000030517578,
+-9.508000373840332
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.269000053405762,
+1.8359999656677246,
+-5.831999778747559
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.62600040435791,
+-2.003000020980835,
+-12.96500015258789
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.267000198364258,
+-3.4200000762939453,
+-12.633000373840332
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.795000076293945,
+-0.4659999907016754,
+-8.928000450134277
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.938000202178955,
+4.0,
+-11.230999946594238
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.074000358581543,
+1.565999984741211,
+-10.27400016784668
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.682999610900879,
+1.3630000352859497,
+-7.066999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.922999858856201,
+-5.375999927520752,
+-7.50600004196167
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.137999534606934,
+-2.1510000228881836,
+-7.645999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.728000164031982,
+-1.8450000286102295,
+-10.402999877929688
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.011000156402588,
+0.3930000066757202,
+-8.303000450134277
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.7820000648498535,
+-1.6779999732971191,
+-5.63100004196167
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.8500000238418579,
+-6.34499979019165,
+-10.843000411987305
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.575000047683716,
+-4.204999923706055,
+-7.571000099182129
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.5889999866485596,
+-0.5529999732971191,
+-11.484999656677246
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.9149999618530273,
+-2.509000062942505,
+-12.220000267028809
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.9620000123977661,
+-2.2739999294281006,
+-8.793999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.164000004529953,
+-1.8619999885559082,
+-5.385000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.3840000033378601,
+-5.25,
+-4.964000225067139
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.555999994277954,
+-5.895999908447266,
+-7.875999927520752
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.546000003814697,
+-3.4170000553131104,
+-6.926000118255615
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.204999923706055,
+-1.7699999809265137,
+-0.22499999403953552
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.163000106811523,
+-4.414000034332275,
+-3.703000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.230000019073486,
+-7.434999942779541,
+-4.603000164031982
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.052000045776367,
+-5.085999965667725,
+-9.052000045776367
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.04800033569336,
+-5.24399995803833,
+-9.923999786376953
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.729000091552734,
+-6.0370001792907715,
+-6.511000156402588
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.100000381469727,
+-4.234000205993652,
+-4.000999927520752
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.331000328063965,
+-7.1529998779296875,
+-1.9630000591278076
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.442999839782715,
+-13.045000076293945,
+-6.49399995803833
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.89799976348877,
+-13.496000289916992,
+-4.421000003814697
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.210000038146973,
+-8.91100025177002,
+-4.454999923706055
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.486000061035156,
+-6.1479997634887695,
+-4.743000030517578
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.132999420166016,
+-9.718000411987305,
+0.16599999368190765
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.329000473022461,
+-6.940999984741211,
+-1.2400000095367432
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.852999687194824,
+-5.915999889373779,
+1.86899995803833
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.464000701904297,
+-5.111000061035156,
+0.7450000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+20.084999084472656,
+-6.72599983215332,
+4.918000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.40399932861328,
+-3.6449999809265137,
+2.7780001163482666
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.514999389648438,
+-4.8379998207092285,
+9.04699993133545
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.163000106811523,
+-2.367000102996826,
+6.144000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.883000373840332,
+-9.333000183105469,
+5.6579999923706055
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.019000053405762,
+-4.339000225067139,
+7.123000144958496
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.616999626159668,
+-8.690999984741211,
+9.309000015258789
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.057000160217285,
+-5.116000175476074,
+10.440999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.213000297546387,
+-5.071000099182129,
+6.688000202178955
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.1570000648498535,
+-12.32699966430664,
+7.418000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.081999778747559,
+-13.059000015258789,
+6.671999931335449
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.199999809265137,
+-8.503000259399414,
+6.793000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.416999816894531,
+-7.164000034332275,
+11.267000198364258
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.293999671936035,
+-7.873000144958496,
+8.62600040435791
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.557000160217285,
+-5.456999778747559,
+6.21999979019165
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.188000202178955,
+-9.777000427246094,
+0.382999986410141
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.678999900817871,
+-7.692999839782715,
+3.552000045776367
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.385000228881836,
+-9.694000244140625,
+5.181000232696533
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.8240000009536743,
+-5.215000152587891,
+10.810999870300293
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.1600000858306885,
+-7.301000118255615,
+5.875
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.2060000896453857,
+-6.304999828338623,
+2.431999921798706
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.8569999933242798,
+-13.404000282287598,
+-0.2529999911785126
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.114000082015991,
+-9.531000137329102,
+1.3370000123977661
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.681000232696533,
+-10.928999900817871,
+6.294000148773193
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.625,
+-10.82699966430664,
+4.323999881744385
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.3840000033378601,
+-9.597000122070312,
+3.7850000858306885
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.5700000524520874,
+-6.394999980926514,
+2.5810000896453857
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.0380001068115234,
+-7.74399995803833,
+-0.5889999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.7669999599456787,
+-10.477999687194824,
+0.6389999985694885
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.0,
+-8.20199966430664,
+2.1559998989105225
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.75,
+-6.559999942779541,
+-0.49799999594688416
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.322999954223633,
+-9.27299976348877,
+-2.509000062942505
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.734999656677246,
+-15.114999771118164,
+-1.5449999570846558
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.074000358581543,
+-15.107999801635742,
+0.18799999356269836
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.539999961853027,
+-10.583000183105469,
+-0.32100000977516174
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.614999771118164,
+-7.947999954223633,
+0.017999999225139618
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.859000205993652,
+-7.11899995803833,
+-3.2269999980926514
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.371999740600586,
+-14.331000328063965,
+-7.918000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.267999649047852,
+-12.673999786376953,
+-8.833000183105469
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.680999755859375,
+-10.449000358581543,
+-4.107999801635742
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.364999771118164,
+-10.541000366210938,
+-1.9950000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.886999130249023,
+-6.414000034332275,
+-7.116000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.78700065612793,
+-7.824999809265137,
+-3.690999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.38599967956543,
+-7.2170000076293945,
+-3.9240000247955322
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.889999389648438,
+-4.164999961853027,
+-4.420000076293945
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.99799919128418,
+-4.6579999923706055,
+-1.437000036239624
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.22599983215332,
+-0.675000011920929,
+-2.1670000553131104
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.516000747680664,
+-1.0329999923706055,
+0.984000027179718
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.8439998626709,
+0.46799999475479126,
+1.2230000495910645
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.457000732421875,
+-3.056999921798706,
+3.316999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.648000717163086,
+4.077000141143799,
+7.366000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.645000457763672,
+-0.5440000295639038,
+6.436999797821045
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.761999130249023,
+-0.6639999747276306,
+9.668999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.409000396728516,
+-2.6459999084472656,
+8.034000396728516
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.01200008392334,
+0.03799999877810478,
+5.59499979019165
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.418999671936035,
+6.821000099182129,
+8.720000267028809
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.27299976348877,
+7.328000068664551,
+9.769000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.137999534606934,
+2.3340001106262207,
+7.9670000076293945
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.73799991607666,
+0.6949999928474426,
+11.92199993133545
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.831000328063965,
+0.43299999833106995,
+9.968000411987305
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.265000343322754,
+-0.23499999940395355,
+6.742000102996826
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.296000003814697,
+6.2769999504089355,
+6.145999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.54699993133545,
+3.132999897003174,
+6.458000183105469
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.579999923706055,
+3.3340001106262207,
+9.543999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.752000093460083,
+-4.568999767303467,
+10.710000038146973
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.513999938964844,
+0.7129999995231628,
+8.387999534606934
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.920000076293945,
+2.3329999446868896,
+5.440000057220459
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.180999994277954,
+10.07699966430664,
+6.413000106811523
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.9489998817443848,
+5.234000205993652,
+6.953000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.9149999618530273,
+5.486000061035156,
+12.201000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.7880001068115234,
+3.50600004196167,
+12.536999702453613
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.5369999408721924,
+3.4719998836517334,
+8.793999671936035
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.05700000002980232,
+2.246999979019165,
+5.918000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.3190000057220459,
+5.429999828338623,
+4.616000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.072999954223633,
+6.494999885559082,
+7.517000198364258
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.214000225067139,
+3.8299999237060547,
+7.3470001220703125
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.126999855041504,
+2.0810000896453857,
+0.5929999947547913
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.076000213623047,
+4.5970001220703125,
+4.107999801635742
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.090000152587891,
+7.718999862670898,
+4.961999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.152999877929688,
+4.7179999351501465,
+10.62600040435791
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.0,
+5.170000076293945,
+10.647000312805176
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.08899974822998,
+6.586999893188477,
+7.439000129699707
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.765999794006348,
+4.442999839782715,
+5.158999919891357
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.614999771118164,
+7.239999771118164,
+3.0999999046325684
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.696999549865723,
+13.762999534606934,
+7.181000232696533
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.053999900817871,
+13.279000282287598,
+5.076000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.975000381469727,
+9.008000373840332,
+5.769000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.842000007629395,
+6.368000030517578,
+6.785999774932861
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.094999313354492,
+8.569999694824219,
+2.11899995803833
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.517000198364258,
+6.505000114440918,
+3.8580000400543213
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.831000328063965,
+4.5279998779296875,
+-2.184000015258789
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.322999954223633,
+4.244999885559082,
+2.117000102996826
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+21.097999572753906,
+6.688000202178955,
+-3.7720000743865967
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.242000579833984,
+7.044000148773193,
+-0.8080000281333923
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.892000198364258,
+3.9260001182556152,
+-7.551000118255615
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+20.351999282836914,
+4.190999984741211,
+-4.591000080108643
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.226999282836914,
+10.67199993133545,
+-7.158999919891357
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.44300079345703,
+6.118000030517578,
+-4.868000030517578
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.202999114990234,
+7.5370001792907715,
+-9.565999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.295999526977539,
+4.314000129699707,
+-9.586999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.322999954223633,
+4.445000171661377,
+-5.889999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.503000259399414,
+11.25,
+-7.464000225067139
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.168999671936035,
+12.218999862670898,
+-6.426000118255615
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.222000122070312,
+7.800000190734863,
+-5.86299991607666
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.635000228881836,
+5.88700008392334,
+-10.866999626159668
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.477999687194824,
+6.756999969482422,
+-8.003000259399414
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.482000350952148,
+4.341000080108643,
+-5.681000232696533
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.961999893188477,
+6.908999919891357,
+-0.6119999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.331999778747559,
+6.827000141143799,
+-3.053999900817871
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.267000198364258,
+8.770999908447266,
+-4.919000148773193
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.196000099182129,
+3.8389999866485596,
+-10.96399974822998
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.164000034332275,
+6.290999889373779,
+-5.88100004196167
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.513000011444092,
+5.370999813079834,
+-2.388000011444092
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.7649999856948853,
+12.133000373840332,
+1.5809999704360962
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.625999927520752,
+8.581000328063965,
+-1.6510000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.23000000417232513,
+8.428000450134277,
+-7.701000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.2929999828338623,
+9.03499984741211,
+-8.128000259399414
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.3839999437332153,
+8.737000465393066,
+-4.504000186920166
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.16699999570846558,
+5.9070000648498535,
+-3.181999921798706
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.9120000004768372,
+7.699999809265137,
+-0.20800000429153442
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.4519999027252197,
+10.215999603271484,
+-2.0220000743865967
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.663000106811523,
+8.022000312805176,
+-3.763000011444092
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.531000137329102,
+6.64900016784668,
+-0.8130000233650208
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.499000072479248,
+9.727999687194824,
+0.4740000069141388
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.383000373840332,
+10.805000305175781,
+-5.123000144958496
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.517000198364258,
+11.21500015258789,
+-5.375
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.82800006866455,
+10.050999641418457,
+-2.069000005722046
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.404000282287598,
+7.046000003814697,
+-1.4240000247955322
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.782999992370605,
+7.949999809265137,
+1.9390000104904175
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.656999588012695,
+15.840999603271484,
+0.9070000052452087
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.155000686645508,
+14.913000106811523,
+2.2130000591278076
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.25,
+11.057999610900879,
+1.1710000038146973
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.824999809265137,
+9.178000450134277,
+-0.8960000276565552
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.236000061035156,
+6.584000110626221,
+5.114999771118164
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.765999794006348,
+7.5320000648498535,
+2.1549999713897705
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-20.42099952697754,
+7.505000114440918,
+4.025000095367432
+],
+"radius": 0.3333333333333333,
+"color": "#fde725",
+"tooltip": "halogen_acceptor"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 0.5
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.385999679565428,
+-0.5543333192666371,
+0.7626666650176048
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.358999888102213,
+0.13866666456063587,
+6.7366665204366045
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.8886661529541,
+1.247333322962125,
+-10.022333145141602
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.37166690826416,
+-2.756333351135254,
+-12.619000116984049
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.1103332837422686,
+-1.5346666971842446,
+-11.711999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.083666801452637,
+-5.3306667009989415,
+-9.381333351135254
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.081999778747559,
+-13.092666943868,
+-5.441999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.101333141326904,
+-12.574999809265137,
+6.883999983469645
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.027000109354654,
+-10.73199971516927,
+5.255666732788086
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.332999865214028,
+-14.932666460673014,
+-0.6243333121140798
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.802999814351399,
+-13.415666580200195,
+-8.196333408355713
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.37933317820231,
+6.880666732788086,
+9.277333577473957
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.2310000260670977,
+4.420000076293945,
+12.22866662343343
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.112333297729492,
+5.122333367665608,
+10.554666837056477
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.786333084106445,
+13.343666712443033,
+6.153333504994709
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.288333257039387,
+11.637333234151203,
+-6.777000109354654
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.2576666623353958,
+8.855000178019205,
+-7.757666746775309
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.456333478291828,
+11.089666684468586,
+-5.065999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.368000030517578,
+15.19966665903727,
+1.4763333598772683
+],
+"radius": 0.3333333333333333,
+"color": "#3b528b",
+"tooltip": "negative"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 0.5
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-20.465999603271484,
+2.8359999656677246,
+-7.111999988555908
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.250999450683594,
+1.7239999771118164,
+-9.26200008392334
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.986000061035156,
+5.35099983215332,
+-11.85099983215332
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.390000343322754,
+2.3910000324249268,
+-9.361000061035156
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.661999702453613,
+2.115999937057495,
+-7.374000072479248
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.079000473022461,
+-0.49000000953674316,
+-7.479000091552734
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.345999717712402,
+-0.4569999873638153,
+-9.612000465393066
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.870999813079834,
+4.177999973297119,
+-10.380999565124512
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.105999946594238,
+0.722000002861023,
+-8.548999786376953
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.0600004196167,
+4.039000034332275,
+-4.119999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.248000144958496,
+-1.2200000286102295,
+-6.85699987411499
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.922999858856201,
+-5.375999927520752,
+-7.50600004196167
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.809000015258789,
+-2.8010001182556152,
+-8.586999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.572999954223633,
+-1.2239999771118164,
+-8.95300006866455
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.681999921798706,
+-1.2009999752044678,
+-6.2789998054504395
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.0929999351501465,
+-3.881999969482422,
+-5.9070000648498535
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.0139999389648438,
+-8.133999824523926,
+-10.156999588012695
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.0949999988079071,
+-4.118000030517578,
+-7.835999965667725
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.843000054359436,
+-2.621999979019165,
+-6.676000118255615
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.434000015258789,
+-4.400000095367432,
+-4.5970001220703125
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.5250000953674316,
+-6.531000137329102,
+-5.946000099182129
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.854000091552734,
+-5.25,
+-6.968999862670898
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.685999870300293,
+-3.0980000495910645,
+-10.968000411987305
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.76200008392334,
+-1.0069999694824219,
+-11.097000122070312
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.291999816894531,
+-2.365000009536743,
+-9.288000106811523
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.1570000648498535,
+-4.173999786376953,
+-4.7230000495910645
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.204999923706055,
+-1.7699999809265137,
+-0.22499999403953552
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.130000114440918,
+-3.950000047683716,
+-0.04100000113248825
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.89300012588501,
+-6.526000022888184,
+-3.388000011444092
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.040999889373779,
+-13.01200008392334,
+-4.129000186920166
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.690999984741211,
+-7.578000068664551,
+-5.177000045776367
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.692999839782715,
+-5.638999938964844,
+-4.765999794006348
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.180999755859375,
+-2.121999979019165,
+-3.4549999237060547
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.243999481201172,
+-1.093999981880188,
+-1.6230000257492065
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.895000457763672,
+-1.8559999465942383,
+-3.3369998931884766
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.362000465393066,
+-6.204999923706055,
+-2.1610000133514404
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.42300033569336,
+-8.689000129699707,
+-2.571000099182129
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.590999603271484,
+-8.005999565124512,
+-4.124000072479248
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.208999633789062,
+-6.580999851226807,
+-2.446000099182129
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.132999420166016,
+-9.718000411987305,
+0.16599999368190765
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.937999725341797,
+-7.271999835968018,
+1.0540000200271606
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.805999755859375,
+-3.739000082015991,
+1.3739999532699585
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.613000869750977,
+-5.506999969482422,
+3.7960000038146973
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+20.084999084472656,
+-6.72599983215332,
+4.918000221252441
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.881000518798828,
+-4.498000144958496,
+6.076000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.514999389648438,
+-4.8379998207092285,
+9.04699993133545
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+16.961000442504883,
+-5.104000091552734,
+7.953000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.668999671936035,
+-9.168999671936035,
+5.894000053405762
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.982000350952148,
+-6.821000099182129,
+8.23900032043457
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.092000007629395,
+-8.822999954223633,
+13.472000122070312
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.505000114440918,
+-6.9079999923706055,
+9.210000038146973
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+10.119999885559082,
+-5.415999889373779,
+7.439000129699707
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.77299976348877,
+-7.3429999351501465,
+5.495999813079834
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.724999904632568,
+-8.789999961853027,
+6.6479997634887695
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.627999782562256,
+-7.110000133514404,
+10.904000282287598
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.790999889373779,
+-6.834000110626221,
+6.390999794006348
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.638000011444092,
+-6.744999885559082,
+3.5980000495910645
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.188000202178955,
+-9.777000427246094,
+0.382999986410141
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.565999984741211,
+-9.256999969482422,
+3.128000020980835
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.1389999389648438,
+-8.776000022888184,
+4.525000095367432
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.8240000009536743,
+-5.215000152587891,
+10.810999870300293
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.090000033378601,
+-6.678999900817871,
+3.1050000190734863
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.6169999837875366,
+-7.955999851226807,
+0.7300000190734863
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.27399998903274536,
+-13.38700008392334,
+0.4339999854564667
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.3420000076293945,
+-9.638999938964844,
+1.753999948501587
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.25,
+-7.888000011444092,
+2.615999937057495
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.010000228881836,
+-6.938000202178955,
+0.1420000046491623
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.124000072479248,
+-9.33899974822998,
+-0.7450000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.199999809265137,
+-9.72599983215332,
+1.0110000371932983
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.394000053405762,
+-12.708000183105469,
+4.033999919891357
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.310999870300293,
+-11.45300006866455,
+4.170000076293945
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.25100040435791,
+-10.458000183105469,
+4.468999862670898
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.699999809265137,
+-7.449999809265137,
+0.1979999989271164
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.190999984741211,
+-8.015000343322754,
+-2.496999979019165
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.13700008392334,
+-10.420999526977539,
+-9.319000244140625
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.593000411987305,
+-10.437000274658203,
+-2.308000087738037
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.84000015258789,
+-9.654000282287598,
+-0.8019999861717224
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.660999298095703,
+-9.284000396728516,
+1.812000036239624
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.506999969482422,
+-7.624000072479248,
+2.9040000438690186
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.729999542236328,
+-7.551000118255615,
+0.6050000190734863
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.918999671936035,
+-7.699999809265137,
+-2.5420000553131104
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.255999565124512,
+-9.0649995803833,
+-4.9120001792907715
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.125,
+-10.946000099182129,
+-4.074999809265137
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.410999298095703,
+-9.378000259399414,
+-3.4110000133514404
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.886999130249023,
+-6.414000034332275,
+-7.116000175476074
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.3700008392334,
+-6.310999870300293,
+-4.3379998207092285
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.968000411987305,
+-3.940999984741211,
+-3.3350000381469727
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.889999389648438,
+-4.164999961853027,
+-4.420000076293945
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.586999893188477,
+-2.256999969482422,
+-1.3200000524520874
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.503000259399414,
+-1.3300000429153442,
+1.1200000047683716
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.516000747680664,
+-1.0329999923706055,
+0.984000027179718
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-19.108999252319336,
+-1.593000054359436,
+3.739000082015991
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.5,
+-1.1660000085830688,
+6.178999900817871
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.44099998474121,
+3.7780001163482666,
+7.533999919891357
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.729000091552734,
+0.574999988079071,
+8.10200023651123
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.541000366210938,
+3.510999917984009,
+13.635000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-14.38700008392334,
+-0.7739999890327454,
+8.748000144958496
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.012999534606934,
+-0.5899999737739563,
+6.408999919891357
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.39799976348877,
+2.1449999809265137,
+6.554999828338623
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-10.795999526977539,
+2.1040000915527344,
+8.87399959564209
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.831999778747559,
+-0.8880000114440918,
+13.064000129699707
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.736000061035156,
+0.49300000071525574,
+8.22700023651123
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.491000175476074,
+-3.808000087738037,
+5.577000141143799
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.609000205993652,
+2.009999990463257,
+6.235000133514404
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.296000003814697,
+6.2769999504089355,
+6.145999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.364999771118164,
+3.9590001106262207,
+7.760000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.236999988555908,
+2.5260000228881836,
+8.78600025177002
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.752000093460083,
+-4.568999767303467,
+10.710000038146973
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.9200000762939453,
+1.9420000314712524,
+6.39900016784668
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.244999885559082,
+4.550000190734863,
+5.6519999504089355
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.5870000123977661,
+10.284000396728516,
+7.77400016784668
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-0.5170000195503235,
+5.171999931335449,
+7.7270002365112305
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.5099999904632568,
+3.359999895095825,
+7.0970001220703125
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.3559999465942383,
+4.473999977111816,
+4.711999893188477
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.3570001125335693,
+6.834000110626221,
+5.703000068664551
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.454999923706055,
+5.703000068664551,
+7.242000102996826
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.086999893188477,
+0.45399999618530273,
+9.642000198364258
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.819999694824219,
+1.1260000467300415,
+11.437999725341797
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.154999732971191,
+1.6490000486373901,
+9.288000106811523
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.986000061035156,
+4.442999839782715,
+5.296000003814697
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.126999855041504,
+2.0810000896453857,
+0.5929999947547913
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.465000152587891,
+4.23199987411499,
+0.2919999957084656
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.831999778747559,
+6.7220001220703125,
+3.944000005722046
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.54699993133545,
+12.593999862670898,
+1.371000051498413
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.388999938964844,
+7.760000228881836,
+6.0279998779296875
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.26099967956543,
+5.767000198364258,
+6.190999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.843000411987305,
+-2.069999933242798,
+5.816999912261963
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.487000465393066,
+-1.2089999914169312,
+4.452000141143799
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.765999794006348,
+0.1340000033378601,
+5.201000213623047
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.484999656677246,
+6.171000003814697,
+3.759000062942505
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.593999862670898,
+8.664999961853027,
+4.239999771118164
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.276000022888184,
+8.071000099182129,
+6.447999954223633
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.106000900268555,
+6.177999973297119,
+5.423999786376953
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.094999313354492,
+8.569999694824219,
+2.11899995803833
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.26099967956543,
+6.4670000076293945,
+1.7940000295639038
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+14.520999908447266,
+2.377000093460083,
+-1.6629999876022339
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.569000244140625,
+4.8979997634887695,
+-0.968999981880188
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+21.097999572753906,
+6.688000202178955,
+-3.7720000743865967
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+18.624000549316406,
+5.25600004196167,
+-3.630000114440918
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+19.892000198364258,
+3.9260001182556152,
+-7.551000118255615
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+17.84000015258789,
+5.4120001792907715,
+-6.48199987411499
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.02400016784668,
+10.319000244140625,
+-6.936999797821045
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+15.35200023651123,
+7.235000133514404,
+-7.513999938964844
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.055999755859375,
+11.3100004196167,
+-12.553000450134277
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+13.168000221252441,
+6.014999866485596,
+-8.645999908447266
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+12.229000091552734,
+4.394999980926514,
+-6.690999984741211
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+11.668000221252441,
+6.485000133514404,
+-4.89900016784668
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+9.70199966430664,
+7.841000080108643,
+-6.184000015258789
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+8.835000038146973,
+5.821000099182129,
+-10.449000358581543
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.811999797821045,
+5.823999881744385,
+-5.954999923706055
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+7.353000164031982,
+5.76200008392334,
+-3.2239999771118164
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+5.961999893188477,
+6.908999919891357,
+-0.6119999885559082
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+6.165999889373779,
+8.28600025177002,
+-3.0209999084472656
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+3.9609999656677246,
+7.776000022888184,
+-4.714000225067139
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+4.196000099182129,
+3.8389999866485596,
+-10.96399974822998
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+2.6050000190734863,
+5.750999927520752,
+-3.51200008392334
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+1.815999984741211,
+7.284999847412109,
+-1.3170000314712524
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.11899995803833,
+12.967000007629395,
+0.6959999799728394
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+0.2759999930858612,
+9.173999786376953,
+-2.5940001010894775
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-1.7289999723434448,
+7.504000186920166,
+-3.4679999351501465
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-2.811000108718872,
+6.84499979019165,
+-1.062000036239624
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.9609999656677246,
+9.347999572753906,
+-0.6000000238418579
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-5.854000091552734,
+9.522000312805176,
+-2.5829999446868896
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-4.5960001945495605,
+7.093999862670898,
+-9.081000328063965
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-3.934999942779541,
+6.696000099182129,
+-6.915999889373779
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-6.171999931335449,
+6.986000061035156,
+-7.4120001792907715
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.438000202178955,
+7.35699987411499,
+-1.7619999647140503
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-8.215999603271484,
+8.291999816894531,
+0.7139999866485596
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-7.323999881744385,
+12.258000373840332,
+6.64300012588501
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-9.906000137329102,
+10.331000328063965,
+-0.1080000028014183
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-11.914999961853027,
+8.699999809265137,
+-1.187999963760376
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.05299949645996,
+2.507999897003174,
+-1.628000020980835
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.973999977111816,
+2.568000078201294,
+-3.6510000228881836
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.17199993133545,
+3.809999942779541,
+-1.8739999532699585
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-12.815999984741211,
+7.47599983215332,
+1.0870000123977661
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-13.718000411987305,
+9.779000282287598,
+2.2929999828338623
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-15.729000091552734,
+10.503000259399414,
+0.6759999990463257
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-17.594999313354492,
+8.479999542236328,
+1.2330000400543213
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-16.236000061035156,
+6.584000110626221,
+5.114999771118164
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-18.42799949645996,
+6.533999919891357,
+3.6489999294281006
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"kind": "ellipsoid",
+"center": [
+-21.827999114990234,
+5.169000148773193,
+3.7309999465942383
+],
+"radius": 0.3333333333333333,
+"color": "#440154",
+"tooltip": "donor"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 1
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"start": [
+11.692000389099121,
+0.15700000524520874,
+1.2970000505447388
+],
+"end": [
+12.222999572753906,
+2.433000087738037,
+4.500999927520752
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+11.41100025177002,
+0.7720000147819519,
+-1.7580000162124634
+],
+"end": [
+12.539999961853027,
+-2.4509999752044678,
+-2.868000030517578
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+4.177999973297119,
+1.128000020980835,
+-4.978000164031982
+],
+"end": [
+3.3420000076293945,
+3.7109999656677246,
+-7.420000076293945
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+4.177999973297119,
+1.128000020980835,
+-4.978000164031982
+],
+"end": [
+3.062999963760376,
+-2.1649999618530273,
+-3.812000036239624
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+5.1620001792907715,
+0.9570000171661377,
+-3.871000051498413
+],
+"end": [
+3.062999963760376,
+-2.1649999618530273,
+-3.812000036239624
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+3.5980000495910645,
+0.515999972820282,
+-1.9869999885559082
+],
+"end": [
+2.509999990463257,
+3.622999906539917,
+-0.48899999260902405
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+3.5980000495910645,
+0.515999972820282,
+-1.9869999885559082
+],
+"end": [
+3.062999963760376,
+-2.1649999618530273,
+-3.812000036239624
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+0.6830000281333923,
+0.18000000715255737,
+-0.9639999866485596
+],
+"end": [
+2.509999990463257,
+3.622999906539917,
+-0.48899999260902405
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+1.9470000267028809,
+0.06499999761581421,
+-0.18000000715255737
+],
+"end": [
+2.509999990463257,
+3.622999906539917,
+-0.48899999260902405
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+3.993000030517578,
+-0.4830000102519989,
+2.684000015258789
+],
+"end": [
+2.997999906539917,
+2.118000030517578,
+4.6479997634887695
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+5.073999881744385,
+-1.093000054359436,
+5.535999774932861
+],
+"end": [
+2.997999906539917,
+2.118000030517578,
+4.6479997634887695
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+8.199000358581543,
+-0.9649999737739563,
+5.284999847412109
+],
+"end": [
+7.989999771118164,
+-2.9860000610351562,
+8.07800006866455
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+8.583999633789062,
+0.3199999928474426,
+6.019000053405762
+],
+"end": [
+7.989999771118164,
+-2.9860000610351562,
+8.07800006866455
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+8.583999633789062,
+0.3199999928474426,
+6.019000053405762
+],
+"end": [
+6.925000190734863,
+2.4790000915527344,
+8.588000297546387
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+8.583999633789062,
+0.3199999928474426,
+6.019000053405762
+],
+"end": [
+7.4629998207092285,
+3.305999994277954,
+7.427999973297119
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#440154",
+"kind": "tube",
+"tooltip": "hydrophobic"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 1
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"start": [
+7.436833461125691,
+0.502500000099341,
+-1.2689999854192138
+],
+"end": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#31688e",
+"kind": "tube",
+"tooltip": "pi_stacking"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+4.923999985059102,
+-0.20749999706943825,
+1.6168333639701207
+],
+"end": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#31688e",
+"kind": "tube",
+"tooltip": "pi_stacking"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+7.666499932607014,
+-0.07116666808724402,
+1.4113333507751422
+],
+"end": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#31688e",
+"kind": "tube",
+"tooltip": "pi_stacking"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 1
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"start": [
+7.436833461125691,
+0.502500000099341,
+-1.2689999854192138
+],
+"end": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#21918c",
+"kind": "tube",
+"tooltip": "pi_cation"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+4.923999985059102,
+-0.20749999706943825,
+1.6168333639701207
+],
+"end": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#21918c",
+"kind": "tube",
+"tooltip": "pi_cation"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+7.666499932607014,
+-0.07116666808724402,
+1.4113333507751422
+],
+"end": [
+6.4331999778747555,
+-2.9004000186920167,
+-0.3985999926924706
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#21918c",
+"kind": "tube",
+"tooltip": "pi_cation"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 1
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.385999679565428,
+-0.5543333192666371,
+0.7626666650176048
+],
+"end": [
+16.106750011444092,
+-1.691249966621399,
+-2.8042499721050262
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.385999679565428,
+-0.5543333192666371,
+0.7626666650176048
+],
+"end": [
+13.36775016784668,
+-1.0477499812841415,
+5.158250093460083
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.385999679565428,
+-0.5543333192666371,
+0.7626666650176048
+],
+"end": [
+16.243999481201172,
+-1.093999981880188,
+-1.6230000257492065
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.385999679565428,
+-0.5543333192666371,
+0.7626666650176048
+],
+"end": [
+14.487000465393066,
+-1.2089999914169312,
+4.452000141143799
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+10.358999888102213,
+0.13866666456063587,
+6.7366665204366045
+],
+"end": [
+10.02049994468689,
+1.076500028371811,
+10.123250007629395
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+10.358999888102213,
+0.13866666456063587,
+6.7366665204366045
+],
+"end": [
+13.36775016784668,
+-1.0477499812841415,
+5.158250093460083
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+10.358999888102213,
+0.13866666456063587,
+6.7366665204366045
+],
+"end": [
+9.819999694824219,
+1.1260000467300415,
+11.437999725341797
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+10.358999888102213,
+0.13866666456063587,
+6.7366665204366045
+],
+"end": [
+14.487000465393066,
+-1.2089999914169312,
+4.452000141143799
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#90d743",
+"kind": "tube",
+"tooltip": "salt_bridge"
+}
+}
+]
+},
+{
+"kind": "primitives",
+"params": {
+"opacity": 1
+},
+"children": [
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.321999549865723,
+0.18700000643730164,
+-0.06400000303983688
+],
+"end": [
+15.434000015258789,
+-0.7540000081062317,
+-1.121999979019165
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.321999549865723,
+0.18700000643730164,
+-0.06400000303983688
+],
+"end": [
+14.623000144958496,
+1.6759999990463257,
+-0.9679999947547913
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.003999710083008,
+-0.6539999842643738,
+0.7979999780654907
+],
+"end": [
+15.434000015258789,
+-0.7540000081062317,
+-1.121999979019165
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+14.003999710083008,
+-0.6539999842643738,
+0.7979999780654907
+],
+"end": [
+14.23900032043457,
+-2.8559999465942383,
+1.5080000162124634
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+10.586999893188477,
+1.2009999752044678,
+6.9679999351501465
+],
+"end": [
+11.239999771118164,
+0.41499999165534973,
+8.645000457763672
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+10.586999893188477,
+1.2009999752044678,
+6.9679999351501465
+],
+"end": [
+9.336000442504883,
+1.5980000495910645,
+8.315999984741211
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+10.586999893188477,
+1.2009999752044678,
+6.9679999351501465
+],
+"end": [
+11.916000366210938,
+0.210999995470047,
+5.703000068664551
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+9.991999626159668,
+0.17499999701976776,
+6.5879998207092285
+],
+"end": [
+11.239999771118164,
+0.41499999165534973,
+8.645000457763672
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+9.991999626159668,
+0.17499999701976776,
+6.5879998207092285
+],
+"end": [
+9.336000442504883,
+1.5980000495910645,
+8.315999984741211
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+},
+{
+"kind": "primitive",
+"params": {
+"start": [
+9.991999626159668,
+0.17499999701976776,
+6.5879998207092285
+],
+"end": [
+11.916000366210938,
+0.210999995470047,
+5.703000068664551
+],
+"radius": 0.03333333333333333,
+"dash_length": 0.03333333333333333,
+"color": "#443983",
+"kind": "tube",
+"tooltip": "hydrogen_bond"
+}
+}
+]
+}
+]
+},
+"metadata": {
+"timestamp": "2026-02-22T19:21:41.980854+00:00",
+"version": "1.6"
+}
+}

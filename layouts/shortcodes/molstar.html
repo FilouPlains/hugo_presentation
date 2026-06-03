@@ -1,4 +1,47 @@
-{{ $id := printf "molstar-%d" .Ordinal }}
+{{- /* Renders an interactive Mol* (MolStar) macromolecular 3D visualization container.
+
+Parameters
+----------
+transparent : `bool`, optional
+    If true, sets the canvas 3D background rendering engine to transparent.
+    By default, "true".
+
+mvsjUrl : `str`, optional
+    A path or an URL to a MolStar state file. Only one can be given. By
+    default, empty.
+
+loadPdb : `str`, optional
+    A space-separated list of PDB identifiers to fetch and display directly
+    from the RCSB database (e.g., "7SGL 5EWE"). By default, empty.
+
+loadAlphafold : `str`, optional
+    A space-separated list of UniProt accession IDs to fetch and display
+    directly from the AlphaFold database ("Q8W3K0"). By default, empty.
+
+structureUrl : `str`, optional
+    A custom collection of coordinate files parsed using semicolon separators. 
+    Each element expects a space-separated pair containing an absolute path, a 
+    relative path or an URL and its structural file format. For instance, 
+    "URL_1 pdb; url2 mmcif"). By default, empty.
+
+volumeUrl : `str`, optional
+    A custom collection of volumetric electron density maps parsed using
+    semicolon separators. Each element expects a space-separated triplet
+    containing the URL, the volume format, and its binary data flag.
+    For instance, "URL_1 ccp4 true". By default, empty.
+
+Examples
+--------
+```md
+    {{< 
+        molstar
+        loadPdb="7SGL 5EWE"
+        transparent="false"
+        volumeUrl="https://smiffer.mol3d.tech/data/2ESJ/output/2ESJ_pi_stacking.mrc ccp4 true"
+    >}}
+*/ -}}
+
+{{- $id := printf "molstar-%d" .Ordinal -}}
 
 
 {{- $transparent := .Get "transparent" | default "true" -}}
@@ -6,10 +49,24 @@
 {{- $loadAlphafold := .Get "loadAlphafold" | default "" -}}
 {{- $structureUrl := .Get "structureUrl" | default "" -}}
 {{- $volumeUrl := .Get "volumeUrl" | default "" -}}
+{{- $mvsjUrl := .Get "mvsjUrl" | default "" -}}
 
 <div id="{{ $id }}" class="molstar-container"></div>
 
 {{- $content := "" -}}
+
+{{- /* Open the loading MVSJ state, if given. */ -}}
+{{- if ne $mvsjUrl "" -}}
+    {{-
+        $content = printf `
+            %sviewer.loadMvsFromUrl(
+                "%s", "mvsj"
+            ).then(() => {
+        `
+        $content
+        $mvsjUrl
+    -}}
+{{- end -}}
 
 {{- /* Load PDB code, if given. */ -}}
 {{- if ne $loadPdb "" -}}
@@ -56,7 +113,7 @@
                 errorf "Shortcode error on page %q: 'volumeUrl' must contain exactly 3 subarguments (URL, type and isBinary), but found %d. Given input: %q"
                     $.Page.File.Path
                     (len $element)
-                    $structureUrl 
+                    $volumeUrl 
             -}}
         {{- end -}}
 
@@ -71,7 +128,7 @@
                     {
                         url: "%s",
                         format: "%s",
-                        isBinary: "%s"
+                        isBinary: %s,
                     },
                     [{
                         type: "relative",
@@ -88,6 +145,11 @@
             $isBinary
         -}}
     {{- end -}}
+{{- end -}}
+
+{{- /* Close the loading MVSJ state, if given. */ -}}
+{{- if ne $mvsjUrl "" -}}
+    {{- $content = printf "%s\n});" $content -}}
 {{- end -}}
 
 {{-
@@ -111,4 +173,5 @@
     $content
 -}}
 
+{{- /* Ship structured scripts out to the global Reveal.js presentation queue */ -}}
 {{- .Page.Store.SetInMap "molstar_script_list" $id $js_content -}}

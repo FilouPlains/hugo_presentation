@@ -88,3 +88,13 @@ print("Hello World")
         structureUrl="./static/2ESJ.pdb pdb"
         volumeUrl="./static/2ESJ_pi_stacking.mrc ccp4 true"
 >}}
+
+===
+
+# MVSJ
+
+{{<
+    molstar
+        structureUrl="./static/9i38.pdb pdb"
+        mvsjUrl="./static/visualization.mvsj"
+>}}
