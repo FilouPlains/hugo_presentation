@@ -73,12 +73,18 @@ print("Hello World")
 
 {{< 
     molstar
-    loadPdb="7SGL 5EWE"
-    loadAlphafold="Q8W3K0"
+        loadPdb="7SGL 5EWE"
+        loadAlphafold="Q8W3K0"
+        structureUrl="https://files.rcsb.org/view/9UYV.pdb pdb ; https://files.rcsb.org/view/9VKI.pdb pdb"
 >}}
 
 ===
 
-# PogChamp?
+# Mouais…
 
-{{< molstar transparent="false" >}}
+{{< 
+    molstar
+        transparent="false"
+        structureUrl="./static/2ESJ.pdb pdb"
+        volumeUrl="./static/2ESJ_pi_stacking.mrc ccp4 true"
+>}}
