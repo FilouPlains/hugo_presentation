@@ -1,0 +1,39 @@
+{{- /* Renders a flexible CSS grid layout container.
+
+Parameters
+----------
+template : `str`
+    The explicit CSS Grid column tracks configuration 
+    (For instance, "1fr 1fr", "300px 1fr", "1fr 80% 2fr").
+
+Examples
+--------
+```md
+    {{< grid template="1fr 1fr" >}}
+    I like cats!
+
+    <split>
+
+    But I prefer dogs!
+    {{< /grid >}}
+```
+*/ -}}
+
+{{- $id := printf "grid-%d" .Ordinal -}}
+
+{{- $template := .Get "template" -}}
+
+<div id="{{ $id }}">
+    {{- range (split .Inner "<split>") -}}
+<div>
+    {{ . }}
+</div>
+    {{- end -}}
+</div>
+
+<style>
+#{{ $id }} {
+    display: grid;
+    grid-template-columns: {{ $template }};
+}
+</style>

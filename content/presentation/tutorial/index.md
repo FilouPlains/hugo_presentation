@@ -98,3 +98,24 @@ print("Hello World")
         structureUrl="./static/9i38.pdb pdb"
         mvsjUrl="./static/visualization.mvsj"
 >}}
+
+---
+
+# Grid system
+
+{{< grid template="1fr 80%" >}}
+I like cats!
+
+<split>
+
+`=D`
+
+<split>
+
+But I prefere dogs!
+
+<split>
+
+<img src="./img/golden_retriever.jpeg" width="100%" alt="Golden retriever">
+
+{{< /grid >}}
