@@ -7,7 +7,12 @@
         <link rel="stylesheet" href='{{ printf "reveal_js/plugin/highlight/theme/%s.css" ( .Params.code_theme | default .Site.Params.code_theme ) | relURL }}'>
         <link rel="stylesheet" href='{{ "reveal_js/reset.css" | relURL }}'>
         <link rel="stylesheet" href='{{ "reveal_js/reveal.css" | relURL }}'>
-        <link rel="stylesheet" href='{{ printf "reveal_js/theme/%s.css" ( .Params.theme | default .Site.Params.theme ) | relURL }}'>
+
+        {{- if strings.HasSuffix .Params.theme ".css" -}}
+            <link rel="stylesheet" href='{{ .Params.theme }}'>
+        {{- else -}}
+            <link rel="stylesheet" href='{{ printf "reveal_js/theme/%s.css" ( .Params.theme | default .Site.Params.theme ) | relURL }}'>
+        {{- end -}}
 
         {{ if .Page.HasShortcode "molstar" }}
         <link href="https://molstar.org/viewer/molstar.css" rel="stylesheet">
