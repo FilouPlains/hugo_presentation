@@ -10,4 +10,42 @@
 
 .slides {
   width: 100vw !important;
+  display: grid;
+}
+
+.reveal .slides > section.present,
+.reveal .slides > section > section.present {
+  margin: auto;
+}
+
+blockquote.small_note {
+  text-align: justify;
+  font-size: 0.5em;
+  margin-top: 10%;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: none;
+  max-height: none;
+}
+
+div.black-box {
+    width: 70%;
+    height: 15cm;
+    margin: auto;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 3em;
+    display: grid;
+    align-items: center;
+}
+
+div.title-page-footer {
+    margin: 0 1cm;
 }

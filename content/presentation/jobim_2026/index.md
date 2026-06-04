@@ -6,6 +6,46 @@ theme="./static/style.css"
 code_theme="lightfair"
 +++
 
+===
+
+# Drug-design: cost and time-consuming
+
+<br>
+
+Review by Steven M. PAUL _et al._ in 2010\* shows:
+
+- 2.8 billion USD of investissement
+- 14 years to make a drug
+
+<br>
+
+
+> \*Paul, S. _et al._
+> How to improve R&D productivity: the pharmaceutical industry's grand challenge.
+> Nat Rev Drug Discov 9, 203–214 (2010).
+> https://doi.org/10.1038/nrd3078
+{.small_note}
+
+===
+
+# AI is the solution?
+
+<img src="./img/pubmed.png" height="650cm">
+
+===
+
+# Interpretability problem…
+
+<br>
+
+<div class="black-box">
+
+black box
+
+</div>
+
+---
+
 {{< grid template="1fr 1fr 1fr 1fr" >}}
 <img src="./img/logo_ibpc.png" height="150cm">
 <split>
@@ -27,7 +67,7 @@ code_theme="lightfair"
 
 {{< grid template="1fr 1fr" >}}
 
-<div align="left">
+<div align="left" class="title-page-footer">
 
 **Director:** Marc BAADEN \
 **Codirector:** Antoine TALY
@@ -36,7 +76,7 @@ code_theme="lightfair"
 
 <split>
 
-<div align="right">
+<div align="right" class="title-page-footer">
 
 IBPC - LBT - UMR 8266 UPC/CNRS \
 ED 388
@@ -44,3 +84,9 @@ ED 388
 </div>
 
 {{< /grid >}}
+
+---
+
+# Thanks for your attention!
+
+<img src="./img/lbt.jpeg" width="45%">
