@@ -6,6 +6,9 @@
   --r-heading3-size: 1.5em;
   --r-heading4-size: 1.25em;
   --r-heading-text-transform: none;
+
+  --pipeline-focus-software: darkorange;
+  --pipeline-focus-file: red;
 }
 
 .slides {
@@ -35,17 +38,45 @@ blockquote.small_note {
 }
 
 div.black-box {
-    width: 70%;
-    height: 15cm;
-    margin: auto;
-    color: white;
-    background-color: black;
-    font-weight: bolder;
-    font-size: 3em;
-    display: grid;
-    align-items: center;
+  width: 70%;
+  height: 15cm;
+  margin: auto;
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 3em;
+  display: grid;
+  align-items: center;
 }
 
 div.title-page-footer {
-    margin: 0 1cm;
+  margin: 0 1cm;
+}
+
+div.pipeline svg {
+  width: 70%;
+  height: 70%;
+}
+
+div#input-step svg #path31,
+div#input-step svg #path34,
+div#ai-step svg #path34,
+div#ai-step svg #path37,
+div#preparation-step svg #path37,
+div#preparation-step svg #path39,
+div#preparation-step svg #path41,
+div#docking-step svg #path41,
+div#docking-step svg #path44,
+div#output-step svg #path44,
+div#output-step svg #path46 {
+  fill: var(--pipeline-focus-file) !important;
+}
+
+div#input-step svg #path17,
+div#ai-step svg #path22,
+div#preparation-step svg #path25,
+div#preparation-step svg #path27,
+div#docking-step svg #path29,
+div#output-step svg #path79 {
+  fill: var(--pipeline-focus-software) !important;
 }

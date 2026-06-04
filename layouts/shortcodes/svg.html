@@ -1,0 +1,9 @@
+{{- $src := .Get "src" -}}
+{{- $class := .Get "class" -}}
+{{- $id := .Get "id" -}}
+
+{{- with .Page.Resources.Get $src -}}
+<div class="{{ $class}}" id="{{ $id }}">
+    {{ .Content | safeHTML }}
+</div>
+{{- end -}}

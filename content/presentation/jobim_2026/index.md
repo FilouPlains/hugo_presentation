@@ -19,12 +19,9 @@ Review by Steven M. PAUL _et al._ in 2010\* shows:
 
 <br>
 
-
-> \*Paul, S. _et al._
-> How to improve R&D productivity: the pharmaceutical industry's grand challenge.
-> Nat Rev Drug Discov 9, 203–214 (2010).
-> https://doi.org/10.1038/nrd3078
-{.small_note}
+> \*Paul, S. _et al._ How to improve R&D productivity: the pharmaceutical
+> industry's grand challenge. Nat Rev Drug Discov 9, 203–214 (2010).
+> https://doi.org/10.1038/nrd3078 {.small_note}
 
 ===
 
@@ -53,14 +50,13 @@ black box
 <split>
 <img src="./img/logo_upcite.png" height="150cm">
 <split>
-<img src="./img/logo_cnrs.png" height="150cm">
-{{< /grid >}}
+<img src="./img/logo_cnrs.png" height="150cm"> {{< /grid >}}
 
 <br>
 
 # Visualization-driven pipeline for drug-design through generative AI
 
-**Lucas ROUAUD** \
+**Lucas ROUAUD**\
 3<sup>rd</sup> year PhD student
 
 <br>
@@ -69,7 +65,7 @@ black box
 
 <div align="left" class="title-page-footer">
 
-**Director:** Marc BAADEN \
+**Director:** Marc BAADEN\
 **Codirector:** Antoine TALY
 
 </div>
@@ -78,12 +74,36 @@ black box
 
 <div align="right" class="title-page-footer">
 
-IBPC - LBT - UMR 8266 UPC/CNRS \
+IBPC - LBT - UMR 8266 UPC/CNRS\
 ED 388
 
 </div>
 
 {{< /grid >}}
+
+---
+
+{{< svg src="./img/pipeline.svg" class="pipeline" >}}
+
+---
+
+{{< svg src="./img/pipeline.svg" id="input-step" class="pipeline" >}}
+
+---
+
+{{< svg src="./img/pipeline.svg" id="ai-step" class="pipeline" >}}
+
+---
+
+{{< svg src="./img/pipeline.svg" id="preparation-step" class="pipeline" >}}
+
+---
+
+{{< svg src="./img/pipeline.svg" id="docking-step" class="pipeline" >}}
+
+---
+
+{{< svg src="./img/pipeline.svg" id="output-step" class="pipeline" >}}
 
 ---
 
