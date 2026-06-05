@@ -101,6 +101,12 @@ ED 388
 
 {{< svg src="./img/pipeline.svg" class="pipeline" >}}
 
+===
+
+# Celecoxib in COX-2 (3LN1)
+
+{{< molstar loadPdb="3LN1" >}}
+
 ---
 
 {{< svg src="./img/pipeline.svg" id="input-step" class="pipeline" >}}
@@ -157,6 +163,32 @@ $ pipx install \
 {{< qr text="https://gitlab.galaxy.ibpc.fr/rouaud/smiffer" scale=7 />}}
 <split>
 {{< /grid >}}
+
+===
+
+# `strange`
+
+- Take in input 1 or 2 molecules
+- Compute pharmacophore in interaction (intra or between two elements)
+- Works with MDAnalysis selection
+- Output pharmacophore in interaction in `.csv`
+- Output a visualization file
+
+===
+
+# `strange`
+
+<br>
+
+<div style="width: 80%; margin: auto;">
+
+- Based on **pharmacophore**:
+    > Set of sterics and electronics properties of a molecule to ensure optimal supramolecular interactions to trigger or block a biological response of a given target
+- Why?
+    - Generic, so the software works on any systems
+    - Used by the AI to make ligands with the same properties
+
+</div>
 
 ===
 
@@ -246,6 +278,8 @@ $ pipx install \
 
 # Uni-Dock
 
+<br>
+
 {{< grid template="2fr 1fr" >}}
 
 - GPU accelerated
@@ -265,6 +299,16 @@ $ pipx install \
 {{< svg src="./img/pipeline.svg" id="output-step" class="pipeline" >}}
 
 ---
+
+# Conclusion
+
+- The whole pipeline works
+- Rework the matching algorithm
+- Test the scoring function (inverse vs Gaussian)
+- Need to apply the whole pipeline to other system
+- Write my PhD manuscript…
+
+___
 
 # Thanks for your attention!
 
