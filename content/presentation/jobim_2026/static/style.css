@@ -24,7 +24,6 @@
 blockquote.small_note {
   text-align: justify;
   font-size: 0.5em;
-  margin-top: 10%;
   border: none;
   box-shadow: none;
   background: none;
@@ -79,4 +78,14 @@ div#preparation-step svg #path27,
 div#docking-step svg #path29,
 div#output-step svg #path79 {
   fill: var(--pipeline-focus-software) !important;
+}
+
+.reveal pre {
+  box-shadow: none;
+  font-size: 1em;
+}
+
+.hljs {
+  color: black;
+  background-color: none;
 }
