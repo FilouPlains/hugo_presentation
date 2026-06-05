@@ -26,6 +26,10 @@ canonifyURLs = false
         passthrough = { enable = true, delimiters = { block = [['$$', '$$']], inline = [['$', '$']] } }
         typographer = true
 
+        [markup.goldmark.extensions.extras]
+            [markup.goldmark.extensions.extras.superscript]
+                enable = true
+
 [params]
 theme = "white"
 code_theme = "base16/nord"
