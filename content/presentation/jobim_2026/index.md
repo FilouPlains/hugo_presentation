@@ -57,7 +57,8 @@ black box
 <split>
 <img src="./img/logo_upcite.png" height="150cm">
 <split>
-<img src="./img/logo_cnrs.png" height="150cm"> {{< /grid >}}
+<img src="./img/logo_cnrs.png" height="150cm">
+{{< /grid >}}
 
 <br>
 
@@ -232,6 +233,12 @@ $ pipx install \
 
 ===
 
+# `SyntheMol`: Two implemented scores
+
+{{< iframe src="./static/score_plot.html" width="50%" height="800px" >}}
+
+===
+
 # `SyntheMol`
 
 <br>
@@ -312,4 +319,11 @@ ___
 
 # Thanks for your attention!
 
-<img src="./img/lbt.jpeg" width="45%">
+<div class="lab_member">
+    <img src="./img/lbt.jpeg" width="80%">
+    <img src="./img/project_member/marc_baaden.jpg" width="200cm">
+    <img src="./img/project_member/malek_melliti.jpg" width="200cm">
+    <img src="./img/project_member/antoine_taly.jpg" width="200cm">
+    <img src="./img/project_member/isleme_khalfaoui.jpeg" width="200cm">
+    <img src="./img/project_member/etienne_reboul.jpg" width="200cm">
+</div>
