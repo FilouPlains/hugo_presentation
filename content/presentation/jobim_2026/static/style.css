@@ -11,14 +11,9 @@
   --pipeline-focus-file: red;
 }
 
-.slides {
-  width: 100vw !important;
-  display: grid;
-}
-
 .reveal .slides > section.present,
 .reveal .slides > section > section.present {
-  margin: auto;
+  margin: 0 auto;
 }
 
 blockquote.small_note {
@@ -88,4 +83,41 @@ div#output-step svg #path79 {
 .hljs {
   color: black;
   background-color: none;
+}
+
+.lab_member {
+  display: grid;
+  grid-template-areas:
+    "a1 a2 a3"
+    "a1 a4 a5"
+    "a1 a6 . ";
+  justify-items: center;
+  width: 80%;
+  margin: 2cm auto;
+}
+
+.lab_member img {
+  margin: 0;
+}
+
+.lab_member > :nth-child(1) {
+  grid-area: a1;
+}
+.lab_member > :nth-child(2) {
+  grid-area: a2;
+}
+.lab_member > :nth-child(3) {
+  grid-area: a3;
+}
+.lab_member > :nth-child(4) {
+  grid-area: a4;
+}
+.lab_member > :nth-child(5) {
+  grid-area: a5;
+}
+.lab_member > :nth-child(6) {
+  grid-area: a6;
+}
+
+iframe {
 }
