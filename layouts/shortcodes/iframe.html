@@ -1,0 +1,15 @@
+{{- $file := .Get "src" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $height := .Get "height" | default "500px" -}}
+
+{{- with .Page.Resources.Get $file -}}
+  {{- $src := (.Content | resources.FromString .Path).RelPermalink -}}
+  <iframe 
+    src="{{ $src }}" 
+    width="{{ $width }}" 
+    height="{{ $height }}" 
+    style="border: none;">
+  </iframe>
+{{- else -}}
+  {{- errorf "embed-iframe shortcode: Cannot find '%s' in the page bundle." $file -}}
+{{- end -}}
