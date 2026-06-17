@@ -4,10 +4,6 @@ baseURL = "https://filouplains.github.io/hugo_presentation/"
 relativeURLs = false
 canonifyURLs = false
 
-[outputFormats]
-    [outputFormats.html]
-    isPlainText = true
-
 [markup]
     [markup.highlight]
     codeFences = false
