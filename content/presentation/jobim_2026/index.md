@@ -233,9 +233,23 @@ $ pipx install \
 
 ===
 
-# `SyntheMol`: Two implemented scores
+# Implemented scoring function
 
-{{< iframe src="./static/score_plot.html" width="50%" height="800px" >}}
+{{< 
+    iframe src="./static/plot/scoring_function.html"
+    width="1550px"
+    height="750px"
+>}}
+
+===
+
+# Scoring values (gaussian score)
+
+{{< 
+    iframe src="./static/plot/synthemol_result.html"
+    width="1550px"
+    height="750px"
+>}}
 
 ===
 
@@ -300,6 +314,16 @@ $ pipx install \
 {{< qr text="https://github.com/dptech-corp/Uni-Dock/" scale=7 />}}
 
 {{< /grid >}}
+
+===
+
+# Scoring repartition
+
+{{< 
+    iframe src="./static/plot/docking_score.html"
+    width="1550px"
+    height="750px"
+>}}
 
 ---
 
