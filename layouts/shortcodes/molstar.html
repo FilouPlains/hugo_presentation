@@ -10,6 +10,11 @@ mvsjUrl : `str`, optional
     A path or an URL to a MolStar state file. Only one can be given. By
     default, empty.
 
+molxUrl : `str`, optional
+    A path or an URL to a MolStar session file. Only one can be given. If
+    given, note that any other input are going to be wipeout. By default,
+    empty.
+
 loadPdb : `str`, optional
     A space-separated list of PDB identifiers to fetch and display directly
     from the RCSB database (e.g., "7SGL 5EWE"). By default, empty.
@@ -50,12 +55,26 @@ Examples
 {{- $structureUrl := .Get "structureUrl" | default "" -}}
 {{- $volumeUrl := .Get "volumeUrl" | default "" -}}
 {{- $mvsjUrl := .Get "mvsjUrl" | default "" -}}
+{{- $molxUrl := .Get "molxUrl" | default "" -}}
 
 <div id="{{ $id }}" class="molstar-container"></div>
 
 {{- $content := "" -}}
 
-{{- /* Open the loading MVSJ state, if given. */ -}}
+{{- /* Load the MVSJ state, if given. */ -}}
+{{- if ne $mvsjUrl "" -}}
+    {{-
+        $content = printf `
+            %sviewer.loadSnapshotFromUrl(
+                "%s", "molx"
+            ).then(() => {
+        `
+        $content
+        $mvsjUrl
+    -}}
+{{- end -}}
+
+{{- /* Loading MOLX session, if given. */ -}}
 {{- if ne $mvsjUrl "" -}}
     {{-
         $content = printf `
