@@ -1,3 +1,27 @@
+{{- /* Renders an iframe to embed local page bundle resources securely.
+
+Parameters
+----------
+src : `str`
+    The path to the file within the page bundle to be embedded.
+
+width : `str`, optional
+    The width of the iframe. By default, "100%".
+
+height : `str`, optional
+    The height of the iframe. By default, "500px".
+
+Examples
+--------
+```md
+    {{<
+        iframe
+        src="plot.html"
+        width="80%"
+        height="600px" 
+    >}}
+*/ -}}
+
 {{- $file := .Get "src" -}}
 {{- $width := .Get "width" | default "100%" -}}
 {{- $height := .Get "height" | default "500px" -}}
