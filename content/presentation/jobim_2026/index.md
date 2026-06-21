@@ -253,6 +253,12 @@ $ pipx install \
 
 ===
 
+# The best “valid” ligand
+
+{{< svg src="./img/mol_195_out.svg" id="best-ligand" >}}
+
+===
+
 # `SyntheMol`
 
 <br>

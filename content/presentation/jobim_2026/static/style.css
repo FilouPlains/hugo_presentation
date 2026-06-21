@@ -119,5 +119,12 @@ div#output-step svg #path79 {
   grid-area: a6;
 }
 
-iframe {
+#preparation-step {
+  opacity: 0.33;
+}
+
+div#best-ligand svg {
+  width: 70%;
+  height: 70%;
+  /* zoom: 3; */
 }
