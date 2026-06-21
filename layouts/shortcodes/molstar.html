@@ -61,8 +61,8 @@ Examples
 
 {{- $content := "" -}}
 
-{{- /* Load the MVSJ state, if given. */ -}}
-{{- if ne $mvsjUrl "" -}}
+{{- /* Load the MOLX state, if given. */ -}}
+{{- if ne $molxUrl "" -}}
     {{-
         $content = printf `
             %sviewer.loadSnapshotFromUrl(
@@ -70,7 +70,7 @@ Examples
             ).then(() => {
         `
         $content
-        $mvsjUrl
+        $molxUrl
     -}}
 {{- end -}}
 
@@ -166,8 +166,13 @@ Examples
     {{- end -}}
 {{- end -}}
 
-{{- /* Close the loading MVSJ state, if given. */ -}}
+{{- /* Close the MVSJ state, if given. */ -}}
 {{- if ne $mvsjUrl "" -}}
+    {{- $content = printf "%s\n});" $content -}}
+{{- end -}}
+
+{{- /* Close the MOLX session, if given. */ -}}
+{{- if ne $molxUrl "" -}}
     {{- $content = printf "%s\n});" $content -}}
 {{- end -}}
 

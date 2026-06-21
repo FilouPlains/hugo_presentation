@@ -102,12 +102,6 @@ ED 388
 
 {{< svg src="./img/pipeline.svg" class="pipeline" >}}
 
-===
-
-# Celecoxib in COX-2 (3LN1)
-
-{{< molstar loadPdb="3LN1" >}}
-
 ---
 
 {{< svg src="./img/pipeline.svg" id="input-step" class="pipeline" >}}
@@ -227,6 +221,12 @@ $ pipx install \
 <split>
 {{< /grid >}}
 
+===
+
+# Celecoxib in COX-2 (3LN1)
+
+{{< molstar molxUrl="./static/visualization/celecoxib.molx" >}}
+
 ---
 
 {{< svg src="./img/pipeline.svg" id="ai-step" class="pipeline" >}}
@@ -328,6 +328,12 @@ $ pipx install \
 ---
 
 {{< svg src="./img/pipeline.svg" id="output-step" class="pipeline" >}}
+
+===
+
+# _I'll be the very best!_
+
+{{< molstar molxUrl="./static/visualization/mol_195_out.molx" >}}
 
 ---
 
