@@ -11,6 +11,11 @@
   --pipeline-focus-file: red;
 }
 
+/* For chromium-based browser. */
+body {
+    word-break: break-all;
+}
+
 .reveal .slides > section.present,
 .reveal .slides > section > section.present {
   margin: 0 auto;
