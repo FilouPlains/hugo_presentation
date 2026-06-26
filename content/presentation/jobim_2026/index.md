@@ -233,6 +233,28 @@ $ pipx install \
 
 ===
 
+# MCTS algorithm
+
+{{< svg src="./img/MCTS.svg" id="mcts" >}}
+
+===
+
+# Implemented scoring function
+
+## Inverse
+
+$$
+score(x) = \dfrac{1}{1 + research - correspond + max(0, generate - research)}
+$$
+
+## Gaussian
+
+$$
+score(x) = \exp \left( - \dfrac{\left( research - correspond + max(0, generate - research) \right)^2}{2 \cdot \sigma^2} \right)
+$$
+
+===
+
 # Implemented scoring function
 
 {{< 
@@ -343,12 +365,13 @@ $ pipx install \
 
 ---
 
-# Conclusion
+# Conclusion and perpective
 
 - The whole pipeline works
 - Rework the matching algorithm
-- Test the scoring function (inverse vs Gaussian)
-- Need to apply the whole pipeline to other system
+- **Need to apply the whole pipeline to other system:**
+    - Benchmark
+    - Applying to GABA<sub>A</sub> system
 - Write my PhD manuscript…
 
 ___

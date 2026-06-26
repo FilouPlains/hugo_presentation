@@ -13,7 +13,7 @@
 
 /* For chromium-based browser. */
 body {
-    word-break: break-all;
+  word-break: break-all;
 }
 
 .reveal .slides > section.present,
@@ -128,7 +128,8 @@ div#output-step svg #path79 {
   opacity: 0.33;
 }
 
-div#best-ligand svg {
+div#best-ligand svg,
+div#mcts svg {
   width: 70%;
   height: 70%;
 }
