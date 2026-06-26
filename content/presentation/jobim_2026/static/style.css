@@ -13,7 +13,7 @@
 
 /* For chromium-based browser. */
 body {
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .reveal .slides > section.present,
