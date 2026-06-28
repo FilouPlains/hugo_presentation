@@ -304,8 +304,6 @@ $ pipx install \
 
 <https://gitlab.galaxy.ibpc.fr/prabakaran/synthemol>
 <split>
-
-{{< qr text="https://pypi.org/project/strange/" scale=7 />}}
 <split>
 
 {{< qr text="https://github.com/swansonk14/SyntheMol" scale=7 />}}
