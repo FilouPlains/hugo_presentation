@@ -1,0 +1,135 @@
+@import "/hugo_presentation/reveal_js/theme/white.css";
+
+:root {
+  --r-heading1-size: 2em;
+  --r-heading2-size: 1.75em;
+  --r-heading3-size: 1.5em;
+  --r-heading4-size: 1.25em;
+  --r-heading-text-transform: none;
+
+  --pipeline-focus-software: darkorange;
+  --pipeline-focus-file: red;
+}
+
+/* For chromium-based browser. */
+body {
+  word-break: break-word;
+}
+
+.reveal .slides > section.present,
+.reveal .slides > section > section.present {
+  margin: 0 auto;
+}
+
+blockquote.small_note {
+  text-align: justify;
+  font-size: 0.5em;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: none;
+  max-height: none;
+}
+
+div.black-box {
+  width: 70%;
+  height: 15cm;
+  margin: auto;
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 3em;
+  display: grid;
+  align-items: center;
+}
+
+div.title-page-footer {
+  margin: 0 1cm;
+}
+
+div.pipeline svg {
+  width: 70%;
+  height: 70%;
+}
+
+div#input-step svg #path31,
+div#input-step svg #path34,
+div#ai-step svg #path34,
+div#ai-step svg #path37,
+div#preparation-step svg #path37,
+div#preparation-step svg #path39,
+div#preparation-step svg #path41,
+div#docking-step svg #path41,
+div#docking-step svg #path44,
+div#output-step svg #path44,
+div#output-step svg #path46 {
+  fill: var(--pipeline-focus-file) !important;
+}
+
+div#input-step svg #path17,
+div#ai-step svg #path22,
+div#preparation-step svg #path25,
+div#preparation-step svg #path27,
+div#docking-step svg #path29,
+div#output-step svg #path79 {
+  fill: var(--pipeline-focus-software) !important;
+}
+
+.reveal pre {
+  box-shadow: none;
+  font-size: 1em;
+}
+
+.hljs {
+  color: black;
+  background-color: none;
+}
+
+.lab_member {
+  display: grid;
+  grid-template-areas:
+    "a1 a2 a3"
+    "a1 a4 a5"
+    "a1 a6 . ";
+  justify-items: center;
+  width: 80%;
+  margin: 2cm auto;
+}
+
+.lab_member img {
+  margin: 0;
+}
+
+.lab_member > :nth-child(1) {
+  grid-area: a1;
+}
+.lab_member > :nth-child(2) {
+  grid-area: a2;
+}
+.lab_member > :nth-child(3) {
+  grid-area: a3;
+}
+.lab_member > :nth-child(4) {
+  grid-area: a4;
+}
+.lab_member > :nth-child(5) {
+  grid-area: a5;
+}
+.lab_member > :nth-child(6) {
+  grid-area: a6;
+}
+
+#preparation-step {
+  opacity: 0.33;
+}
+
+div#best-ligand svg,
+div#mcts svg {
+  width: 70%;
+  height: 70%;
+}
