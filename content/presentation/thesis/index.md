@@ -24,10 +24,11 @@ code_theme="lightfair"
 
 <br>
 
-# Visualization-driven pipeline for drug-design through generative AI
+# Combinaison de méthodes de visualisation à de l’intelligence artificielle générative dans le cadre de conception de médicament
+ 
 
 **Lucas ROUAUD**\
-3^rd^ year PhD student
+23 octobre 2026
 
 <br>
 
@@ -35,8 +36,8 @@ code_theme="lightfair"
 
 <div align="left" class="title-page-footer">
 
-**Director:** Marc BAADEN\
-**Codirector:** Antoine TALY
+**Directeur:** Marc BAADEN\
+**Codirecteur:** Antoine TALY
 
 </div>
 
