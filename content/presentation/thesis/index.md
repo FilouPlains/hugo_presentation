@@ -56,6 +56,21 @@ ED 388
 
 # Présentation du système
 
+===
+
+## Localisation
+
+<img src="./img/neurone.svg" width="40%">
+
+===
+
+## Structure
+
+{{<
+    molstar
+    molxUrl="./static/6x3x.molx"
+>}}
+
 ---
 
 # Préparation du système
