@@ -87,6 +87,39 @@ ED 388
 
 # Génération de nouveaux ligands
 
+===
+
+# Fonction de score
+
+$$
+score(x) = \dfrac{1}{1 + recherché - correspond + max(0, généré - recherché)}
+$$
+
+## Inverse
+
+$$
+score(x) = \dfrac{1}{1 + pénalité}
+$$
+
+
+## Gaussienne
+
+$$
+score(x) = \exp \left( - \dfrac{\left( research - correspond + max(0, generate - research) \right)^2}{2 \cdot \sigma^2} \right)
+$$
+
+$$
+score(x) = \exp \left( - \dfrac{\left( research - correspond + max(0, generate - research) \right)^2}{2 \cdot \sigma^2} \right)
+$$
+
+===
+
+{{<
+    iframe src="./static/scoring_function.html"
+    width="1550px"
+    height="750px"
+>}}
+
 ---
 
 # Convertion des ligands au format adéquat
