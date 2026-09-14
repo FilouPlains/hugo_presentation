@@ -56,10 +56,6 @@ ED 388
 
 # Présentation du système
 
-===
-
-## Localisation
-
 <img src="./img/neurone.svg" width="40%">
 
 ===
@@ -75,13 +71,52 @@ ED 388
 
 # Préparation du système
 
+<br>
+
+- Utilisation de deux scripts `Python` :
+    - `extract_clean_protein.py` :
+        1. extrait seulement la protéine d'intérêt ;
+        2. lance `Modeller` pour combler les trous de la protéines (modèle « tout hydrogènes ») ;
+
+    - `relax_system.py` :
+        minimise le système pour le relaxer via `OpenMM`.
+
+- RMSD entre les carbonnes alpha support (`6x3x`) et le système final de **0,2 Å**.
+
+===
+
+## Résultat
+
+{{<
+    molstar
+    molxUrl="./static/pdb_vs_prepared.molx"
+>}}
+
 ---
 
 # Calcul des champs d'interaction
 
+===
+
+## Résultat
+
+{{<
+    molstar
+    molxUrl="./static/smiffer_diazépam.molx"
+>}}
+
 ---
 
 # Calcul des interactions directes
+
+===
+
+## Résultat
+
+{{<
+    molstar
+    molxUrl="./static/strange_diazépam.molx"
+>}}
 
 ---
 

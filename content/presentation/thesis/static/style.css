@@ -133,3 +133,7 @@ div#mcts svg {
   width: 70%;
   height: 70%;
 }
+
+div.molstar-container {
+    height: 22cm;
+}
