@@ -98,6 +98,12 @@ ED 388
 
 ===
 
+## Temps d'exécution
+
+<img src="./img/smiffer_execution_time.svg" width="80%">
+
+===
+
 ## Résultat
 
 {{<
@@ -108,6 +114,18 @@ ED 388
 ---
 
 # Calcul des interactions directes
+
+===
+
+## Temps d'exécution
+
+<img src="./img/strange_execution_time.svg" width="100%">
+
+===
+
+## Comparaison des interactions détectées
+
+<img src="./img/strange_detected_interaction.svg" width="39%">
 
 ===
 
@@ -124,27 +142,16 @@ ED 388
 
 ===
 
-# Fonction de score
+## Fonction de score
+
+<br>
 
 $$
-score(x) = \dfrac{1}{1 + recherché - correspond + max(0, généré - recherché)}
-$$
-
-## Inverse
-
-$$
-score(x) = \dfrac{1}{1 + pénalité}
-$$
-
-
-## Gaussienne
-
-$$
-score(x) = \exp \left( - \dfrac{\left( research - correspond + max(0, generate - research) \right)^2}{2 \cdot \sigma^2} \right)
-$$
-
-$$
-score(x) = \exp \left( - \dfrac{\left( research - correspond + max(0, generate - research) \right)^2}{2 \cdot \sigma^2} \right)
+\begin{aligned}
+    pénalité &= recherché - correspond + max(0, généré - recherché) \\[1em]
+    inverse(pénalité) &= \dfrac{1}{1 + pénalité} \\[1em]
+    gaussienne(pénalité) &= \exp \left( - \dfrac{\left( pénalité \right)^2}{2 \cdot \sigma^2} \right) \\[1em]
+\end{aligned}
 $$
 
 ===
@@ -155,17 +162,100 @@ $$
     height="750px"
 >}}
 
+===
+
+## Base de données de blocs
+
+<img src="./img/molecular_descriptor.svg" width="40%">
+
+===
+
+## Projection des blocs et des molécules
+
+<img src="./img/tsne.svg" width="40%">
+
+===
+
+## Score par rapport à la génération des ligands
+
+<img src="./img/pharmacophore_score.svg" width="80%">
+
+===
+
+## Meilleures molécules générées
+
+<br>
+
+{{< grid template="1fr 1fr 1fr" >}}
+<img src="./img/best_molecule_3.svg" width="80%" style="border: red 5pt solid;">
+<split>
+<img src="./img/best_molecule_2.svg" width="80%">
+<split>
+<img src="./img/best_molecule_1.svg" width="80%">
+<split>
+{{< /grid >}}
+
 ---
 
 # Convertion des ligands au format adéquat
+
+<br>
+
+- filtrage « des atomes-ancres » (B, Hg, Mg, Np, Sn, U) ;
+- filtrage des distance interatomiques anormales (0,7 à 3 Å) ;
+- conversion au format `.pdbqt` via `meeko`.
+
+===
+
+## Résultat
+
+{{<
+    molstar
+    molxUrl="./static/ligand_conversion.molx"
+>}}
 
 ---
 
 # Amarrage moléculaire des nouveaux ligands
 
----
+===
 
-# Analyse des poses obtenues
+## Distribution des scores
+
+<img src="./img/docking_score_result.svg" width="40%">
+
+===
+
+## Erreur de conversion au format `.pdbqt` du diazépam
+
+{{<
+    molstar
+    molxUrl="./static/diazepam_bug.molx"
+>}}
+
+===
+
+## Score d'amarrage par rapport au score pharmacophore
+
+<img src="./img/synthemol_vs_unidock.svg" width="40%">
+
+===
+
+## Interaction détectée après l'amarrage : `SyntheMol`
+
+{{<
+    molstar
+    molxUrl="./static/best_synthemol.molx"
+>}}
+
+===
+
+## Interaction détectée après l'amarrage : `Uni-Dock`
+
+{{<
+    molstar
+    molxUrl="./static/best_unidock.molx"
+>}}
 
 ---
 
