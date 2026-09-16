@@ -132,9 +132,40 @@ ED 388
 
 ---
 
+<img src="./img/pipeline.svg" width="40%">
+
+---
+
 # Présentation du système
 
-<img src="./img/neurone.svg" width="40%">
+{{< grid template="1fr 1fr" >}}
+
+- Récepteur à l'acide gamma-amino butyrique de type A (récepteur GABA A) ;
+
+- système complexe bien connue : canal ionique hétéropentamère, transmembranaire et allostérique ;
+
+- constitué de trois types de sous-unités, ayant plusieurs variants ($\alpha$ 1-6, $\beta$ 1-3, $\gamma$ 1-3, $\delta$, $\pi$ et $\theta$) ;
+
+- fixation de GABA provoque l'influx d'ions chlorures, empêchant la création d'un potentiel d'action, bloquant la transduction d'un signal nerveux.
+
+<split>
+
+<img src="./img/neurone.svg" width="80%">
+{{< /grid >}}
+
+===
+
+# Étude du complexe récepteur GABA A avec le diazépam
+
+- Étude du diazépam, un benzodiazépine :
+
+    - rôle relaxant et anticonvlusant ;
+
+    - possède différents effets secondaires, comme la dépendance physique.
+
+> **Objectif**
+>
+> Retrouver un analogue du diazépam, soit une molécule ayant des propriétés physico-chimiques semblables.
 
 ===
 
@@ -146,6 +177,10 @@ ED 388
 >}}
 
 ---
+
+<img src="./img/pipeline.svg" width="40%">
+
+===
 
 # Préparation du système
 
@@ -172,6 +207,10 @@ ED 388
 
 ---
 
+<img src="./img/pipeline.svg" width="40%">
+
+===
+
 # Calcul des champs d'interaction
 
 ===
@@ -190,6 +229,10 @@ ED 388
 >}}
 
 ---
+
+<img src="./img/pipeline.svg" width="40%">
+
+===
 
 # Calcul des interactions directes
 
@@ -215,6 +258,10 @@ ED 388
 >}}
 
 ---
+
+<img src="./img/pipeline.svg" width="40%">
+
+===
 
 # Génération de nouveaux ligands
 
@@ -275,6 +322,10 @@ $$
 
 ---
 
+<img src="./img/pipeline.svg" width="40%">
+
+===
+
 # Convertion des ligands au format adéquat
 
 <br>
@@ -293,6 +344,10 @@ $$
 >}}
 
 ---
+
+<img src="./img/pipeline.svg" width="40%">
+
+===
 
 # Amarrage moléculaire des nouveaux ligands
 
