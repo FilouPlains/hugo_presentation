@@ -6,9 +6,87 @@ theme="./static/style.css"
 code_theme="lightfair"
 +++
 
-<h1 style="font-size: 3em;">Je ne sais qu'une chose, <br> c'est que je ne sais rien</h1>
+# Je ne sais qu'une chose, <br> c'est que je ne sais rien
 
 **— Socrate**
+
+---
+
+# Conception de médicaments
+
+<br>
+
+- Un enjeu sanitaire et économique important ;
+
+- requiert des investissements de long terme et financièrement lourd :
+
+    - une durée pouvant aller jusqu'à 14 ans ;
+
+    - des revues relèvent des investissements financiers allant de 314 millions USD à 2,8 millards USD.
+
+===
+
+# Aucune garantie de succès
+
+<img src="./img/step_drug_development.png" width="80%">
+
+**© Steven M. PAUL et collaborateur, 2010, _modifiée_**
+
+===
+
+# Contrer cela : développement de nouvelles méthodes
+
+- Développement de nouvelles méthodes informatiques, comme l'amarrage moléculaire ;
+
+- augmentation des tailles des bases de données (comme la PDB avec des structures protéiques) ;
+
+- amélioration des systèmes informatiques.
+
+===
+
+# Apparition de l'intelligence artificielle (IA) générative
+
+<br>
+
+- Concepte datant de 1913 avec les chaînes de Markov :
+
+    - probabilités d'enchaînement des lettres ne sont pas indépendantes ;
+
+    - il est possible de générer une matrice d'enchaînement de ces lettres ;
+
+    - à partir de cette matrice, la génération de texte devient possible.
+
+> **Objectif global d'une IA générative identique**
+>
+> Déterminer une distribution soujacente à des objets donnés (texte, image, etc.) pour pouvoir en générer d'autres.
+
+===
+
+# Plusieurs modèle, un cœur commun
+
+- Il y a plusieurs modèles d'IA générative _(modèle de diffusion, auto-encodeur varioationnel, réseaux antagonistes génératifs, transformeurs génératifs préentraînés)_ ;
+- tous basés sur les neurones artificiels, l'origine de la qualification de ces modèles de « boîte noire ».
+
+<br>
+<br>
+
+<img src="./img/artificial_neural_network.svg" width="40%">
+
+===
+
+# Apparition de l'IA explicable
+
+- Faire en sorte de pouvoir comprendre et interpréter l'origine des résultats obtenus ;
+
+- différentes méthodes :
+    
+    - explicabilité des données ;
+
+    - explicabilité par le modèle ;
+
+    - analyses _post hoc_ ;
+
+    - utilisation de moyens de visualisations.
 
 ---
 
