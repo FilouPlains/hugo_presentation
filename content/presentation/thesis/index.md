@@ -155,7 +155,7 @@ ED 388
 
 ===
 
-# Étude du complexe récepteur GABA A avec le diazépam
+## Étude du complexe récepteur GABA A avec le diazépam
 
 - Étude du diazépam, un benzodiazépine :
 
@@ -186,6 +186,20 @@ ED 388
 
 <br>
 
+- Important pour plusieurs raisons :
+
+    - l'amarrage moléculaire est dépendant du système de départ ;
+
+    - pour les calculs des interactions (champs et directes), besoin d'avoir les hydrogènes et une structure complète ;
+
+    - besoin de relaxer le système pour que `strange` puisse fonctionner correctement à partir d'un fichier `.pdb`.
+
+===
+
+## Méthode
+
+<br>
+
 - Utilisation de deux scripts `Python` :
     - `extract_clean_protein.py` :
         1. extrait seulement la protéine d'intérêt ;
@@ -213,11 +227,46 @@ ED 388
 
 # Calcul des champs d'interaction
 
+{{< grid template="1fr 1fr" >}}
+
+- **Utilisation de `smiffer` :**
+
+    - logiciel codéveloppé ;
+
+    - fonctionne sur une protéine ou un ARN ;
+
+    - calcul des champs d'interactions statistiques ;
+
+    - basé sur la physique.
+
+<split>
+
+<img src="./img/smiffer_fields.png" width="100%">
+{{< /grid >}}
+
+> Statistical Molecular Interaction Fields: A Fast and Informative Tool for Characterizing RNA and Protein-Binding Pockets.
+> Diego Barquero Morera, Giovanni Mattiotti, Alexandar Kocev, Amshuman Rousselot, Louis Meuret, **Lucas Rouaud**, Hubert Santuz, Marc Baaden, Antoine Taly, and Samuela Pasquali.
+> Journal of Chemical Theory and Computation 2025 21 (18), 9120-9135.
+> DOI: 10.1021/acs.jctc.5c00688
+{.small_note}
+
 ===
 
-## Temps d'exécution
+## Équations pour calculer les champs
 
-<img src="./img/smiffer_execution_time.svg" width="80%">
+$$
+\begin{align}
+\phi_{\text{liaison H}} &= - \sum_{\text{atome } i = 1}^{\text{atomes select.}} \exp\left( - \frac{(\mu_d - d_{\text{atome } i})^2}{2 \cdot \sigma^2_d} \right) \times \exp\left( - \frac{(\mu_\beta - \beta_{\text{atome } i})^2}{2 \cdot \sigma^2_\beta} \right) \\[1em]
+\phi_{\text{hydroph.}} &= - \sum_{\text{espèce } i = 1}^{\text{espèces select.}} K_{\text{espèce}} \times \sum_{\text{atome } i = 1}^{\substack{\text{atomes} \\ \text{espèces select.}}} \exp\left( - \frac{(\mu_{\text{hydroph.}} - d_{\text{espèce}})^2}{2 \cdot \sigma^2_{\text{hydroph.}}} \right) \\[1em]
+\phi_{\pi} &= - \sum_{\text{cycle } i = 1}^{\text{cycles select.}} \exp\left( - \frac{(\mathbf{v}_r - \mathbf{\mu}_{\pi})^\top \cdot \mathbf{S}_{\pi}^{-1} \cdot \mathbf{v}_r - \mathbf{\mu}_{\pi}}{2} \right) \\[1em]
+\end{align}
+$$
+
+===
+
+## Étapes pour filtrer les grilles
+
+<img src="./img/smiffer_filtrage.png" width="60%">
 
 ===
 
@@ -236,17 +285,38 @@ ED 388
 
 # Calcul des interactions directes
 
+- **Utilisation de `strange` :**
+
+    - logiciel développé ;
+
+    - permet de calculer des pharmacophores en interactions ;
+
+    - permet d'être générique, donc indépendant du système donnée en entrée (ARN, protéine, sucre, ligand, etc.) ;
+
+    - les pharmacophores extraient peuvent être utilisés pour l'étape de génération des ligands.
+
 ===
 
-## Temps d'exécution
+## Définition d'un pharmacophore
 
-<img src="./img/strange_execution_time.svg" width="100%">
+{{< grid template="1fr 1fr" >}}
+
+Un pharmacophore désigne un ensemble de caractéristiques stériques et électroniques.
+Cet ensemble est nécessaire pour garantir des interactions supramoléculaires optimales avec une structure cible biologique spécifique.
+Ces interactions permettent de déclencher ou de bloquer la réponse biologique de la dite cible.
+
+— D'après _IUPAC Recommendations 1998_
+
+<split>
+
+<img src="./img/strange_pharmacophore.svg" width="60%">
+{{< /grid >}}
 
 ===
 
-## Comparaison des interactions détectées
+## Utilisation de critères géométriques pour détecter les différentes interactions
 
-<img src="./img/strange_detected_interaction.svg" width="39%">
+<img src="./img/strange_interaction_constante.svg" width="80%">
 
 ===
 
