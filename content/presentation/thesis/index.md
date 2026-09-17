@@ -327,17 +327,88 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
     molxUrl="./static/strange_diazépam.molx"
 >}}
 
+===
+
+## Pharmacophores du diazépam
+
+| Pharmacophores            |   Sous-famille   |  ID  |
+| :------------------------ | :--------------: | :--: |
+| **Accepteur d'halogène**  | Accepteur simple |  O2  |
+| **Donneur d'halogène**    |  Donneur simple  | Cl0  |
+| **Hydrophobe**            |     Regroupé     |      |
+| **Hydrophobe**            |     Regroupé     |      |
+| **Aromatique**            |    Cycle de 6    |      |
+| **Aromatique**            |    Cycle de 6    |      |
+| **Positif**               |  Groupe basique  | N16  |
+| **Accepteur d'hydrogène** | Accepteur simple |  O2  |
+| **Donneur d'hydrogène**   |  Donneur simple  | N16  |
+
 ---
 
 <img src="./img/pipeline.svg" width="40%">
 
 ===
 
-# Génération de nouveaux ligands
+# Génération de nouveaux ligands via `SyntheMol`
+
+<img src="./img/synthemol_mcts.svg" width="40%">
+
+===
+
+{{< grid template="1fr 1fr" >}}
+## _Simplified Molecular Input Line Entry System_ (SMILES)
+
+<split>
+
+<img src="./img/synthemol_smiles.svg" width="80%">
+
+{{< /grid >}}
+
+===
+
+## _SMiles ARbitrary Target Specification_ (SMARTS)
+
+<br>
+
+`[C;D1]-N=C-[N,S]`
+
+<br>
+
+<img src="./img/synthemol_smarts.svg" width="80%">
+
+===
+
+## SMIRKS
+
+<br>
+
+{{< grid template="1fr 1fr" >}}
+<img src="./img/synthemol_regex.png" width="100%">
+
+<split>
+
+<img src="./img/synthemol_smirks.svg" width="100%">
+{{< /grid >}}
+
+===
+
+## Détection de points de pharmacophores communs
+
+{{< grid template="1fr 1fr" >}}
+<img src="./img/synthemol_match.svg" width="80%">
+
+<split>
+
+<img src="./img/synthemol_graphe.svg" width="80%">
+{{< /grid >}}
 
 ===
 
 ## Fonction de score
+
+<br>
+
+> Une valeur de $0$ indique un score mauvais, une valeur de $1$ une valeur de score optimale.
 
 <br>
 
@@ -377,7 +448,7 @@ $$
 
 ===
 
-## Meilleures molécules générées
+## Meilleures molécules générées ($score = 0,73$)
 
 <br>
 
@@ -400,9 +471,21 @@ $$
 
 <br>
 
-- filtrage « des atomes-ancres » (B, Hg, Mg, Np, Sn, U) ;
-- filtrage des distance interatomiques anormales (0,7 à 3 Å) ;
-- conversion au format `.pdbqt` via `meeko`.
+- **Passage du format « SMILES » 1D à un format 3D :**
+
+    - **utilisation de `Gypsum-DL` :**
+
+        - ionisation des ligands ;
+
+        - génération des différentes conformations ;
+
+        - minimisation ;
+
+    - **conversion au format `.pdbqt` via `meeko` :**
+
+        - filtrage « des atomes-ancres » (B, Hg, Mg, Np, Sn, U) ;
+
+        - filtrage des distance interatomiques anormales (0,7 à 3 Å).
 
 ===
 
