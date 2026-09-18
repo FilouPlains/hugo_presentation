@@ -137,3 +137,21 @@ div#mcts svg {
 div.molstar-container {
     height: 22cm;
 }
+
+.reveal table {
+    font-size: 0.75em;
+}
+
+.reveal table th {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.reveal table tr:nth-child(odd) {
+    background-color: #dedede;
+}
+
+.reveal table td {
+    border: none;
+}

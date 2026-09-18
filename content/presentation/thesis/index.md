@@ -6,7 +6,7 @@ theme="./static/style.css"
 code_theme="lightfair"
 +++
 
-# Je ne sais qu'une chose, <br> c'est que je ne sais rien
+## Je ne sais qu'une chose, <br> c'est que je ne sais rien
 
 **— Socrate**
 
@@ -26,7 +26,7 @@ code_theme="lightfair"
 
 ===
 
-# Aucune garantie de succès
+### Aucune garantie de succès
 
 <img src="./img/step_drug_development.png" width="80%">
 
@@ -34,7 +34,7 @@ code_theme="lightfair"
 
 ===
 
-# Contrer cela : développement de nouvelles méthodes
+### Contrer cela : développement de nouvelles méthodes
 
 - Développement de nouvelles méthodes informatiques, comme l'amarrage moléculaire ;
 
@@ -44,7 +44,7 @@ code_theme="lightfair"
 
 ===
 
-# Apparition de l'intelligence artificielle (IA) générative
+### Apparition de l'intelligence artificielle (IA) générative
 
 <br>
 
@@ -62,7 +62,7 @@ code_theme="lightfair"
 
 ===
 
-# Plusieurs modèle, un cœur commun
+### Plusieurs modèle, un cœur commun
 
 - Il y a plusieurs modèles d'IA générative _(modèle de diffusion, auto-encodeur varioationnel, réseaux antagonistes génératifs, transformeurs génératifs préentraînés)_ ;
 - tous basés sur les neurones artificiels, l'origine de la qualification de ces modèles de « boîte noire ».
@@ -74,7 +74,7 @@ code_theme="lightfair"
 
 ===
 
-# Apparition de l'IA explicable
+### Apparition de l'IA explicable
 
 - Faire en sorte de pouvoir comprendre et interpréter l'origine des résultats obtenus ;
 
@@ -102,7 +102,7 @@ code_theme="lightfair"
 
 <br>
 
-# Combinaison de méthodes de visualisation à de l’intelligence artificielle générative dans le cadre de conception de médicament
+## Combinaison de méthodes de visualisation à de l’intelligence artificielle générative dans le cadre de conception de médicament
  
 
 **Lucas ROUAUD**\
@@ -136,7 +136,7 @@ ED 388
 
 ---
 
-# Présentation du système
+## Présentation du système
 
 {{< grid template="1fr 1fr" >}}
 
@@ -155,7 +155,7 @@ ED 388
 
 ===
 
-## Étude du complexe récepteur GABA A avec le diazépam
+### Étude du complexe récepteur GABA A avec le diazépam
 
 - Étude du diazépam, un benzodiazépine :
 
@@ -169,7 +169,7 @@ ED 388
 
 ===
 
-## Structure
+### Structure
 
 {{<
     molstar
@@ -182,7 +182,7 @@ ED 388
 
 ===
 
-# Préparation du système
+## Préparation du système
 
 <br>
 
@@ -196,7 +196,7 @@ ED 388
 
 ===
 
-## Méthode
+### Méthode
 
 <br>
 
@@ -212,7 +212,7 @@ ED 388
 
 ===
 
-## Résultat
+### Résultat
 
 {{<
     molstar
@@ -225,7 +225,7 @@ ED 388
 
 ===
 
-# Calcul des champs d'interaction
+## Calcul des champs d'interaction
 
 {{< grid template="1fr 1fr" >}}
 
@@ -252,7 +252,7 @@ ED 388
 
 ===
 
-## Équations pour calculer les champs
+### Équations pour calculer les champs
 
 $$
 \begin{align}
@@ -264,13 +264,13 @@ $$
 
 ===
 
-## Étapes pour filtrer les grilles
+### Étapes pour filtrer les grilles
 
 <img src="./img/smiffer_filtrage.png" width="60%">
 
 ===
 
-## Résultat
+### Résultat
 
 {{<
     molstar
@@ -283,7 +283,7 @@ $$
 
 ===
 
-# Calcul des interactions directes
+## Calcul des interactions directes
 
 - **Utilisation de `strange` :**
 
@@ -297,7 +297,7 @@ $$
 
 ===
 
-## Définition d'un pharmacophore
+### Définition d'un pharmacophore
 
 {{< grid template="1fr 1fr" >}}
 
@@ -314,13 +314,13 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-## Utilisation de critères géométriques pour détecter les différentes interactions
+### Utilisation de critères géométriques pour détecter les différentes interactions
 
 <img src="./img/strange_interaction_constante.svg" width="80%">
 
 ===
 
-## Résultat
+### Résultat
 
 {{<
     molstar
@@ -329,7 +329,7 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-## Pharmacophores du diazépam
+### Pharmacophores du diazépam
 
 | Pharmacophores            |   Sous-famille   |  ID  |
 | :------------------------ | :--------------: | :--: |
@@ -349,14 +349,14 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-# Génération de nouveaux ligands via `SyntheMol`
+## Génération de nouveaux ligands via `SyntheMol`
 
 <img src="./img/synthemol_mcts.svg" width="40%">
 
 ===
 
 {{< grid template="1fr 1fr" >}}
-## _Simplified Molecular Input Line Entry System_ (SMILES)
+### _Simplified Molecular Input Line Entry System_ (SMILES)
 
 <split>
 
@@ -366,7 +366,7 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-## _SMiles ARbitrary Target Specification_ (SMARTS)
+### _SMiles ARbitrary Target Specification_ (SMARTS)
 
 <br>
 
@@ -378,7 +378,7 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-## SMIRKS
+### SMIRKS
 
 <br>
 
@@ -392,7 +392,7 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-## Détection de points de pharmacophores communs
+### Détection de points de pharmacophores communs
 
 {{< grid template="1fr 1fr" >}}
 <img src="./img/synthemol_match.svg" width="80%">
@@ -404,7 +404,7 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-## Fonction de score
+### Fonction de score
 
 <br>
 
@@ -430,25 +430,25 @@ $$
 
 ===
 
-## Base de données de blocs
+### Base de données de blocs
 
 <img src="./img/molecular_descriptor.svg" width="40%">
 
 ===
 
-## Projection des blocs et des molécules
+### Projection des blocs et des molécules
 
 <img src="./img/tsne.svg" width="40%">
 
 ===
 
-## Score par rapport à la génération des ligands
+### Score par rapport à la génération des ligands
 
 <img src="./img/pharmacophore_score.svg" width="80%">
 
 ===
 
-## Meilleures molécules générées ($score = 0,73$)
+### Meilleures molécules générées ($score = 0,73$)
 
 <br>
 
@@ -467,7 +467,7 @@ $$
 
 ===
 
-# Convertion des ligands au format adéquat
+## Convertion des ligands au format adéquat
 
 <br>
 
@@ -489,7 +489,7 @@ $$
 
 ===
 
-## Résultat
+### Résultat
 
 {{<
     molstar
@@ -502,17 +502,27 @@ $$
 
 ===
 
-# Amarrage moléculaire des nouveaux ligands
+## Amarrage moléculaire des nouveaux ligands
+
+<br>
+
+- Permet de vérifié l'affinité d'un ligand avec une cible ;
+
+- utilisation d'`Uni-Dock` avec la fonction de score `Vinardo` :
+    
+    - `Vinardo` permet de ne pas avoir de corrélation « taille du ligand » / « affinité » ;
+
+    - Permet d'amarrer rapidement les molécules via un GPU.
 
 ===
 
-## Distribution des scores
+### Distribution des scores
 
 <img src="./img/docking_score_result.svg" width="40%">
 
 ===
 
-## Erreur de conversion au format `.pdbqt` du diazépam
+### Erreur de conversion au format `.pdbqt` du diazépam
 
 {{<
     molstar
@@ -521,13 +531,13 @@ $$
 
 ===
 
-## Score d'amarrage par rapport au score pharmacophore
+### Score d'amarrage par rapport au score pharmacophore
 
 <img src="./img/synthemol_vs_unidock.svg" width="40%">
 
 ===
 
-## Interaction détectée après l'amarrage : `SyntheMol`
+### Interaction détectée après l'amarrage : `SyntheMol`
 
 {{<
     molstar
@@ -536,16 +546,90 @@ $$
 
 ===
 
-## Interaction détectée après l'amarrage : `Uni-Dock`
+### Interaction détectée après l'amarrage : `Uni-Dock`
 
 {{<
     molstar
     molxUrl="./static/best_unidock.molx"
 >}}
 
+===
+
+### Comparaison avec le diazépam
+
+| Catégorie                        | Diazépam                   | Meilleur ligand `SyntheMol` | Meilleur ligand `Uni-Dock` |
+| -------------------------------- | -------------------------- | --------------------------- | -------------------------- |
+| **Score pharmacophores**         | 1.0                        | 0.73                        | 0.20                       |
+| **Score d'amarrage moléculaire** | 3.202 kcal/mol             | -7.630 kcal/mol             | -9.587 kcal/mol            |
+| **-**                            | **Intéractions détectées** |                             |                            |
+| **Liaison halogène**             | HIS.093.D                  | -                           | -                          |
+| **Liaison halogène**             | -                          | SER.150.D                   | -                          |
+| **Hydrophobe**                   | TYR.201.D                  | -                           | -                          |
+| **Hydrophobe**                   | TYR.151.D                  | -                           | -                          |
+| **Hydrophobe**                   | _PHE.091.D_                | _PHE.091.D_                 | -                          |
+| **Hydrophobe**                   | -                          | VAL.194.D                   | -                          |
+| **Empilement $\pi$**             | _TYR.201.D_                | -                           | _TYR.201.D_                |
+| **Empilement $\pi$**             | -                          | TYR.034.E                   | TYR.034.E                  |
+| **Empilement $\pi$**             | -                          | -                           | PHE.053.E                  |
+| **Cation $\pi$**                 | PHE.053.E                  | -                           | -                          |
+| **Liaison hydrogène**            | SER.197.D                  | -                           | -                          |
+
 ---
 
-# Merci de votre attention
+## Conclusion
+
+<br>
+
+- `smiffer` codéveloppé pour visualiser des champs d'interaction ;
+
+- `strange` développé pour visualiser des interactions directes ;
+
+- développement de « logiciels ponts » et agencement de différent logiciel pour avoir une chaîne de traitement qui marche ;
+
+- les moyens de visualisations permettent de comprendre certains résultats ;
+
+- application sur un système concret, le récepteur GABA A, correcte.
+
+===
+
+## Perpectives (1/2)
+
+<br>
+
+- **Calcul des champs d'interactions :**
+    - utilisation de pharmacophore pour inférer les champs ;
+    - inférer des pharmacophores d'un ligand à partir des champs ;
+
+- **calcul des interactions directes :**
+    - amélioration des performances ;
+    - rajout et correction du calcul de certaines interactions ;
+
+- **génération des ligands :**
+    - amélioration des performances : 12 heures, 55 GB de mémoire ;
+    - amélioration de la fonction de score ;
+    - problème de surreprésentation de certains points pharmacophoriques.
+
+===
+
+## Perpectives (2/2)
+
+<br>
+
+- **Conversion en 3D des ligands :**
+    - problème pouvant affecter la détection d'un potentiel bon ligand ;
+
+- **amarrage moléculaire :**
+    - amarrage avec des résidus flexibles ;
+    - correction de la zone d'amarrage ;
+
+- **pipeline au global :**
+    - utilisation de `Snakemake` (répétabilité et modularité) ;
+    - ajout de métadonnées ;
+    - correction de certains filtre (20 % des meilleurs ligands).
+
+---
+
+## Merci de votre attention
 
 <div class="lab_member">
     <img src="./img/lbt.jpeg" width="80%">
