@@ -177,7 +177,7 @@ ED 388
 
 - Étude du diazépam, un benzodiazépine :
 
-    - rôle relaxant et anticonvlusant ;
+    - rôle relaxant et anticonvulsant ;
 
     - possède différents effets secondaires, comme la dépendance physique.
 
@@ -255,7 +255,9 @@ ED 388
 
     - calcul des champs d'interactions statistiques ;
 
-    - basé sur la physique.
+    - basé sur la physique ;
+
+    - somme de gaussienne
 
 <split>
 
@@ -267,18 +269,6 @@ ED 388
 > Journal of Chemical Theory and Computation 2025 21 (18), 9120-9135.
 > DOI: 10.1021/acs.jctc.5c00688
 {.small_note}
-
-===
-
-### Équations pour calculer les champs
-
-$$
-\begin{align}
-\phi_{\text{liaison H}} &= - \sum_{\text{atome } i = 1}^{\text{atomes select.}} \exp\left( - \frac{(\mu_d - d_{\text{atome } i})^2}{2 \cdot \sigma^2_d} \right) \times \exp\left( - \frac{(\mu_\beta - \beta_{\text{atome } i})^2}{2 \cdot \sigma^2_\beta} \right) \\[1em]
-\phi_{\text{hydroph.}} &= - \sum_{\text{espèce } i = 1}^{\text{espèces select.}} K_{\text{espèce}} \times \sum_{\text{atome } i = 1}^{\substack{\text{atomes} \\ \text{espèces select.}}} \exp\left( - \frac{(\mu_{\text{hydroph.}} - d_{\text{espèce}})^2}{2 \cdot \sigma^2_{\text{hydroph.}}} \right) \\[1em]
-\phi_{\pi} &= - \sum_{\text{cycle } i = 1}^{\text{cycles select.}} \exp\left( - \frac{(\mathbf{v}_r - \mathbf{\mu}_{\pi})^\top \cdot \mathbf{S}_{\pi}^{-1} \cdot \mathbf{v}_r - \mathbf{\mu}_{\pi}}{2} \right) \\[1em]
-\end{align}
-$$
 
 ===
 
@@ -310,7 +300,7 @@ $$
     - permet de calculer des pharmacophores en interactions :
         - _ensemble de propriétés stériques / électroniques garantissant des interactions supramoléculaires, provoquant une réponse d'une cible biologique_ ;
         - utilisation de critères géométriques ;
-        - prend en compte le sponts salins, les interactions hydrophobes, les liaisons hydrogènes et halogènes, les empilements $\pi$, les interactions $\pi$ cation / anion ;
+        - prend en compte les ponts salins, les interactions hydrophobes, les liaisons hydrogènes et halogènes, les empilements $\pi$, les interactions $\pi$ cation / anion ;
 
     - permet d'être générique, donc indépendant du système donnée en entrée (ARN, protéine, sucre, ligand, etc.) ;
 
@@ -616,6 +606,24 @@ $$
 <!-- .slide: data-visibility="uncounted" -->
 
 ## Annexes
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+
+## smiffer
+
+===
+
+### Équations pour calculer les champs
+
+$$
+\begin{align}
+\phi_{\text{liaison H}} &= - \sum_{\text{atome } i = 1}^{\text{atomes select.}} \exp\left( - \frac{(\mu_d - d_{\text{atome } i})^2}{2 \cdot \sigma^2_d} \right) \times \exp\left( - \frac{(\mu_\beta - \beta_{\text{atome } i})^2}{2 \cdot \sigma^2_\beta} \right) \\[1em]
+\phi_{\text{hydroph.}} &= - \sum_{\text{espèce } i = 1}^{\text{espèces select.}} K_{\text{espèce}} \times \sum_{\text{atome } i = 1}^{\substack{\text{atomes} \\ \text{espèces select.}}} \exp\left( - \frac{(\mu_{\text{hydroph.}} - d_{\text{espèce}})^2}{2 \cdot \sigma^2_{\text{hydroph.}}} \right) \\[1em]
+\phi_{\pi} &= - \sum_{\text{cycle } i = 1}^{\text{cycles select.}} \exp\left( - \frac{(\mathbf{v}_r - \mathbf{\mu}_{\pi})^\top \cdot \mathbf{S}_{\pi}^{-1} \cdot \mathbf{v}_r - \mathbf{\mu}_{\pi}}{2} \right) \\[1em]
+\end{align}
+$$
 
 ---
 
