@@ -134,10 +134,6 @@ ED 388
 
 ---
 
-<img src="./img/pipeline.svg" width="40%">
-
-===
-
 ## Objectifs
 
 - Avoir une IA qui génère des ligands et dont l'origine des résultats sont compréhensibles :
@@ -152,7 +148,11 @@ ED 388
 
     - retrouver des analogues à un ligand donné.
 
----
+===
+
+<img src="./img/pipeline.svg" width="40%">
+
+===
 
 ## Présentation du système
 
