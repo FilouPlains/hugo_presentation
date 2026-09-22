@@ -6,6 +6,8 @@ theme="./static/style.css"
 code_theme="lightfair"
 +++
 
+<!-- .slide: data-background="#000" -->
+
 ## Je ne sais qu'une chose, <br> c'est que je ne sais rien
 
 **— Socrate**
@@ -133,6 +135,22 @@ ED 388
 ---
 
 <img src="./img/pipeline.svg" width="40%">
+
+===
+
+## Objectifs
+
+- Avoir une IA qui génère des ligands et dont l'origine des résultats sont compréhensibles :
+
+    - « l'humain » doit pouvoir lancer les calculs et comprendre chaque étape ;
+
+    - permet de corriger des problèmes ou d'améliorer le programme ;
+
+- basé sur des propriétés déjà connues ou imposées :
+
+    - optimisation de ligands ;
+
+    - retrouver des analogues à un ligand donné.
 
 ---
 
@@ -289,34 +307,14 @@ $$
 
     - logiciel développé ;
 
-    - permet de calculer des pharmacophores en interactions ;
+    - permet de calculer des pharmacophores en interactions :
+        - _ensemble de propriétés stériques / électroniques garantissant des interactions supramoléculaires, provoquant une réponse d'une cible biologique_ ;
+        - utilisation de critères géométriques ;
+        - prend en compte le sponts salins, les interactions hydrophobes, les liaisons hydrogènes et halogènes, les empilements $\pi$, les interactions $\pi$ cation / anion ;
 
     - permet d'être générique, donc indépendant du système donnée en entrée (ARN, protéine, sucre, ligand, etc.) ;
 
     - les pharmacophores extraient peuvent être utilisés pour l'étape de génération des ligands.
-
-===
-
-### Définition d'un pharmacophore
-
-{{< grid template="1fr 1fr" >}}
-
-Un pharmacophore désigne un ensemble de caractéristiques stériques et électroniques.
-Cet ensemble est nécessaire pour garantir des interactions supramoléculaires optimales avec une structure cible biologique spécifique.
-Ces interactions permettent de déclencher ou de bloquer la réponse biologique de la dite cible.
-
-— D'après _IUPAC Recommendations 1998_
-
-<split>
-
-<img src="./img/strange_pharmacophore.svg" width="60%">
-{{< /grid >}}
-
-===
-
-### Utilisation de critères géométriques pour détecter les différentes interactions
-
-<img src="./img/strange_interaction_constante.svg" width="80%">
 
 ===
 
@@ -349,46 +347,9 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 ===
 
-## Génération de nouveaux ligands via `SyntheMol`
+## `SyntheMol` pour générer des ligands via une MCTS
 
 <img src="./img/synthemol_mcts.svg" width="40%">
-
-===
-
-{{< grid template="1fr 1fr" >}}
-### _Simplified Molecular Input Line Entry System_ (SMILES)
-
-<split>
-
-<img src="./img/synthemol_smiles.svg" width="80%">
-
-{{< /grid >}}
-
-===
-
-### _SMiles ARbitrary Target Specification_ (SMARTS)
-
-<br>
-
-`[C;D1]-N=C-[N,S]`
-
-<br>
-
-<img src="./img/synthemol_smarts.svg" width="80%">
-
-===
-
-### SMIRKS
-
-<br>
-
-{{< grid template="1fr 1fr" >}}
-<img src="./img/synthemol_regex.png" width="100%">
-
-<split>
-
-<img src="./img/synthemol_smirks.svg" width="100%">
-{{< /grid >}}
 
 ===
 
@@ -592,7 +553,17 @@ $$
 
 ===
 
-## Perpectives (1/2)
+## Tests en cours
+
+- Variation au niveau des paramètres de `SyntheMol` ;
+
+- tests de la chaîne de traitement avec des ARN ;
+
+- analyses comparatives (_benchmark_) par rapport à différentes cibles.
+
+===
+
+## Perpectives
 
 <br>
 
@@ -611,7 +582,7 @@ $$
 
 ===
 
-## Perpectives (2/2)
+## Perpectives
 
 <br>
 
@@ -639,3 +610,92 @@ $$
     <img src="./img/project_member/isleme_khalfaoui.jpeg" width="200cm">
     <img src="./img/project_member/etienne_reboul.jpg" width="200cm">
 </div>
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+
+## Annexes
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+
+## strange
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+### Définition d'un pharmacophore
+
+{{< grid template="1fr 1fr" >}}
+
+Un pharmacophore désigne un ensemble de caractéristiques stériques et électroniques.
+Cet ensemble est nécessaire pour garantir des interactions supramoléculaires optimales avec une structure cible biologique spécifique.
+Ces interactions permettent de déclencher ou de bloquer la réponse biologique de la dite cible.
+
+— D'après _IUPAC Recommendations 1998_
+
+<split>
+
+<img src="./img/strange_pharmacophore.svg" width="60%">
+{{< /grid >}}
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+### Utilisation de critères géométriques pour détecter les différentes interactions
+
+<img src="./img/strange_interaction_constante.svg" width="80%">
+
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+
+## SyntheMol
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+{{< grid template="1fr 1fr" >}}
+### _Simplified Molecular Input Line Entry System_ (SMILES)
+
+<split>
+
+<img src="./img/synthemol_smiles.svg" width="80%">
+
+{{< /grid >}}
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+### _SMiles ARbitrary Target Specification_ (SMARTS)
+
+<br>
+
+`[C;D1]-N=C-[N,S]`
+
+<br>
+
+<img src="./img/synthemol_smarts.svg" width="80%">
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+### SMIRKS
+
+<br>
+
+{{< grid template="1fr 1fr" >}}
+<img src="./img/synthemol_regex.png" width="100%">
+
+<split>
+
+<img src="./img/synthemol_smirks.svg" width="100%">
+{{< /grid >}}

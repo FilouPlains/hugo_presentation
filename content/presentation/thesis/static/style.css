@@ -155,3 +155,7 @@ div.molstar-container {
 .reveal table td {
     border: none;
 }
+
+.reveal .progress {
+    height: 10pt;
+}
