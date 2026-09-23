@@ -337,9 +337,17 @@ ED 388
 
 ===
 
-## `SyntheMol` pour générer des ligands via une MCTS
+## Génération de nouveaux ligands
 
-<img src="./img/synthemol_mcts.svg" width="40%">
+===
+
+### Recherche Arborescente Monte-Carlo
+
+{{< grid template="1fr 1fr" >}}
+<img src="./img/synthemol_bloc.svg" width="100%">
+<split>
+<img src="./img/synthemol_mcts.svg" width="75%">
+{{< /grid >}}
 
 ===
 
@@ -419,33 +427,6 @@ $$
 ===
 
 ## Convertion des ligands au format adéquat
-
-<br>
-
-- **Passage du format « SMILES » 1D à un format 3D :**
-
-    - **utilisation de `Gypsum-DL` :**
-
-        - ionisation des ligands ;
-
-        - génération des différentes conformations ;
-
-        - minimisation ;
-
-    - **conversion au format `.pdbqt` via `meeko` :**
-
-        - filtrage « des atomes-ancres » (B, Hg, Mg, Np, Sn, U) ;
-
-        - filtrage des distance interatomiques anormales (0,7 à 3 Å).
-
-===
-
-### Résultat
-
-{{<
-    molstar
-    molxUrl="./static/ligand_conversion.molx"
->}}
 
 ---
 
@@ -707,3 +688,44 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
 <img src="./img/synthemol_smirks.svg" width="100%">
 {{< /grid >}}
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+
+## Convertion en `.pdbqt`
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+# Étapes pour la conversion
+
+<br>
+
+- **Passage du format « SMILES » 1D à un format 3D :**
+
+    - **utilisation de `Gypsum-DL` :**
+
+        - ionisation des ligands ;
+
+        - génération des différentes conformations ;
+
+        - minimisation ;
+
+    - **conversion au format `.pdbqt` via `meeko` :**
+
+        - filtrage « des atomes-ancres » (B, Hg, Mg, Np, Sn, U) ;
+
+        - filtrage des distance interatomiques anormales (0,7 à 3 Å).
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+### Résultat
+
+{{<
+    molstar
+    molxUrl="./static/ligand_conversion.molx"
+>}}
