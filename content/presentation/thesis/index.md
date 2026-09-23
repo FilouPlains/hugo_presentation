@@ -66,7 +66,7 @@ code_theme="lightfair"
 
 ### Plusieurs modèle, un cœur commun
 
-- Il y a plusieurs modèles d'IA générative _(modèle de diffusion, auto-encodeur varioationnel, réseaux antagonistes génératifs, transformeurs génératifs préentraînés)_ ;
+- Il y a plusieurs modèles d'IA générative _(modèle de diffusion, auto-encodeur variationnel, réseaux antagonistes génératifs, transformeurs génératifs préentraînés)_ ;
 - tous basés sur les neurones artificiels, l'origine de la qualification de ces modèles de « boîte noire ».
 
 <br>
