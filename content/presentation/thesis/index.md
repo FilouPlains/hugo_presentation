@@ -376,17 +376,39 @@ ED 388
 
 ===
 
-### Recherche Arborescente Monte-Carlo
+### Recherche Arborescente Monte-Carlo : sélection
 
-{{< grid template="1fr 1fr" >}}
-<img src="./img/synthemol_bloc.svg" width="100%">
-<split>
-<img src="./img/synthemol_mcts.svg" width="75%">
+{{< svg src="./img/synthemol_mcts.svg" id="mcts_selection" >}}
+
+===
+
+### Recherche Arborescente Monte-Carlo : sélection
+
+<br>
+
+{{< grid template="1fr" >}}
+<img src="./img/synthemol_bloc.svg" width="75%">
+
+$
+\text{Score MCTS} = \dfrac{\text{Exploitation}(nœud) + \text{Prédiction}(nœud) \cdot \text{Exploration}(nœud)}{\text{Diversité}(nœud, arbre)}
+$
 {{< /grid >}}
 
 ===
 
-### Détection de points de pharmacophores communs
+### Recherche Arborescente Monte-Carlo : expension et simulation
+
+{{< svg src="./img/synthemol_mcts.svg" id="mcts_expension_simulation" >}}
+
+===
+
+### Recherche Arborescente Monte-Carlo : rétropropagation
+
+{{< svg src="./img/synthemol_mcts.svg" id="mcts_backpropagation" >}}
+
+===
+
+### Rétropropagation : détermination des points en communs
 
 {{< grid template="1fr 1fr" >}}
 <img src="./img/synthemol_match.svg" width="80%">
@@ -398,7 +420,7 @@ ED 388
 
 ===
 
-### Fonction de score
+### Rétropropagation : fonction de score des points en commun
 
 <br>
 
@@ -430,19 +452,19 @@ $$
 
 #### Base de données de blocs
 
-<img src="./img/molecular_descriptor.svg" width="40%">
+<img src="./img/synthemol_molecular_descriptor.svg" width="50%">
 
 ===
 
 #### Projection des blocs et des molécules
 
-<img src="./img/tsne.svg" width="40%">
+<img src="./img/synthemol_tsne.svg" width="40%">
 
 ===
 
 #### Score par rapport à la génération des ligands
 
-<img src="./img/pharmacophore_score.svg" width="80%">
+<img src="./img/synthemol_pharmacophore_score.svg" width="80%">
 
 ===
 
@@ -561,14 +583,14 @@ $$
 <br>
 
 - `smiffer` codéveloppé pour visualiser des champs d'interaction ;
-
 - `strange` développé pour visualiser des interactions directes ;
-
 - développement de « logiciels ponts » et agencement de différent logiciel pour avoir une chaîne de traitement qui marche ;
-
 - les moyens de visualisations permettent de comprendre certains résultats ;
+- application sur un système concret, le récepteur GABA A, correcte :
 
-- application sur un système concret, le récepteur GABA A, correcte.
+    - nouveau ligand interessant trouvé ;
+    - fonction de score (pharmacophore et amarrage) bonne ;
+    - interaction satisfaisante.
 
 ===
 

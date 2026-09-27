@@ -240,8 +240,7 @@ div#docking svg > g {
   > g:nth-of-type(9) use,
   > g:nth-of-type(10) use,
   > g:nth-of-type(11) use,
-  > g:nth-of-type(12) use
-    {
+  > g:nth-of-type(12) use {
     fill: red;
   }
 
@@ -267,5 +266,54 @@ div#docking svg > g {
   > g:nth-of-type(9) use,
   > g:nth-of-type(11) use {
     stroke: red;
+  }
+}
+
+/*
+ * MCTS SVG
+ */
+
+div#mcts_selection svg {
+  height: 100%;
+  width: 40%;
+
+  rect#rect209 {
+    stroke: red !important;
+  }
+
+  rect#rect209-5,
+  rect#rect209-6,
+  rect#rect209-56 {
+    display: none;
+  }
+}
+
+div#mcts_backpropagation svg {
+  height: 100%;
+  width: 40%;
+
+  rect#rect209-56 {
+    stroke: red !important;
+  }
+
+  rect#rect209,
+  rect#rect209-5,
+  rect#rect209-6 {
+    display: none;
+  }
+}
+
+div#mcts_expension_simulation svg {
+  height: 100%;
+  width: 40%;
+
+  rect#rect209-5,
+  rect#rect209-6 {
+    stroke: red !important;
+  }
+
+  rect#rect209,
+  rect#rect209-56 {
+    display: none;
   }
 }
