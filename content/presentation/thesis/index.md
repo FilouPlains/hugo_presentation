@@ -196,7 +196,7 @@ ED 388
 
 ---
 
-<img src="./img/pipeline.svg" width="40%">
+{{< svg src="./img/pipeline.svg" id="preparation" class="pipeline" >}}
 
 ===
 
@@ -239,7 +239,7 @@ ED 388
 
 ---
 
-<img src="./img/pipeline.svg" width="40%">
+{{< svg src="./img/pipeline.svg" id="smiffer" class="pipeline" >}}
 
 ===
 
@@ -287,7 +287,7 @@ ED 388
 
 ---
 
-<img src="./img/pipeline.svg" width="40%">
+{{< svg src="./img/pipeline.svg" id="strange" class="pipeline" >}}
 
 ===
 
@@ -333,7 +333,7 @@ ED 388
 
 ---
 
-<img src="./img/pipeline.svg" width="40%">
+{{< svg src="./img/pipeline.svg" id="synthemol" class="pipeline" >}}
 
 ===
 
@@ -389,25 +389,42 @@ $$
 
 ===
 
-### Base de données de blocs
+### Résultats pour `SyntheMol`
+
+===
+
+#### Base de données de blocs
 
 <img src="./img/molecular_descriptor.svg" width="40%">
 
 ===
 
-### Projection des blocs et des molécules
+#### Projection des blocs et des molécules
 
 <img src="./img/tsne.svg" width="40%">
 
 ===
 
-### Score par rapport à la génération des ligands
+#### Score par rapport à la génération des ligands
 
 <img src="./img/pharmacophore_score.svg" width="80%">
 
 ===
 
-### Meilleures molécules générées ($score = 0,73$)
+#### Score par rapport à la génération des ligands (papier original)
+
+<img src="./img/synthemol_original_result.png" width="40%">
+
+> **Figure originale extraite de :**
+> Swanson, Kyle, Gary Liu, Denise B. Catacutan, Autumn Arnold, James Zou, and Jonathan M. Stokes.
+> Generative AI for Designing and Validating Easily Synthesizable and Structurally Novel Antibiotics’.
+> Nature Machine Intelligence 6, no. 3 (2024): 338–53.
+> https://doi.org/10.1038/s42256-024-00809-7.
+{.small_note}
+
+===
+
+#### Meilleures molécules générées ($score = 0,73$)
 
 <br>
 
@@ -422,15 +439,11 @@ $$
 
 ---
 
-<img src="./img/pipeline.svg" width="40%">
+{{< svg src="./img/pipeline.svg" id="docking" class="pipeline" >}}
 
 ===
 
-## Convertion des ligands au format adéquat
-
----
-
-<img src="./img/pipeline.svg" width="40%">
+## ~Convertion des ligands au format adéquat~
 
 ===
 
@@ -492,7 +505,7 @@ $$
 | Catégorie                        | Diazépam                   | Meilleur ligand `SyntheMol` | Meilleur ligand `Uni-Dock` |
 | -------------------------------- | -------------------------- | --------------------------- | -------------------------- |
 | **Score pharmacophores**         | 1.0                        | 0.73                        | 0.20                       |
-| **Score d'amarrage moléculaire** | 3.202 kcal/mol             | -7.630 kcal/mol             | -9.587 kcal/mol            |
+| **Score d'amarrage moléculaire** | 3.2   kcal/mol             | -7.6   kcal/mol             | -9.5   kcal/mol            |
 | **-**                            | **Intéractions détectées** |                             |                            |
 | **Liaison halogène**             | HIS.093.D                  | -                           | -                          |
 | **Liaison halogène**             | -                          | SER.150.D                   | -                          |
@@ -539,7 +552,6 @@ $$
 <br>
 
 - **Calcul des champs d'interactions :**
-    - utilisation de pharmacophore pour inférer les champs ;
     - inférer des pharmacophores d'un ligand à partir des champs ;
 
 - **calcul des interactions directes :**
