@@ -150,7 +150,9 @@ ED 388
 
 ===
 
-<img src="./img/pipeline.svg" width="40%">
+## Plan : la chaîne de traitement
+
+<img src="./img/pipeline.svg" width="35%">
 
 ===
 
@@ -305,6 +307,39 @@ ED 388
     - permet d'être générique, donc indépendant du système donnée en entrée (ARN, protéine, sucre, ligand, etc.) ;
 
     - les pharmacophores extraient peuvent être utilisés pour l'étape de génération des ligands.
+
+===
+
+### `smiffer` contre `strange` : deux paradigmes différents
+
+{{< grid template="1fr 2fr" >}}
+<img src ="./img/popc_40ns.png" width="60%">
+
+<split>
+
+#### Prise en compte d'un lipide
+
+<br>
+
+- **`smiffer` :**
+    - besoin de définir un nouveau dictionnaire ;
+    - temps de calcul plus rapide, recherche plus efficace ;
+
+<br>
+
+```python
+"ASN" : [("OD1","CG","","OD1",False)],
+"POPC" : [("O10","P8","","O10",False)],
+```
+
+<br>
+
+- **`strange` :**
+    - aucune modification requise ;
+    - temps de calcul plus long, recherche plus longue.
+
+
+{{< /grid >}}
 
 ===
 
