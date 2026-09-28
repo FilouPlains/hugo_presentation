@@ -38,11 +38,48 @@ code_theme="lightfair"
 
 ### Contrer cela : développement de nouvelles méthodes
 
-- Développement de nouvelles méthodes informatiques, comme l'amarrage moléculaire ;
+#### Méthodes expérimentales
+
+- **Criblage à haut débit :**
+
+    - _essais biochimiques_ sur plaques ;
+    - _essais cellulaires_ ;
+
+- teste si un composé interagit avec une cible, via de la détection de fluorescence par exemple ;
+
+- précision et sensibilité au bruit dépendant de la technique ;
+
+- trois mêmes grands désavantages :
+
+    1. demandant en temps ;
+    2. techniques avec un coût élevé ;
+    3. beaucoup de tests inutiles effectués.
+
+===
+
+#### Méthodes informatiques
+
+- Développement de nouvelles méthodes informatiques, moins coûteuses :
+
+    - _amarrage moléculaire à haut débit_ pour tester des affinité ;
+
+    - _filtres basés sur des propriétés physico-chimiques_ pour trouver des molécules semblables ;
+
+    - _relations quantitatives structure-activité_ pour filtrer des composés ;
+
+    - _développement d'un chaîne de traitement_ pour combiner différentes techniques.
+
+===
+
+### Trois éléments déclencheurs
+
+<br>
 
 - augmentation des tailles des bases de données (comme la PDB avec des structures protéiques) ;
 
-- amélioration des systèmes informatiques.
+- amélioration des systèmes informatiques ;
+
+- avancées significatives sur les réseaux de neurones.
 
 ===
 
@@ -57,6 +94,12 @@ code_theme="lightfair"
     - il est possible de générer une matrice d'enchaînement de ces lettres ;
 
     - à partir de cette matrice, la génération de texte devient possible.
+
+> Markov, A. A.
+> ‘An Example of Statistical Investigation of the Text Eugene Onegin Concerning the Connection of Samples in Chains’.
+> Science in Context 19, no. 4 (2006): 591–600.
+> https://doi.org/10.1017/S0269889706001074.
+{.small_note}
 
 > **Objectif global d'une IA générative identique**
 >
@@ -588,7 +631,7 @@ $$
 - les moyens de visualisations permettent de comprendre certains résultats ;
 - application sur un système concret, le récepteur GABA A, correcte :
 
-    - nouveau ligand interessant trouvé ;
+    - nouveau ligand intéressant trouvé ;
     - fonction de score (pharmacophore et amarrage) bonne ;
     - interaction satisfaisante.
 
