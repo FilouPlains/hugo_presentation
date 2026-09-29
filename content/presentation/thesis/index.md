@@ -637,6 +637,32 @@ $$
 
 ===
 
+## Comparaison à un outil existant : `PharmacoNet`
+
+<img src="./img/discussion_pipeline.svg" width="45%">
+
+> Seonghwan Seo, Woo Youn Kim.
+> 'PharmacoNet: deep learning-guided pharmacophore modeling for ultra-large-scale virtual screening'.
+> Chem. Sci. 2024; 15 (46): 19473–19487.
+> https://doi.org/10.1039/d4sc04854g
+{.small_note}
+
+===
+
+## Tableau comparatif
+
+<br>
+
+|          Critère           | Pipeline                                   | `PharmacoNet`                        |
+| :------------------------: | :----------------------------------------: | :----------------------------------: |
+|     **Explicabilité**      | Oui                                        | Non                                  |
+|        **Rapidité**        | ~3 jours                                   | ~1 jour                              |
+|       **Précision**        | Oui                                        | Utilisation pour un préfiltrage      |
+| **Filtrage des candidats** | Génération via des règles de rétrosynthèse | Filtrage d'une base de données       |
+|        **Objectif**        | Trouver le meilleur candidat               | Filtrage rapide d'un base de données |
+
+===
+
 ## Tests en cours
 
 - Variation au niveau des paramètres de `SyntheMol` ;
