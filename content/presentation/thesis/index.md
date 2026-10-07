@@ -218,9 +218,9 @@ ED 388
 
 ===
 
-### Étude du complexe récepteur GABA A avec le diazépam
+### Étude du complexe récepteur GABA A avec le nordazépam
 
-- Étude du diazépam, un benzodiazépine :
+- Étude du nordazépam, un benzodiazépine :
 
     - rôle relaxant et anticonvulsant ;
 
@@ -228,7 +228,7 @@ ED 388
 
 > **Objectif**
 >
-> Retrouver un analogue du diazépam, soit une molécule ayant des propriétés physico-chimiques semblables.
+> Retrouver un analogue du nordazépam, soit une molécule ayant des propriétés physico-chimiques semblables.
 
 ===
 
@@ -395,7 +395,7 @@ ED 388
 
 ===
 
-### Pharmacophores du diazépam
+### Pharmacophores du nordazépam
 
 | Pharmacophores            |   Sous-famille   |  ID  |
 | :------------------------ | :--------------: | :--: |
@@ -558,7 +558,7 @@ $$
 
 ===
 
-### Erreur de conversion au format `.pdbqt` du diazépam
+### Erreur de conversion au format `.pdbqt` du nordazépam
 
 {{<
     molstar
@@ -591,7 +591,7 @@ $$
 
 ===
 
-### Comparaison avec le diazépam
+### Comparaison avec le nordazépam
 
 | Catégorie                        | Diazépam                   | Meilleur ligand `SyntheMol` | Meilleur ligand `Uni-Dock` |
 | -------------------------------- | -------------------------- | --------------------------- | -------------------------- |
