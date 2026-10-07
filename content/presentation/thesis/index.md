@@ -524,18 +524,9 @@ $$
 
 ===
 
-#### Meilleures molécules générées ($score = 0,73$)
+#### Meilleures molécules générées ($score = 0,92$)
 
-<br>
-
-{{< grid template="1fr 1fr 1fr" >}}
-<img src="./img/best_molecule_3.svg" width="80%" style="border: red 5pt solid;">
-<split>
-<img src="./img/best_molecule_2.svg" width="80%">
-<split>
-<img src="./img/best_molecule_1.svg" width="80%">
-<split>
-{{< /grid >}}
+<img src="./img/best_molecule.svg" width="80%">
 
 ---
 
@@ -604,20 +595,23 @@ $$
 
 | Catégorie                        | Diazépam                   | Meilleur ligand `SyntheMol` | Meilleur ligand `Uni-Dock` |
 | -------------------------------- | -------------------------- | --------------------------- | -------------------------- |
-| **Score pharmacophores**         | 1.0                        | 0.73                        | 0.20                       |
-| **Score d'amarrage moléculaire** | 3.2   kcal/mol             | -7.6   kcal/mol             | -9.5   kcal/mol            |
-| **-**                            | **Intéractions détectées** |                             |                            |
+| **Score pharmacophores**         | 1.0                        | 0.92                        | 0.61                       |
+| **Score d'amarrage moléculaire** | -0,047 kcal/mol            | -9,4 kcal/mol               | -11 kcal/mol               |
+| **-**                            | **Intéractions détectées** | -                           | -                          |
 | **Liaison halogène**             | HIS.093.D                  | -                           | -                          |
-| **Liaison halogène**             | -                          | SER.150.D                   | -                          |
-| **Hydrophobe**                   | TYR.201.D                  | -                           | -                          |
-| **Hydrophobe**                   | TYR.151.D                  | -                           | -                          |
+| **Hydrophobe**                   | _TYR.201.D_                | _TYR.201.D_                 | _TYR.201.D_                |
+| **Hydrophobe**                   | _TYR.151.D_                | _TYR.151.D_                 | _TYR.151.D_                |
 | **Hydrophobe**                   | _PHE.091.D_                | _PHE.091.D_                 | -                          |
-| **Hydrophobe**                   | -                          | VAL.194.D                   | -                          |
-| **Empilement $\pi$**             | _TYR.201.D_                | -                           | _TYR.201.D_                |
-| **Empilement $\pi$**             | -                          | TYR.034.E                   | TYR.034.E                  |
-| **Empilement $\pi$**             | -                          | -                           | PHE.053.E                  |
+| **Hydrophobe**                   | -                          | VAL.194.D                   | VAL.194.D                  |
+| **Hydrophobe**                   | -                          | THR.198.D                   | THR.198.D                  |
+| **Empilement $\pi$**             | TYR.201.D                  | -                           | -                          |
+| **Empilement $\pi$**             | -                          | TYR.151.D                   | TYR.151.D                  |
+| **Empilement $\pi$**             | -                          | -                           | PHE.053.D                  |
+| **Empilement $\pi$**             | -                          | -                           | TYR.304.E                  |
 | **Cation $\pi$**                 | PHE.053.E                  | -                           | -                          |
+| **Cation $\pi$**                 | -                          | TYR.201.D                   | -                          |
 | **Liaison hydrogène**            | SER.197.D                  | -                           | -                          |
+| **Liaison hydrogène**            | -                          | -                           | ASN.036.E                  |
 
 ---
 
