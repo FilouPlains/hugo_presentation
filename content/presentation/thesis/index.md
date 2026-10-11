@@ -8,13 +8,13 @@ code_theme="lightfair"
 
 <!-- .slide: data-background="#000" -->
 
-## Je ne sais qu'une chose, <br> c'est que je ne sais rien
+<h2 style="color: white; background-color: black;">Je ne sais qu'une chose, <br> c'est que je ne sais rien</h2>
 
-**— Socrate**
+**Socrate**
 
 ---
 
-# Conception de médicaments
+## Conception de médicaments
 
 <br>
 
@@ -147,13 +147,12 @@ code_theme="lightfair"
 
 <br>
 
-## Combinaison de méthodes de visualisation à de l’intelligence artificielle générative dans le cadre de conception de médicament
+# Combinaison de méthodes de visualisation à de l’intelligence artificielle générative dans le cadre de conception de médicament
  
+<br>
 
 **Lucas ROUAUD**\
 23 octobre 2026
-
-<br>
 
 {{< grid template="1fr 1fr" >}}
 
@@ -569,7 +568,7 @@ $$
 
 ### Score d'amarrage par rapport au score pharmacophore
 
-<img src="./img/synthemol_vs_unidock.svg" width="40%">
+<img src="./img/synthemol_vs_unidock.svg" width="60%">
 
 ===
 
@@ -593,10 +592,10 @@ $$
 
 ### Comparaison avec le nordazépam
 
-| Catégorie                        | Diazépam                   | Meilleur ligand `SyntheMol` | Meilleur ligand `Uni-Dock` |
+| Catégorie                        | Nordazépam                 | Meilleur ligand `SyntheMol` | Meilleur ligand `Uni-Dock` |
 | -------------------------------- | -------------------------- | --------------------------- | -------------------------- |
 | **Score pharmacophores**         | 1.0                        | 0.92                        | 0.61                       |
-| **Score d'amarrage moléculaire** | -0,047 kcal/mol            | -9,4 kcal/mol               | -11 kcal/mol               |
+| **Score d'amarrage moléculaire** | -8,0 kcal/mol              | -9,4 kcal/mol               | -11 kcal/mol               |
 | **-**                            | **Intéractions détectées** | -                           | -                          |
 | **Liaison halogène**             | HIS.093.D                  | -                           | -                          |
 | **Hydrophobe**                   | _TYR.201.D_                | _TYR.201.D_                 | _TYR.201.D_                |

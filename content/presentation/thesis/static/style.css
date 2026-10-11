@@ -7,8 +7,44 @@
   --r-heading4-size: 1.25em;
   --r-heading-text-transform: none;
 
-  --pipeline-focus-software: darkorange;
-  --pipeline-focus-file: red;
+  --emphase-colour: #22577a;
+  --emphase-second-colour: #57cc99;
+}
+
+.reveal {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Noto Sans Black";
+    color: var(--emphase-colour);
+  }
+
+  h1,
+  h2 {
+    color: white;
+    background-color: var(--emphase-colour);
+    padding: 0.1em;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  .progress {
+    color: var(--emphase-colour);
+  }
+}
+
+strong,
+th {
+  font-family: "Noto Sans Black";
+}
+
+.reveal {
+  font-family: "Noto Sans Light";
 }
 
 /* For chromium-based browser. */
@@ -55,29 +91,6 @@ div.title-page-footer {
 div.pipeline svg {
   width: 70%;
   height: 70%;
-}
-
-div#input-step svg #path31,
-div#input-step svg #path34,
-div#ai-step svg #path34,
-div#ai-step svg #path37,
-div#preparation-step svg #path37,
-div#preparation-step svg #path39,
-div#preparation-step svg #path41,
-div#docking-step svg #path41,
-div#docking-step svg #path44,
-div#output-step svg #path44,
-div#output-step svg #path46 {
-  fill: var(--pipeline-focus-file) !important;
-}
-
-div#input-step svg #path17,
-div#ai-step svg #path22,
-div#preparation-step svg #path25,
-div#preparation-step svg #path27,
-div#docking-step svg #path29,
-div#output-step svg #path79 {
-  fill: var(--pipeline-focus-software) !important;
 }
 
 .reveal pre {
@@ -140,20 +153,24 @@ div.molstar-container {
 
 .reveal table {
   font-size: 0.6em;
+  color: var(--emphase-colour);
 }
 
 .reveal table th {
   font-weight: bold;
-  background-color: black;
+  background-color: var(--emphase-colour);
   color: white;
 }
 
 .reveal table tr:nth-child(odd) {
-  background-color: #dedede;
+  background-color: color-mix(in srgb, var(--emphase-colour) 10%, white);
 }
 
-.reveal table td {
-  border: none;
+.reveal table {
+  td,
+  th {
+    border: none;
+  }
 }
 
 .reveal .progress {
@@ -169,15 +186,15 @@ div.pipeline svg {
 }
 
 div#preparation svg > g > g:nth-of-type(2) use {
-  fill: red;
-  stroke: red;
+  fill: var(--emphase-second-colour);
+  stroke: var(--emphase-second-colour);
 }
 
 div#smiffer svg > g {
   > g:nth-of-type(2) use,
   > g:nth-of-type(4) use,
   > g:nth-of-type(1) > g:nth-of-type(1) use {
-    fill: red;
+    fill: var(--emphase-second-colour);
   }
 
   > path:nth-of-type(2),
@@ -188,7 +205,7 @@ div#smiffer svg > g {
   > path:nth-of-type(23),
   > path:nth-of-type(24),
   > g:nth-of-type(1) > g:nth-of-type(1) use {
-    stroke: red;
+    stroke: var(--emphase-second-colour);
   }
 }
 
@@ -196,7 +213,7 @@ div#synthemol svg > g {
   > g:nth-of-type(5) use,
   > g:nth-of-type(7) use,
   > g:nth-of-type(8) use {
-    fill: red;
+    fill: var(--emphase-second-colour);
   }
 
   > path:nth-of-type(9),
@@ -206,7 +223,7 @@ div#synthemol svg > g {
   > path:nth-of-type(32),
   > path:nth-of-type(33),
   > g:nth-of-type(7) use {
-    stroke: red;
+    stroke: var(--emphase-second-colour);
   }
 }
 
@@ -215,7 +232,7 @@ div#strange svg > g {
   > g:nth-of-type(3) use,
   > g:nth-of-type(5) use,
   > g:nth-of-type(6) use {
-    fill: red;
+    fill: var(--emphase-second-colour);
   }
 
   > path:nth-of-type(2),
@@ -230,7 +247,7 @@ div#strange svg > g {
   > path:nth-of-type(28),
   > g:nth-of-type(1) > g:nth-of-type(2) use,
   > g:nth-of-type(1) > g:nth-of-type(3) use {
-    stroke: red;
+    stroke: var(--emphase-second-colour);
   }
 }
 
@@ -241,7 +258,7 @@ div#docking svg > g {
   > g:nth-of-type(10) use,
   > g:nth-of-type(11) use,
   > g:nth-of-type(12) use {
-    fill: red;
+    fill: var(--emphase-second-colour);
   }
 
   > path:nth-of-type(12),
@@ -265,7 +282,7 @@ div#docking svg > g {
   > path:nth-of-type(50),
   > g:nth-of-type(9) use,
   > g:nth-of-type(11) use {
-    stroke: red;
+    stroke: var(--emphase-second-colour);
   }
 }
 
@@ -278,7 +295,7 @@ div#mcts_selection svg {
   width: 40%;
 
   rect#rect209 {
-    stroke: red !important;
+    stroke: var(--emphase-second-colour) !important;
   }
 
   rect#rect209-5,
@@ -293,7 +310,7 @@ div#mcts_backpropagation svg {
   width: 40%;
 
   rect#rect209-56 {
-    stroke: red !important;
+    stroke: var(--emphase-second-colour) !important;
   }
 
   rect#rect209,
@@ -309,7 +326,7 @@ div#mcts_expension_simulation svg {
 
   rect#rect209-5,
   rect#rect209-6 {
-    stroke: red !important;
+    stroke: var(--emphase-second-colour) !important;
   }
 
   rect#rect209,
