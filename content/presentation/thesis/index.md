@@ -301,7 +301,7 @@ ED 388
 
     - basé sur la physique ;
 
-    - somme de gaussienne
+    - somme de gaussienne.
 
 <split>
 
@@ -557,21 +557,6 @@ $$
 
 ===
 
-### Erreur de conversion au format `.pdbqt` du nordazépam
-
-{{<
-    molstar
-    molxUrl="./static/diazepam_bug.molx"
->}}
-
-===
-
-### Score d'amarrage par rapport au score pharmacophore
-
-<img src="./img/synthemol_vs_unidock.svg" width="60%">
-
-===
-
 ### Interaction détectée après l'amarrage : `SyntheMol`
 
 {{<
@@ -693,12 +678,11 @@ $$
 
 - **amarrage moléculaire :**
     - amarrage avec des résidus flexibles ;
-    - correction de la zone d'amarrage ;
 
 - **pipeline au global :**
     - utilisation de `Snakemake` (répétabilité et modularité) ;
     - ajout de métadonnées ;
-    - correction de certains filtre (20 % des meilleurs ligands).
+    - correction de certains filtre (1 % des meilleurs ligands).
 
 ---
 
@@ -860,3 +844,28 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
     molstar
     molxUrl="./static/ligand_conversion.molx"
 >}}
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+
+## Amarrage moléculaire
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+### Erreur de conversion au format `.pdbqt` du nordazépam
+
+{{<
+    molstar
+    molxUrl="./static/diazepam_bug.molx"
+>}}
+
+===
+
+<!-- .slide: data-visibility="uncounted" -->
+
+### Score d'amarrage par rapport au score pharmacophore
+
+<img src="./img/synthemol_vs_unidock.svg" width="60%">
