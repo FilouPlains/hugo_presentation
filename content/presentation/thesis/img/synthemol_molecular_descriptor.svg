@@ -23,10 +23,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.34714286"
-     inkscape:cx="1048.5597"
+     inkscape:cx="1047.1193"
      inkscape:cy="822.42798"
-     inkscape:window-width="1920"
-     inkscape:window-height="968"
+     inkscape:window-width="1745"
+     inkscape:window-height="890"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -440,9 +440,9 @@
        id="linearGradient13"
        gradientUnits="userSpaceOnUse"
        x1="205.09998"
-       y1="-9.2644424"
+       y1="281.43945"
        x2="205.09998"
-       y2="281.43945"
+       y2="-9.2644444"
        gradientTransform="translate(350.05197,268.74364)" />
   </defs>
   <rect
@@ -277423,14 +277423,16 @@
        id="g46185">
       <text
          class="ytitle"
-         transform="rotate(-90,5.9277344,136.0875)"
-         x="5.9277344"
-         y="136.08749"
+         transform="rotate(-90)"
+         x="-136.15341"
+         y="5.9277282"
          text-anchor="middle"
          style="font-size:15px;font-family:'Noto Sans Black';white-space:pre;opacity:1;fill:#242424;fill-opacity:1"
          id="text46184"><tspan
            style="font-weight:bold"
-           id="tspan46184">Masse moléculaire</tspan></text>
+           id="tspan46184">Masse moléculaire (g×mol<tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan1">-1</tspan>)</tspan></text>
     </g>
     <g
        class="g-y2title"
@@ -277497,10 +277499,10 @@
           <text
              class="annotation-text"
              text-anchor="middle"
-             x="28.476562"
+             x="17.8099"
              y="15"
              style="font-size:12px;font-family:'Noto Sans Light';white-space:pre;fill:#ff0000;fill-opacity:1"
-             id="text46188">diazepam</text>
+             id="text46188">nordazepam</text>
         </g>
       </g>
     </g>
@@ -277527,10 +277529,10 @@
           <text
              class="annotation-text"
              text-anchor="middle"
-             x="28.476562"
+             x="17.8099"
              y="15"
              style="font-size:12px;font-family:'Noto Sans Light';white-space:pre;fill:#ff0000;fill-opacity:1"
-             id="text46191">diazepam</text>
+             id="text46191">nordazepam</text>
         </g>
       </g>
     </g>
@@ -277557,10 +277559,10 @@
           <text
              class="annotation-text"
              text-anchor="middle"
-             x="28.476562"
+             x="17.8099"
              y="-78.333336"
              style="font-size:12px;font-family:'Noto Sans Light';white-space:pre;fill:#ff0000;fill-opacity:1"
-             id="text46194">diazepam</text>
+             id="text46194">nordazepam</text>
         </g>
       </g>
     </g>
@@ -277587,10 +277589,10 @@
           <text
              class="annotation-text"
              text-anchor="middle"
-             x="28.476562"
+             x="17.8099"
              y="-78.333336"
              style="font-size:12px;font-family:'Noto Sans Light';white-space:pre;fill:#ff0000;fill-opacity:1"
-             id="text46197">diazepam</text>
+             id="text46197">nordazepam</text>
         </g>
       </g>
     </g>

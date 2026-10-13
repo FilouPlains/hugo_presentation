@@ -673,16 +673,15 @@ $$
 
 <br>
 
-- **Conversion en 3D des ligands :**
-    - problème pouvant affecter la détection d'un potentiel bon ligand ;
-
 - **amarrage moléculaire :**
     - amarrage avec des résidus flexibles ;
 
 - **pipeline au global :**
     - utilisation de `Snakemake` (répétabilité et modularité) ;
     - ajout de métadonnées ;
-    - correction de certains filtre (1 % des meilleurs ligands).
+    - correction de certains filtre (1 % des meilleurs ligands) ;
+    - rajouter d'autres étapes (dynamique moléculaire) ;
+    - arriver à de l'intelligence artificielle explicable.
 
 ---
 

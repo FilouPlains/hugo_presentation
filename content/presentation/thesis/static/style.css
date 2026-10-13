@@ -1,4 +1,5 @@
 @import "/hugo_presentation/reveal_js/theme/white.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --r-heading1-size: 2em;
@@ -18,8 +19,9 @@
   h4,
   h5,
   h6 {
-    font-family: "Noto Sans Black";
     color: var(--emphase-colour);
+    font-family: "Noto Sans Black", sans-serif;
+    font-weight: 900;
   }
 
   h1,
@@ -27,24 +29,42 @@
     color: white;
     background-color: var(--emphase-colour);
     padding: 0.1em;
+    border-radius: 0.25em;
   }
 
   h1 {
     font-size: 1.75em;
   }
 
-  .progress {
+  .progress span {
     color: var(--emphase-colour);
   }
+
+  div.slide-number {
+    font-size: 1em;
+    bottom: auto;
+    top: 8px;
+    background-color: #fff;
+    color: var(--emphase-second-colour);
+    font-family: "Noto Sans Black", sans-serif;
+    font-weight: 900;
+    border-radius: 0.25em;
+  }
+}
+
+.reveal .progress {
+  background-color: #0000;
 }
 
 strong,
 th {
-  font-family: "Noto Sans Black";
+  font-family: "Noto Sans Black", sans-serif;
+  font-weight: 900;
 }
 
 .reveal {
-  font-family: "Noto Sans Light";
+  font-family: "Noto Sans Light", sans-serif;
+  font-weight: 300;
 }
 
 /* For chromium-based browser. */
