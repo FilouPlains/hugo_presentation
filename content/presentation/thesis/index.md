@@ -61,13 +61,13 @@ code_theme="lightfair"
 
 - Développement de nouvelles méthodes informatiques, moins coûteuses :
 
-    - _amarrage moléculaire à haut débit_ pour tester des affinité ;
+    - _amarrage moléculaire à haut débit_ pour tester des affinités ;
 
     - _filtres basés sur des propriétés physico-chimiques_ pour trouver des molécules semblables ;
 
     - _relations quantitatives structure-activité_ pour filtrer des composés ;
 
-    - _développement d'un chaîne de traitement_ pour combiner différentes techniques.
+    - _développement d'une chaîne de traitement_ pour combiner différentes techniques.
 
 ===
 
@@ -87,7 +87,7 @@ code_theme="lightfair"
 
 <br>
 
-- Concepte datant de 1913 avec les chaînes de Markov :
+- Concept datant de 1913 avec les chaînes de Markov :
 
     - probabilités d'enchaînement des lettres ne sont pas indépendantes ;
 
@@ -107,9 +107,9 @@ code_theme="lightfair"
 
 ===
 
-### Plusieurs modèle, un cœur commun
+### Plusieurs modèles, un cœur commun
 
-- Il y a plusieurs modèles d'IA générative _(modèle de diffusion, auto-encodeur variationnel, réseaux antagonistes génératifs, transformeurs génératifs préentraînés)_ ;
+- Il y a plusieurs modèles d'IA générative _(modèle de diffusion, auto-encodeur variationnel, réseaux antagonistes génératifs, transformeurs génératifs pré-entraînés)_ ;
 - tous basés sur les neurones artificiels, l'origine de la qualification de ces modèles de « boîte noire ».
 
 <br>
@@ -158,8 +158,8 @@ code_theme="lightfair"
 
 <div align="left" class="title-page-footer">
 
-**Directeur:** Marc BAADEN\
-**Codirecteur:** Antoine TALY
+**Directeur :** Marc BAADEN\
+**Codirecteur :** Antoine TALY
 
 </div>
 
@@ -182,11 +182,11 @@ ED 388
 
     - « l'humain » doit pouvoir lancer les calculs et comprendre chaque étape ;
 
-    - permet de corriger des problèmes ou d'améliorer le programme ;
+    - permettre de corriger des problèmes ou d'améliorer le programme ;
 
-- basé sur des propriétés déjà connues ou imposées :
+- basée sur des propriétés déjà connues ou imposées :
 
-    - optimisation de ligands ;
+    - optimiser des ligands ;
 
     - retrouver des analogues à un ligand donné.
 
@@ -219,7 +219,7 @@ ED 388
 
 ### Étude du complexe récepteur GABA A avec le nordazépam
 
-- Étude du nordazépam, un benzodiazépine :
+- Étude du nordazépam, une benzodiazépine :
 
     - rôle relaxant et anticonvulsant ;
 
@@ -265,12 +265,12 @@ ED 388
 - Utilisation de deux scripts `Python` :
     - `extract_clean_protein.py` :
         1. extrait seulement la protéine d'intérêt ;
-        2. lance `Modeller` pour combler les trous de la protéines (modèle « tout hydrogènes ») ;
+        2. lance `Modeller` pour combler les résidus manquants de la protéine (modèle « tout hydrogène ») ;
 
     - `relax_system.py` :
         minimise le système pour le relaxer via `OpenMM`.
 
-- RMSD entre les carbonnes alpha support (`6x3x`) et le système final de **0,2 Å**.
+- RMSD entre les carbones alpha support (PDB : `6x3x`) et le système final de **0,2 Å**.
 
 ===
 
@@ -346,7 +346,7 @@ ED 388
         - utilisation de critères géométriques ;
         - prend en compte les ponts salins, les interactions hydrophobes, les liaisons hydrogènes et halogènes, les empilements $\pi$, les interactions $\pi$ cation / anion ;
 
-    - permet d'être générique, donc indépendant du système donnée en entrée (ARN, protéine, sucre, ligand, etc.) ;
+    - permet d'être générique, donc indépendant du système donné en entrée (ARN, protéine, sucre, ligand, etc.) ;
 
     - les pharmacophores extraient peuvent être utilisés pour l'étape de génération des ligands.
 
@@ -533,7 +533,7 @@ $$
 
 ===
 
-## ~Convertion des ligands au format adéquat~
+## ~Conversion des ligands au format adéquat~
 
 ===
 
@@ -541,7 +541,7 @@ $$
 
 <br>
 
-- Permet de vérifié l'affinité d'un ligand avec une cible ;
+- Permet de vérifier l'affinité d'un ligand avec une cible ;
 
 - utilisation d'`Uni-Dock` avec la fonction de score `Vinardo` :
     
@@ -631,13 +631,13 @@ $$
 
 <br>
 
-|          Critère           | Pipeline                                   | `PharmacoNet`                        |
-| :------------------------: | :----------------------------------------: | :----------------------------------: |
-|     **Explicabilité**      | Oui                                        | Non                                  |
-|        **Rapidité**        | ~3 jours                                   | ~1 jour                              |
-|       **Précision**        | Oui                                        | Utilisation pour un préfiltrage      |
-| **Filtrage des candidats** | Génération via des règles de rétrosynthèse | Filtrage d'une base de données       |
-|        **Objectif**        | Trouver le meilleur candidat               | Filtrage rapide d'un base de données |
+|          Critère           | Pipeline                                   | `PharmacoNet`                         |
+| :------------------------: | :----------------------------------------: | :-----------------------------------:  |
+|     **Explicabilité**      | Oui                                        | Non                                   |
+|        **Rapidité**        | ~3 jours                                   | ~1 jour                               |
+|       **Précision**        | Oui                                        | Utilisation pour un préfiltrage       |
+| **Filtrage des candidats** | Génération via des règles de rétrosynthèse | Filtrage d'une base de données        |
+|        **Objectif**        | Trouver le meilleur candidat               | Filtrage rapide d'une base de données |
 
 ===
 
@@ -651,7 +651,7 @@ $$
 
 ===
 
-## Perpectives
+## Perspectives
 
 <br>
 
@@ -663,13 +663,14 @@ $$
     - rajout et correction du calcul de certaines interactions ;
 
 - **génération des ligands :**
-    - amélioration des performances : 12 heures, 55 GB de mémoire ;
+    - amélioration des performances : 12 heures, 55 Go de mémoire ;
     - amélioration de la fonction de score ;
     - problème de surreprésentation de certains points pharmacophoriques.
 
 ===
 
-## Perpectives
+## Perspectives
+
 
 <br>
 
@@ -679,7 +680,7 @@ $$
 - **pipeline au global :**
     - utilisation de `Snakemake` (répétabilité et modularité) ;
     - ajout de métadonnées ;
-    - correction de certains filtre (1 % des meilleurs ligands) ;
+    - correction de certains filtres (1 % des meilleurs ligands) ;
     - rajouter d'autres étapes (dynamique moléculaire) ;
     - arriver à de l'intelligence artificielle explicable.
 
