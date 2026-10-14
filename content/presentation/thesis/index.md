@@ -45,7 +45,7 @@ code_theme="lightfair"
     - _essais biochimiques_ sur plaques ;
     - _essais cellulaires_ ;
 
-- teste si un composé interagit avec une cible, via de la détection de fluorescence par exemple ;
+- teste si un composé interagit avec une cible, via de la détection de fluorescence, par exemple ;
 
 - précision et sensibilité au bruit dépendant de la technique ;
 
@@ -65,7 +65,7 @@ code_theme="lightfair"
 
     - _filtres basés sur des propriétés physico-chimiques_ pour trouver des molécules semblables ;
 
-    - _relations quantitatives structure-activité_ pour filtrer des composés ;
+    - _relation quantitative structure à activité_ pour filtrer des composés ;
 
     - _développement d'une chaîne de traitement_ pour combiner différentes techniques.
 
@@ -89,7 +89,7 @@ code_theme="lightfair"
 
 - Concept datant de 1913 avec les chaînes de Markov :
 
-    - probabilités d'enchaînement des lettres ne sont pas indépendantes ;
+    - les probabilités d'enchaînement des lettres ne sont pas indépendantes ;
 
     - il est possible de générer une matrice d'enchaînement de ces lettres ;
 
@@ -103,14 +103,14 @@ code_theme="lightfair"
 
 > **Objectif global d'une IA générative identique**
 >
-> Déterminer une distribution soujacente à des objets donnés (texte, image, etc.) pour pouvoir en générer d'autres.
+> Déterminer une distribution sous-jacente à des objets donnés (texte, image, etc.) pour pouvoir en générer d'autres.
 
 ===
 
 ### Plusieurs modèles, un cœur commun
 
 - Il y a plusieurs modèles d'IA générative _(modèle de diffusion, auto-encodeur variationnel, réseaux antagonistes génératifs, transformeurs génératifs pré-entraînés)_ ;
-- tous basés sur les neurones artificiels, l'origine de la qualification de ces modèles de « boîte noire ».
+- tous basés sur des neurones artificiels, d'où la qualification de « boîte noire ».
 
 <br>
 <br>
@@ -178,7 +178,7 @@ ED 388
 
 ## Objectifs
 
-- Avoir une IA qui génère des ligands et dont l'origine des résultats sont compréhensibles :
+- Avoir une IA qui génère des ligands, dont l'origine des résultats sont compréhensibles :
 
     - « l'humain » doit pouvoir lancer les calculs et comprendre chaque étape ;
 
@@ -204,9 +204,9 @@ ED 388
 
 - Récepteur à l'acide gamma-amino butyrique de type A (récepteur GABA A) ;
 
-- système complexe bien connue : canal ionique hétéropentamère, transmembranaire et allostérique ;
+- système complexe bien connu : canal ionique hétéropentamère, transmembranaire et allostérique ;
 
-- constitué de trois types de sous-unités, ayant plusieurs variants ($\alpha$ 1-6, $\beta$ 1-3, $\gamma$ 1-3, $\delta$, $\pi$ et $\theta$) ;
+- constitué de trois types de sous-unités, ayant plusieurs variantes<br>($\alpha$ 1-6, $\beta$ 1-3, $\gamma$ 1-3, $\delta$, $\pi$ et $\theta$) ;
 
 - fixation de GABA provoque l'influx d'ions chlorures, empêchant la création d'un potentiel d'action, bloquant la transduction d'un signal nerveux.
 
@@ -252,7 +252,7 @@ ED 388
 
     - l'amarrage moléculaire est dépendant du système de départ ;
 
-    - pour les calculs des interactions (champs et directes), besoin d'avoir les hydrogènes et une structure complète ;
+    - pour les calculs des interactions (champs et directes), besoin d'avoir les atomes d'hydrogène et une structure complète ;
 
     - besoin de relaxer le système pour que `strange` puisse fonctionner correctement à partir d'un fichier `.pdb`.
 
@@ -348,7 +348,7 @@ ED 388
 
     - permet d'être générique, donc indépendant du système donné en entrée (ARN, protéine, sucre, ligand, etc.) ;
 
-    - les pharmacophores extraient peuvent être utilisés pour l'étape de génération des ligands.
+    - les pharmacophores extraits peuvent être utilisés pour l'étape de génération des ligands.
 
 ===
 
@@ -450,7 +450,7 @@ $
 
 ===
 
-### Rétropropagation : détermination des points en communs
+### Rétropropagation : détermination des points en commun
 
 {{< grid template="1fr 1fr" >}}
 <img src="./img/synthemol_match.svg" width="80%">
@@ -462,11 +462,11 @@ $
 
 ===
 
-### Rétropropagation : fonction de score des points en commun
+### Rétropropagation : fonction de score
 
 <br>
 
-> Une valeur de $0$ indique un score mauvais, une valeur de $1$ une valeur de score optimale.
+> Une valeur de $0$ indique un score mauvais ;<br>Une valeur de $1$ indique un score optimal.
 
 <br>
 
@@ -523,7 +523,7 @@ $$
 
 ===
 
-#### Meilleures molécules générées ($score = 0,92$)
+#### Meilleure molécule générée ($score = 0,92$)
 
 <img src="./img/best_molecule.svg" width="80%">
 
@@ -547,7 +547,7 @@ $$
     
     - `Vinardo` permet de ne pas avoir de corrélation « taille du ligand » / « affinité » ;
 
-    - Permet d'amarrer rapidement les molécules via un GPU.
+    - permet d'amarrer rapidement les molécules via un GPU.
 
 ===
 
@@ -579,9 +579,9 @@ $$
 
 | Catégorie                        | Nordazépam                 | Meilleur ligand `SyntheMol` | Meilleur ligand `Uni-Dock` |
 | -------------------------------- | -------------------------- | --------------------------- | -------------------------- |
-| **Score pharmacophores**         | 1.0                        | 0.92                        | 0.61                       |
+| **Score pharmacophore**          | 1.0                        | 0.92                        | 0.61                       |
 | **Score d'amarrage moléculaire** | -8,0 kcal/mol              | -9,4 kcal/mol               | -11 kcal/mol               |
-| **-**                            | **Intéractions détectées** | -                           | -                          |
+| **-**                            | **Interactions détectées** | -                           | -                          |
 | **Liaison halogène**             | HIS.093.D                  | -                           | -                          |
 | **Hydrophobe**                   | _TYR.201.D_                | _TYR.201.D_                 | _TYR.201.D_                |
 | **Hydrophobe**                   | _TYR.151.D_                | _TYR.151.D_                 | _TYR.151.D_                |
@@ -605,7 +605,7 @@ $$
 
 - `smiffer` codéveloppé pour visualiser des champs d'interaction ;
 - `strange` développé pour visualiser des interactions directes ;
-- développement de « logiciels ponts » et agencement de différent logiciel pour avoir une chaîne de traitement qui marche ;
+- développement de « logiciels ponts » et agencement de différents logiciels pour avoir une chaîne de traitement qui marche ;
 - les moyens de visualisations permettent de comprendre certains résultats ;
 - application sur un système concret, le récepteur GABA A, correcte :
 
@@ -632,7 +632,7 @@ $$
 <br>
 
 |          Critère           | Pipeline                                   | `PharmacoNet`                         |
-| :------------------------: | :----------------------------------------: | :-----------------------------------:  |
+| :------------------------: | :----------------------------------------: | :-----------------------------------: |
 |     **Explicabilité**      | Oui                                        | Non                                   |
 |        **Rapidité**        | ~3 jours                                   | ~1 jour                               |
 |       **Précision**        | Oui                                        | Utilisation pour un préfiltrage       |
@@ -643,7 +643,9 @@ $$
 
 ## Tests en cours
 
-- Variation au niveau des paramètres de `SyntheMol` ;
+<br>
+
+- Variations au niveau des paramètres de `SyntheMol` ;
 
 - tests de la chaîne de traitement avec des ARN ;
 
@@ -832,7 +834,7 @@ Ces interactions permettent de déclencher ou de bloquer la réponse biologique 
 
         - filtrage « des atomes-ancres » (B, Hg, Mg, Np, Sn, U) ;
 
-        - filtrage des distance interatomiques anormales (0,7 à 3 Å).
+        - filtrage des distances interatomiques anormales (0,7 à 3 Å).
 
 ===
 

@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      inkscape:zoom="0.91843528"
      inkscape:cx="366.92841"
-     inkscape:cy="271.65768"
+     inkscape:cy="270.56887"
      inkscape:window-width="1920"
      inkscape:window-height="968"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g28"
      showgrid="false"><inkscape:grid
        id="grid9"
        units="mm"
@@ -315,7 +315,7 @@
              style="text-align:center;text-anchor:middle;stroke-width:1"
              x="186.45984"
              y="133.56322"
-             id="tspan16">vraissemblance</tspan></text></g><text
+             id="tspan16">vraisemblance</tspan></text></g><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;line-height:99%;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          x="63.577732"
