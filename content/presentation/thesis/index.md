@@ -24,7 +24,9 @@ code_theme="lightfair"
 
     - une durée pouvant aller jusqu'à 14 ans ;
 
-    - des revues relèvent des investissements financiers allant de 314 millions USD à 2,8 millards USD.
+    - des revues relèvent des investissements financiers allant de 314 millions USD à 2,8 millards USD ;
+
+- **ici, nous voulons trouver de nouveaux ligands (analogues ou améliorés).**
 
 ===
 
@@ -416,37 +418,9 @@ ED 388
 
 ## Génération de nouveaux ligands
 
-===
-
-### Recherche Arborescente Monte-Carlo : sélection
-
-{{< svg src="./img/synthemol_mcts.svg" id="mcts_selection" >}}
-
-===
-
-### Recherche Arborescente Monte-Carlo : sélection
-
-<br>
-
-{{< grid template="1fr" >}}
-<img src="./img/synthemol_bloc.svg" width="75%">
-
-$
-\text{Score MCTS} = \dfrac{\text{Exploitation}(nœud) + \text{Prédiction}(nœud) \cdot \text{Exploration}(nœud)}{\text{Diversité}(nœud, arbre)}
-$
-{{< /grid >}}
-
-===
-
-### Recherche Arborescente Monte-Carlo : expension et simulation
-
-{{< svg src="./img/synthemol_mcts.svg" id="mcts_expension_simulation" >}}
-
-===
-
-### Recherche Arborescente Monte-Carlo : rétropropagation
-
-{{< svg src="./img/synthemol_mcts.svg" id="mcts_backpropagation" >}}
+<video width="80%" controls>
+  <source src="./static/mcts.mp4" type="video/mp4">
+</video>
 
 ===
 
@@ -523,9 +497,22 @@ $$
 
 ===
 
-#### Meilleure molécule générée ($score = 0,92$)
+#### Meilleure molécule générée
 
-<img src="./img/best_molecule.svg" width="80%">
+<br>
+
+{{< grid template="1fr 1fr" >}}
+**Nordazépam**
+<split>
+
+**Score = 0,92**
+<split>
+
+<img src="./img/nordazepam.svg" width="100%">
+<split>
+
+<img src="./img/best_molecule.svg" width="100%">
+{{< /grid >}}
 
 ---
 

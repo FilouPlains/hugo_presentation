@@ -9,7 +9,7 @@
   --r-heading-text-transform: none;
 
   --emphase-colour: #22577a;
-  --emphase-second-colour: #57cc99;
+  --emphase-second-colour: #cc0026;
 }
 
 .reveal {
@@ -45,7 +45,7 @@
     bottom: auto;
     top: 8px;
     background-color: #fff;
-    color: var(--emphase-second-colour);
+    color: var(--emphase-colour);
     font-family: "Noto Sans Black", sans-serif;
     font-weight: 900;
     border-radius: 0.25em;
@@ -202,7 +202,7 @@ div.molstar-container {
  */
 
 div.pipeline svg {
-  width: 40%;
+  width: 48%;
 }
 
 div#preparation svg > g > g:nth-of-type(2) use {
@@ -303,54 +303,5 @@ div#docking svg > g {
   > g:nth-of-type(9) use,
   > g:nth-of-type(11) use {
     stroke: var(--emphase-second-colour);
-  }
-}
-
-/*
- * MCTS SVG
- */
-
-div#mcts_selection svg {
-  height: 100%;
-  width: 40%;
-
-  rect#rect209 {
-    stroke: var(--emphase-second-colour) !important;
-  }
-
-  rect#rect209-5,
-  rect#rect209-6,
-  rect#rect209-56 {
-    display: none;
-  }
-}
-
-div#mcts_backpropagation svg {
-  height: 100%;
-  width: 40%;
-
-  rect#rect209-56 {
-    stroke: var(--emphase-second-colour) !important;
-  }
-
-  rect#rect209,
-  rect#rect209-5,
-  rect#rect209-6 {
-    display: none;
-  }
-}
-
-div#mcts_expension_simulation svg {
-  height: 100%;
-  width: 40%;
-
-  rect#rect209-5,
-  rect#rect209-6 {
-    stroke: var(--emphase-second-colour) !important;
-  }
-
-  rect#rect209,
-  rect#rect209-56 {
-    display: none;
   }
 }
